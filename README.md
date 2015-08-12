@@ -65,7 +65,7 @@ Default branch - "stable" work that gets PRs, fixes, priority over all other bra
 Now that Jessie is stable, evaluation of the Brewmaster SteamOS release and packages is underway. **Not** recommended for use.  
 `brewmaster-beta`  
 Based on the brewmaster-beta repo for SteamOS "V2". **Not** recommended for use.  This is where the most active changes will occur until Brewmaster becomes more stable.  
-`testing`  
+`testing-$BRANCH`  
 Branch where new scripts are made, larger alterations to existing ones implemented, and more.  
 
 ## Pull requests / suggestions
