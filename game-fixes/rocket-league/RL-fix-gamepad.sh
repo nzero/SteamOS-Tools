@@ -5,16 +5,19 @@ echo -e "==> Patching Rocket Leage (Steam) for Windows...\n"
 
 if [[ -d "home/desktop/.PlayOnLinux" ]]; then
 
-  cp -v x360ce.ini "/home/desktop/.PlayOnLinux/wineprefix/Steam/drive_c/Program Files/Steam/steamapps/common/rocketleague/Binaries/Win32/"
-  cp -v xinput1_3.dll "/home/desktop/.PlayOnLinux/wineprefix/Steam/drive_c/Program Files/Steam/steamapps/common/rocketleague/Binaries/Win32/"
+  echo -e "PlayOnLinux detected"
+  cp -v x360ce.ini "/home/desktop/.PlayOnLinux/wineprefix/Steam/drive_c/Program\ Files/Steam/steamapps/common/rocketleague/Binaries/Win32/"
+  cp -v xinput1_3.dll "/home/desktop/.PlayOnLinux/wineprefix/Steam/drive_c/Program\ Files/Steam/steamapps/common/rocketleague/Binaries/Win32/"
 
 elif [[ -d "home/desktop/.cxoffice" ]]; then
 
+  echo -e "Crossover detected"
   cp -v x360ce.ini "/home/desktop/.cxoffice/drive_c/Program Files/Steam/steamapps/common/rocketleague/Binaries/Win32/"
   cp -v xinput1_3.dll "/home/cxoffice/.PlayOnLinux/drive_c/Program Files/Steam/steamapps/common/rocketleague/Binaries/Win32/"
 
 elif [[ -d "home/desktop/.wine" ]]; then
 
+  echo -e "Vanilla Wine detected"
   cp -v x360ce.ini "/home/desktop/.wine/drive_c/Program Files/Steam/steamapps/common/rocketleague/Binaries/Win32/"
   cp -v xinput1_3.dll "/home/desktop/.wine/drive_c/Program Files/Steam/steamapps/common/rocketleague/Binaries/Win32/"
 
