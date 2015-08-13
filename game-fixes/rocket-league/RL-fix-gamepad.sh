@@ -27,4 +27,5 @@ echo -e "Patch applied\n"
 
 echo -e "Please restart Steam for Windows under the dekstop user\n"
 echo -e "This is intended only for wired/wireless XB360 controllers"
+echo -e "Note that Rocket League launches in background, so you will need to ALT-TAB to it!"
 
