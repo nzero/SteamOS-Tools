@@ -47,12 +47,12 @@ if [[ -d "/home/desktop/.PlayOnLinux" ]]; then
 
   echo -e "PlayOnLinux detected"
   
-  if [[ "$gp_type" =="xb360-wireless" ]]; then
+  if [[ "$gp_type" == "xb360-wireless" ]]; then
   
     cp xb360-wireless/x360ce.ini "/home/desktop/.PlayOnLinux/wineprefix/Steam/drive_c/Program Files/Steam/steamapps/common/rocketleague/Binaries/Win32/"
     cp xb360-wireless/xinput1_3.dll "/home/desktop/.PlayOnLinux/wineprefix/Steam/drive_c/Program Files/Steam/steamapps/common/rocketleague/Binaries/Win32/"
 
-  elif [[ "$gp_type" =="xb360-wired" ]]; then
+  elif [[ "$gp_type" == "xb360-wired" ]]; then
   
     cp xb360-wired/xinput1_3.dll "/home/desktop/.PlayOnLinux/wineprefix/Steam/drive_c/Program Files/Steam/steamapps/common/rocketleague/Binaries/Win32/"
     cp xb360-wired/xinput9_1_0.dll "/home/desktop/.PlayOnLinux/wineprefix/Steam/drive_c/Program Files/Steam/steamapps/common/rocketleague/Binaries/Win32/"
@@ -63,12 +63,12 @@ elif [[ -d "/home/desktop/.cxoffice" ]]; then
 
   echo -e "Crossover detected"
   
-  if [[ "$gp_type" =="xb360-wireless" ]] ;then
+  if [[ "$gp_type" == "xb360-wireless" ]] ;then
   
     cp xb360-wireless/x360ce.ini "/home/desktop/.cxoffice/wineprefix/Steam/drive_c/Program Files/Steam/steamapps/common/rocketleague/Binaries/Win32/"
     cp xb360-wireless/xinput1_3.dll "/home/desktop/.cxoffice/wineprefix/Steam/drive_c/Program Files/Steam/steamapps/common/rocketleague/Binaries/Win32/"
 
-  elif [[ "$gp_type" =="xb360-wired" ]]; then
+  elif [[ "$gp_type" == "xb360-wired" ]]; then
   
     cp xb360-wired/xb360-wired/xinput1_3.dll "/home/desktop/.cxoffice/wineprefix/Steam/drive_c/Program Files/Steam/steamapps/common/rocketleague/Binaries/Win32/"
     cp xb360-wired/xb360-wired/xinput9_1_0.dll "/home/desktop/.PlayOncxofficeLinux/wineprefix/Steam/drive_c/Program Files/Steam/steamapps/common/rocketleague/Binaries/Win32/"
@@ -79,12 +79,12 @@ elif [[ -d "/home/desktop/.wine" ]]; then
 
   echo -e "Vanilla Wine detected"
   
-    if [[ "$gp_type" =="xb360-wireless" ]]; then
+    if [[ "$gp_type" == "xb360-wireless" ]]; then
   
     cp xb360-wireless/x360ce.ini "/home/desktop/.wine/wineprefix/Steam/drive_c/Program Files/Steam/steamapps/common/rocketleague/Binaries/Win32/"
     cp xb360-wireless/xinput1_3.dll "/home/desktop/.wine/wineprefix/Steam/drive_c/Program Files/Steam/steamapps/common/rocketleague/Binaries/Win32/"
 
-  elif [[ "$gp_type" =="xb360-wired" ]]; then
+  elif [[ "$gp_type" == "xb360-wired" ]]; then
   
     cp xb360-wired/xinput1_3.dll "/home/desktop/.wine/wineprefix/Steam/drive_c/Program Files/Steam/steamapps/common/rocketleague/Binaries/Win32/"
     cp xb360-wired/xinput9_1_0.dll "/home/desktop/.wine/wineprefix/Steam/drive_c/Program Files/Steam/steamapps/common/rocketleague/Binaries/Win32/"
