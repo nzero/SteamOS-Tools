@@ -6,8 +6,7 @@ main ()
   clear
   echo -e "==> Patching Rocket Leage (Steam) for Windows...\n"
   
-  
-  	echo -e "\n#############################################################"
+  	echo -e "#############################################################"
   	echo -e "Setting mouse control for available gamepads"
   	echo -e "#############################################################"
   
