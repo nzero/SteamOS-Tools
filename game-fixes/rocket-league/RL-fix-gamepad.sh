@@ -1,5 +1,6 @@
 #!/bin/bash
 
+clear
 echo -e "Patching Rocket Leage (Steam) for Windows\n"
 
 if [[ -d "home/desktop/.PlayOnLinux" ]]; then
