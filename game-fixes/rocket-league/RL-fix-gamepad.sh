@@ -47,7 +47,7 @@ patch_rl()
 
   if [[ -d "/home/desktop/.PlayOnLinux" ]]; then
   
-    echo -e "PlayOnLinux detected"
+    echo -e "\nPlayOnLinux detected"
     
     if [[ "$gp_type" == "xb360-wireless" ]]; then
     
@@ -63,7 +63,7 @@ patch_rl()
   
   elif [[ -d "/home/desktop/.cxoffice" ]]; then
   
-    echo -e "Crossover detected"
+    echo -e "\nCrossover detected"
     
     if [[ "$gp_type" == "xb360-wireless" ]] ;then
     
@@ -79,7 +79,7 @@ patch_rl()
   
   elif [[ -d "/home/desktop/.wine" ]]; then
   
-    echo -e "Vanilla Wine detected"
+    echo -e "\nVanilla Wine detected"
     
       if [[ "$gp_type" == "xb360-wireless" ]]; then
     
