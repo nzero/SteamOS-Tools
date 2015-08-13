@@ -1,7 +1,7 @@
 #!/bin/bash
 
 clear
-echo -e "Patching Rocket Leage (Steam) for Windows...\n"
+echo -e "==> Patching Rocket Leage (Steam) for Windows...\n"
 
 if [[ -d "home/desktop/.PlayOnLinux" ]]; then
 
@@ -20,7 +20,7 @@ elif [[ -d "home/desktop/.wine" ]]; then
 
 fi
 
-echo -e "=> Patch applied\n"
+echo -e "Patch applied\n"
 
 echo -e "Please restart Steam for Windows under the dekstop user\n"
 echo -e "This is intended only for wired/wireless XB360 controllers"
