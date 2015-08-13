@@ -5,8 +5,8 @@ echo -e "==> Patching Rocket Leage (Steam) for Windows...\n"
 
 if [[ -d "home/desktop/.PlayOnLinux" ]]; then
 
-  cp -v x360ce.ini "/home/desktop/.PlayOnLinux/wineprefix/Steam/steamapps/common/rocketleague/Binaries/Win32/"
-  cp -v xinput1_3.dll "/home/desktop/.PlayOnLinux/wineprefix/Steam/steamapps/common/rocketleague/Binaries/Win32/"
+  cp -v x360ce.ini "/home/desktop/.PlayOnLinux/wineprefix/Steam/drive_c/Program Files/Steam/steamapps/common/rocketleague/Binaries/Win32/"
+  cp -v xinput1_3.dll "/home/desktop/.PlayOnLinux/wineprefix/Steam/drive_c/Program Files/Steam/steamapps/common/rocketleague/Binaries/Win32/"
 
 elif [[ -d "home/desktop/.cxoffice" ]]; then
 
