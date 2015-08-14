@@ -36,15 +36,13 @@ main ()
   		
   		3)
   		cp ../misc/dinput8.dll /home/desktop
-  		cat <<-EOF
-      ==> dinput8.dll copied to /home/desktop.
+
+      echo -e "==> dinput8.dll copied to /home/desktop.\n"
       
-      You will have to set xinput8 to 'native,builtin' in winecfg. 
-      You can use x360ce.exe to configure it which requires
-      .net 4, etc installed as stated on appdb.winehq.org entry for x360ce)"
-      or just use the editor to edit x360ce.ini
-  		
-EOF
+      echo -e "You will have to set xinput8 to 'native,builtin' in winecfg." 
+      echo -e "You can use x360ce.exe to configure it which requires"
+      echo -e ".net 4, etc installed as stated on appdb.winehq.org entry for x360ce)"
+      echo -e "or just use the editor to edit x360ce.ini"
   		;;
   		
   		*)
