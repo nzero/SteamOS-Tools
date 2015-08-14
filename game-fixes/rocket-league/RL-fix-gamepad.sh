@@ -44,7 +44,7 @@ main ()
       .net 4, etc installed as stated on appdb.winehq.org entry for x360ce)"
       or just use the editor to edit x360ce.ini
   		
-      EOF
+EOF
   		;;
   		
   		*)
