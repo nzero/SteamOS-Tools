@@ -665,7 +665,7 @@ install_software()
                 # DISABLE FOR NOW
                 # install_emus
                 echo "" > /dev/null
-        elif [[ "$type" == "emulation-src" ]]; then
+        elif [[ "$type" == "retrorch-src" ]]; then
                 # call external build script
                 clear
                 echo -e "==> Proceeding to install emulator pkgs from source..."
