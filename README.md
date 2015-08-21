@@ -5,6 +5,10 @@ Tools and scripts for SteamOS.
 
 Please take time to read the [disclaimer](https://github.com/ProfessorKaos64/SteamOS-Tools/blob/alchemist/disclaimer.md).
 
+## Wiki
+
+Please refer to the [wiki](https://github.com/ProfessorKaos64/SteamOS-Tools/wiki). located to your right in this repository for all supplemental information.
+
 ## Usage
 
 To clone this repository to your local computer, you will need the `git` software package. After this is installed, clone SteamOS-Tools with:
@@ -21,7 +25,7 @@ git pull
 
 There is also a testing branch for this repository, but I advise against using it.
 
-Please refer to the readme files in the docs/ folder in this reppository. Normal script execution, sans arguments, goes a little bit like:
+Normal script execution, sans arguments, goes a little bit like:
 
 ```
 ./script-name.sh
@@ -30,7 +34,6 @@ Please refer to the readme files in the docs/ folder in this reppository. Normal
 ## Contents
 * artwork - banners and various images/artwork for SteamOS.
 * cfgs/ - various configuration files, including package lists for Debian software installations.
-* docs/ - readme files for each script.
 * ext-game-installers/ - Game installers for games outside Steam (e.g. GZDoom)
 * extra/ - various extra scripts
 * game-fixes - a location to store some small deployable fixes for games.
@@ -65,7 +68,7 @@ Default branch - "stable" work that gets PRs, fixes, priority over all other bra
 Now that Jessie is stable, evaluation of the Brewmaster SteamOS release and packages is underway. **Not** recommended for use.  
 `brewmaster-beta`  
 Based on the brewmaster-beta repo for SteamOS "V2". **Not** recommended for use.  This is where the most active changes will occur until Brewmaster becomes more stable.  
-`testing-$BRANCH`  
+`testing`  
 Branch where new scripts are made, larger alterations to existing ones implemented, and more.  
 
 ## Pull requests / suggestions
