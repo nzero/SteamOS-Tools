@@ -4,7 +4,7 @@
 # Author: 	Michael DeGuzis
 # Git:		https://github.com/ProfessorKaos64/SteamOS-Tools
 # Scipt Name:	install-desktop-software.sh
-# Script Ver:	1.9.8.7
+# Script Ver:	1.9.8.8
 # Description:	Adds various desktop software to the system for a more
 #		usable experience. Although this is not the main
 #		intention of SteamOS, for some users, this will provide
@@ -265,8 +265,8 @@ show_help()
 	docs/ directory for full details.
 
 	---------------------------------------------------------------
-	Any package you wish to specify yourself. brewmaster repos will be
-	used first, followed by Debian jessie.
+	Any package you wish to specify yourself. alchemist repos will be
+	used first, followed by Debian wheezy.
 	
 	For a complete list, type:
 	'./desktop-software list [type]'
@@ -274,7 +274,7 @@ show_help()
 	Options: 	[install|uninstall|list|check|test] 
 	Types: 		[basic|extra|emulators|retroarch-src|emulation-src-deps]
 	Types Cont.	[<pkg_name>|upnp-dlna|gaming-tools|games-pkg]
-	Extra types: 	[firefox|kodi|lutris|plex|webapp]
+	Extra types: 	[kodi|lutris|plex|webapp]
 	Functions: 	[xb360-bindings|gameplay-recording]
 	
 	Install with:
@@ -363,7 +363,7 @@ main_install_eval_pkg()
 
 function gpg_import()
 {
-	# When installing from jessie and jessie backports,
+	# When installing from wheezy and wheezy backports,
 	# some keys do not load in automatically, import now
 	# helper script accepts $1 as the key
 	echo -e "\n==> Importing Debian GPG keys"
@@ -446,10 +446,6 @@ get_software_type()
                 # install plex from helper script
                 ep_install_chrome
                 exit
-        elif [[ "$type" == "firefox" ]]; then
-                # install plex from helper script
-                ep_install_firefox
-                exit
         elif [[ "$type" == "gameplay-recording" ]]; then
                 # install plex from helper script
                 ep_install_gameplay_recording
@@ -462,7 +458,7 @@ get_software_type()
                 # install plex from helper script
                 ep_install_plex
                 exit
-	elif [[ "$type" == "ue4-src" ]]; then
+	elif [[ "$type" == "ue4" ]]; then
 		# install plex from helper script
 		m_install_ue4
         elif [[ "$type" == "ue4-src" ]]; then
@@ -517,7 +513,7 @@ add_repos()
 install_software()
 {
 	# For a list of Debian software pacakges, please see:
-	# https://packages.debian.org/search?keywords=jessie
+	# https://packages.debian.org/search?keywords=wheezy
 
 	###########################################################
 	# Pre-checks and setup
@@ -563,10 +559,10 @@ install_software()
 	cache_tmp=$(echo "-o dir::cache::archives="/home/desktop/cache_temp"")
 	
 	###########################################################
-	# Installation routine (alchmist/main)
+	# Installation routine (alchemist/main)
 	###########################################################
 	
-	# Install from brewmaster first, jessie as backup, jessie-backports 
+	# Install from alchemist first, wheezy as backup, wheezy-backports 
 	# as a last ditch effort
 	
 	# let user know checks in progress
@@ -629,7 +625,7 @@ install_software()
 					sudo apt-get $cache_tmp $apt_mode -f
 					
 					echo -e "\n==> Could not install or remove ALL packages from the"
-					echo -e "brewmaster repositories, jessie sources, or alternative"
+					echo -e "alchemist repositories, wheezy sources, or alternative"
 					echo -e "source lists you have configured.\n"
 					echo -e "Please check log.txt in the directory you ran this from.\n"
 					echo -e "Failure occurred on package: ${i}\n"
@@ -665,7 +661,7 @@ install_software()
                 # DISABLE FOR NOW
                 # install_emus
                 echo "" > /dev/null
-        elif [[ "$type" == "retrorch-src" ]]; then
+        elif [[ "$type" == "retroarch-src" ]]; then
                 # call external build script
                 clear
                 echo -e "==> Proceeding to install emulator pkgs from source..."
@@ -678,9 +674,9 @@ install_software()
 
 show_warning()
 {
-	# do a small check for existing jessie/jessie-backports lists
+	# do a small check for existing wheezy/wheezy-backports lists
 	echo ""
-        sources_check=$(sudo find /etc/apt -type f -name "jessie*.list")
+        sources_check=$(sudo find /etc/apt -type f -name "wheezy*.list")
         
         clear
         echo "##########################################################"
@@ -815,7 +811,9 @@ main()
 		fi
 		
 		# load functions necessary for software actions
-		gpg_import
+		# GPG import should not be needed under alchemist/wheezy
+		
+		# gpg_import
 		set_multiarch
 		pre_req_checks
 		add_repos
@@ -840,7 +838,7 @@ main()
 		# kick off ue4 script
 		# m_install_ue4_src
 		
-		# Use binary built for Linux instead for brewmaster
+		# Use binary built for Linux instead for alchemist
 		m_install_ue4
 		
 	elif [[ "$type" == "upnp-dlna" ]]; then
