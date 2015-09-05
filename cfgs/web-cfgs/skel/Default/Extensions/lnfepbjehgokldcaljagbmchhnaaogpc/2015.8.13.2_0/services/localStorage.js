@@ -1,3 +1,0 @@
-/*! CKP - KeePass integration for Chrome™, Copyright 2015 Steven Campbell
-*/
-"use strict";function LocalStorage(settings){function saveCurrentDatabaseUsage(usage){return settings.getCurrentDatabaseChoice().then(function(info){return settings.getDatabaseUsages().then(function(usages){var key=info.passwordFile.title+"__"+info.providerKey;return usages[key]=usage,settings.saveDatabaseUsages(usages)})})}function getCurrentDatabaseUsage(){return settings.getCurrentDatabaseChoice().then(function(info){return settings.getDatabaseUsages().then(function(usages){var key=info.passwordFile.title+"__"+info.providerKey,usage=usages[key]||{};return usage})})}var my={saveCurrentDatabaseUsage:saveCurrentDatabaseUsage,getCurrentDatabaseUsage:getCurrentDatabaseUsage};return my}

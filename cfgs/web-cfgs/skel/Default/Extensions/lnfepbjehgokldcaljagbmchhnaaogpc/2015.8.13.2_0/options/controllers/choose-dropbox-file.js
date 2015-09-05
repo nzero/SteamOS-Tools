@@ -1,3 +1,0 @@
-/*! CKP - KeePass integration for Chrome™, Copyright 2015 Steven Campbell
-*/
-function ChooseDropboxFileController($scope,dropboxFileManager){"use strict";$scope.state=dropboxFileManager.state,$scope.listFiles=function(){$scope.busy=!0,dropboxFileManager.listDatabases().then(function(files){$scope.$apply(function(){$scope.files=files,$scope.busy=!1})})["catch"](function(){$scope.$apply(function(){$scope.busy=!1})})},$scope.login=function(){dropboxFileManager.login().then(function(){$scope.listFiles()})},$scope.logout=function(){dropboxFileManager.logout().then(function(){$scope.listFiles()})},$scope.selectFile=function(){},$scope.listFiles()}
