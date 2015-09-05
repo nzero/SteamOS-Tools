@@ -5,7 +5,7 @@
 # Scipt Name:	  	extra-pkgs.
 # Script Ver:	  	1.3.5
 # Description:		Module for isntalling useful pacakges otherwise not 
-#			found in The Debian wheezy repositories directly.
+#			found in The Debian jessie repositories directly.
 #	
 # Usage:	      	n/a , module
 # -----------------------------------------------------------------------
@@ -58,7 +58,7 @@ ep_install_antimicro()
 	BIN_LOC="/usr/local/bin/antimicro"
 	
 	# set external Deb repo required flag
-	export deb_repo_name="wheezy.list"
+	export deb_repo_name="jessie.list"
 	export deb_repo_req="no"
 	# Eval requirements
 	"$scriptdir/utilities/check_repo_req.sh"
@@ -111,16 +111,16 @@ ep_install_chrome()
 	install_dir="$HOME/Downloads/Chrome"
 	
 	# set external Deb repo required flag
-	export deb_repo_name="wheezy.list"
+	export deb_repo_name="jessie.list"
 	export deb_repo_req="yes"
 	# Eval requirements
 	"$scriptdir/utilities/check_repo_req.sh"
 	
 	# create and enter build dir
 	if [[ -d "$install_dir" ]]; then
-		echo -e "\n==INFO==\nChrome DIR found"
+		echo -e "\n==INFO==\nChrome download DIR found"
 	else
-		echo -e "\n==INFO==\nChrome DIR not found, creating...\n"
+		echo -e "\n==INFO==\nChrome download DIR not found, creating...\n"
 		sleep 1s
 		mkdir -p "$install_dir"
 	fi
@@ -171,54 +171,6 @@ ep_install_chrome()
 
 	ep_pkg_cleanup
 
-}
-
-ep_install_firefox()
-{
-
-	#####################################################
-	# Firefox (imported 20150415)
-	#####################################################
-	# Imported from the Linux Mint LMDE 2 repository
-	# Deb binary source: deb http://packages.linuxmint.com debian import
-	
-	###############################
-	#  vars
-	###############################
-	
-	# set vars
-	pkg_type="deb"
-	PKG="firefox"
-	PKG_FILENAME="firefox_37.0.2_SteamOS_amd64.deb"
-	BASE_URL="http://www.libregeek.org/SteamOS-Extra/browsers"
-	BIN_LOC=""
-	PKG_DIR=""
-	
-	# set multiflag
-	multi="n"
-	
-	# set external Deb repo required flag
-	export deb_repo_name="wheezy.list"
-	export deb_repo_req="no"
-	# Eval requirements
-	"$scriptdir/utilities/check_repo_req.sh"
-	
-	# test if user requests it
-	if [[ "$options" == "test" ]]; then
-		# go to test function
-		ep_test_deb
-		exit
-	fi
-	
-	###############################
-	#  Install
-	###############################
-	
-	# proceed to install eval
-	ep_install_eval_pkg
-	
-	# cleanup
-	ep_pkg_cleanup
 }
 
 ep_install_gameplay_recording()
@@ -370,7 +322,7 @@ ep_install_gdrive()
 	BIN_LOC="/usr/bin/gdrive"
 	
 	# set external Deb repo required flag
-	export deb_repo_name="wheezy.list"
+	export deb_repo_name="jessie.list"
 	export deb_repo_req="no"
 	# Eval requirements
 	"$scriptdir/utilities/check_repo_req.sh"
@@ -398,145 +350,76 @@ ep_install_gdrive()
 
 ep_install_kodi()
 {
-	# Source: http://forum.kodi.tv/showthread.php?tid=197422
+	# The previous team-Kodi install method by WSNIPEX can be found in
+	# the scriptmodules/archive folder. This method is currently broken.
+	
+	# Package sourced from: 
+	# https://github.com/sharkwouter/vaporos-mod/tree/master/pool/main/k/kodi
+  
+  	echo "This package is currently broken. Please check back later"
+  	exit 1
   
 	echo -e "\n==> Installing Kodi from automated script..."
 	sleep 2s
 	
-	###############################
-	# Set vars
-	###############################
+	#######################################
+	# Prerequisite packages
+	#######################################
 	
-	pkg_type=""
-	# vars
-	reponame_kodi="kodi"
+	echo -e "\n==> Checking for prerequisite packages\n"
+	sleep 1s
 	
-	sourcelist_kodi_tmp="${reponame_kodi}.list"
-	sourcelist_kodi="/etc/apt/sources.list.d/${reponame_kodi}.list"
+	sudo apt-get install libgcrypt11-dev
 	
-	prefer_kodi_tmp="${reponame_kodi}"
-	prefer_kodi="/etc/apt/preferences.d/${reponame_kodi}"
+	#######################################
+	# general
+	#######################################
 	
 	# set external Deb repo required flag
-	export deb_repo_name="wheezy.list"
-	export deb_repo_req="no"
+	export deb_repo_name="jessie.list"
+	export deb_repo_req="yes"
+
 	# Eval requirements
 	"$scriptdir/utilities/check_repo_req.sh"
 	
-	###############################
-	# sources
-	###############################
+	#######################################
+	# kodi-bin
+	#######################################
 	
-	echo -e "\n==> Configuring sources"
-	sleep 1s
+	# set vars
+	pkg_type="deb"
+	PKG="kodi-bin"
+	PKG_FILENAME="kodi-bin_14.1~git20150131.1014-38e4046-0_amd64.deb"
+	BASE_URL="http://www.libregeek.org/SteamOS-Extra/multimedia/kodi/"
+	BIN_LOC=""
+	PKG_DIR=""
 	
-
+	# set multiflag
+	multi="n"
 	
-	# Check for existance of /etc/apt/preferences.d/{reponame_kodi} file
-	if [[ -f ${reponame_kodi} ]]; then
-		# backup preferences file
-		echo -e "\n==> Backing up ${reponame_kodi} to ${reponame_kodi}.bak\n"
-		sudo mv ${reponame_kodi} ${reponame_kodi}.bak
-		sleep 1s
-	fi
+	# install package
+	ep_install_eval_pkg
 	
-	# check for existance of plex source list
-	if [[ -f ${sourcelist_kodi} ]]; then
-		# backup sources list file
-		echo -e "\n==> Backing up ${sourcelist_kodi} to ${sourcelist_kodi}.bak\n"
-		sudo mv ${sourcelist_kodi} ${sourcelist_kodi}.bak
-		sleep 1s
-	fi
-
-	###############################
-	# add GPG keys
-	###############################
+	#######################################
+	# kodi
+	#######################################
 	
-	# may not be needed
+	# set vars
+	pkg_type="deb"
+	PKG="kodi"
+	PKG_FILENAME="kodi_14.1~git20150131.1014-38e4046-0_all.deb"
+	BASE_URL="http://www.libregeek.org/SteamOS-Extra/multimedia/kodi/"
+	BIN_LOC=""
+	PKG_DIR=""
 	
-	###############################
-	# update and pre-reqs
-	###############################
+	# set multiflag
+	multi="n"
 	
-	# evolution-data-server-common is provided by Valve, but 
-	# the Kodi installation expects, it, but this will break the install process
-	# we will ignore this later
-	
-	# add gpg key
-	wget -O - http://mirrors.xbmc.org/apt/steamos/steam@xbmc.org.gpg.key | sudo apt-key add -
-	
-	###############################	
-	# Add prefs
-	###############################
-	
-	echo -e "\n==> Adding /etc/apt configurations\n"
-	sleep 1s
-	
-	# Create and add required text to preferences file
-	# Verified policy with apt-cache policy
-	# write to tmp, then move
-	
-	cat <<-EOF > ${prefer_kodi_tmp}
-	Package: *
-	Pin: origin mirrors.xbmc.org
-	Pin-Priority: 500
-	 
-	Package: libtag1c2a libtag1-vanilla
-	Pin: origin mirrors.xbmc.org
-	Pin-Priority: 901
-	EOF
-	
-	# move pref file
-	sudo mv ${prefer_kodi_tmp} ${prefer_kodi}
-	
-	###############################	
-	# Add sources
-	###############################
-	
-	# Kodi source cfg
-	# write to tmp, move after
-	
-	cat <<-EOF > ${sourcelist_kodi_tmp}
-	# Kodi team repo
-	deb http://mirrors.xbmc.org/apt/steamos alchemist main
-	EOF
-	
-	# move source list
-	sudo mv ${sourcelist_kodi_tmp} ${sourcelist_kodi}
-
-	###############################	
-	# update source lists
-	###############################
-	
-	sudo apt-get update
-
-	###############################	
-	# resolve outstanding deps
-	###############################
-	
-	# n/a for now
-	
-	###############################
-	# cleanup
-	###############################
-	
-	# n/a for now
-	
-	###############################
-	# Install actions
-	###############################
-
-	echo -e "\n==> Installing Kodi via apt-get\n"
-	sleep 1s
-
-	# install Kodi download only, we need to ignore 'evolution-data-server-common'
-	# Valve alredy provides this. We will download kodi and then install ignoring this.
- 	
- 	sudo apt-get install kodi
+	# install package
+	ep_install_eval_pkg
 	
 	# cleanup
 	ep_pkg_cleanup
-  
 }
 
 ep_install_lutris()
@@ -566,7 +449,7 @@ ep_install_lutris()
 	multi="n"
 	
 	# set external Deb repo required flag
-	export deb_repo_name="wheezy.list"
+	export deb_repo_name="jessie.list"
 	export deb_repo_req="yes"
 	# Eval requirements
 	"$scriptdir/utilities/check_repo_req.sh"
@@ -620,7 +503,7 @@ ep_install_plex()
 	prefer_deb_multi="/etc/apt/preferences.d/${reponame_deb_multi}"
 	
 	# set external Deb repo required flag
-	export deb_repo_name="wheezy.list"
+	export deb_repo_name="jessie.list"
 	export deb_repo_req="no"
 	# Eval requirements
 	"$scriptdir/utilities/check_repo_req.sh"
@@ -686,7 +569,7 @@ ep_install_plex()
 	# update and pre-reqs
 	###############################
 	
-	echo -e "==> Installing prerequisite software\n"
+	echo -e "\n==> Installing prerequisite software\n"
 	sleep 1s
 	
 	# Plex
@@ -719,7 +602,7 @@ ep_install_plex()
 	Pin-Priority:110
 	
 	Package: *
-	Pin: release n=wheezy
+	Pin: release n=jessie
 	Pin-Priority:110
 	EOF
 
@@ -746,12 +629,12 @@ ep_install_plex()
 	
 	cat <<-EOF > ${sourcelist_plex_tmp}
 	# Plex team repo
-	deb http://shell.ninthgate.se/packages/debian wheezy main
+	deb http://shell.ninthgate.se/packages/debian jessie main
 	EOF
 
 	cat <<-EOF > ${sourcelist_deb_multi_tmp}
 	# Deb multimedia repo
-	deb http://www.deb-multimedia.org wheezy main non-free
+	deb http://www.deb-multimedia.org jessie main non-free
 	EOF
 
 	# move lists
@@ -783,7 +666,7 @@ ep_install_plex()
 	echo -e "\n==> Installing Plex Home Theater"
 	sleep 1s
 	# install Plex Home Theater
-	sudo apt-get -t wheezy install plexhometheater -y
+	sudo apt-get -t jessie install plexhometheater -y
 	
 	###############################
 	# cleanup
@@ -854,7 +737,7 @@ ep_install_xb360_bindings()
 	multi="n"
 	
 	# set external Deb repo required flag
-	export deb_repo_name="wheezy.list"
+	export deb_repo_name="jessie.list"
 	export deb_repo_req="no"
 	# Eval requirements
 	"$scriptdir/utilities/check_repo_req.sh"
@@ -881,7 +764,7 @@ ep_install_xb360_bindings()
 ep_install_eval_pkg()
 {
 
-	echo -e "\n==> Installing $PKG via external script\n"
+	#echo -e "\n==> Installing $PKG via external script\n"
 
 	#####################################################
 	# Binary package eval routine using dpkg or gdebi
@@ -902,7 +785,7 @@ ep_install_eval_pkg()
 			
 			# process install in loop for each package in our software list
 			for x in `cat $software_list`; do
-				sudo dpkg -i "$x"
+				sudo gdebi -i "$x"
 			done
 			
 		elif [[ "$multi" == "n" ]]; then
@@ -1110,4 +993,5 @@ ep_test_opts()
 	sleep 50s
 	exit
 }
+
 
