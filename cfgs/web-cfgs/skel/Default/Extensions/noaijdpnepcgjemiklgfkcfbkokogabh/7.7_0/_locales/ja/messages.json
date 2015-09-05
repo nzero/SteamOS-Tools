@@ -1,0 +1,347 @@
+{
+   "extABW": {
+      "message": "単語で揃える"
+   },
+   "extAllRecords": {
+      "message": "全てのレコード"
+   },
+   "extAppearance": {
+      "message": "外観"
+   },
+   "extBackTrans": {
+      "message": "折り返し翻訳"
+   },
+   "extBblTH": {
+      "message": "翻訳履歴を有効にする"
+   },
+   "extCMMouseOverTransTo": {
+      "message": "以下の言語にマウスオーバー翻訳する"
+   },
+   "extCMTransPageTo": {
+      "message": "このページを以下の言語に翻訳する"
+   },
+   "extCMTransSel": {
+      "message": "翻訳先言語"
+   },
+   "extCMTransTo": {
+      "message": "翻訳先言語"
+   },
+   "extCMcl": {
+      "message": "言語を変更"
+   },
+   "extCMct": {
+      "message": "翻訳を消去"
+   },
+   "extCMsot": {
+      "message": "翻訳元テキストを表示"
+   },
+   "extChFS": {
+      "message": "フォントサイズ"
+   },
+   "extChTrApp": {
+      "message": "翻訳アプリケーションを選ぶ:"
+   },
+   "extClearTH": {
+      "message": "履歴を消去"
+   },
+   "extClearText": {
+      "message": "テキストを消去"
+   },
+   "extClearTr": {
+      "message": "翻訳を消去"
+   },
+   "extClose": {
+      "message": "閉じる"
+   },
+   "extCollapse": {
+      "message": "折り畳み"
+   },
+   "extColor": {
+      "message": "色"
+   },
+   "extCompare": {
+      "message": "翻訳を比較"
+   },
+   "extContinue": {
+      "message": "続行"
+   },
+   "extContribution_ttl": {
+      "message": "少額の寄付をする"
+   },
+   "extCopyText": {
+      "message": "テキストをコピー"
+   },
+   "extCopy_ttl": {
+      "message": "翻訳をコピー"
+   },
+   "extDelRecord": {
+      "message": "レコードを削除"
+   },
+   "extDelete": {
+      "message": "削除"
+   },
+   "extDescription": {
+      "message": "翻訳アプリ、辞書、音声"
+   },
+   "extDetSoLaAu": {
+      "message": "自動で翻訳元言語を検出"
+   },
+   "extDetect_language_from_box": {
+      "message": "言語を検出"
+   },
+   "extDetected": {
+      "message": "検出された言語："
+   },
+   "extDetectedEn": {
+      "message": "検出された言語：英語"
+   },
+   "extDictionary": {
+      "message": "辞書"
+   },
+   "extDisabled": {
+      "message": "翻訳元言語が「言語を検出」に設定されている場合、この機能は無効になります。"
+   },
+   "extDoYou": {
+      "message": "翻訳履歴を削除してもよろしいですか？"
+   },
+   "extEIB": {
+      "message": "角括弧内に表示"
+   },
+   "extEnTH": {
+      "message": "翻訳履歴を有効にする"
+   },
+   "extEnable": {
+      "message": "有効にする"
+   },
+   "extEnable_Dict": {
+      "message": "辞書を有効にする"
+   },
+   "extEnterHK": {
+      "message": "ホットキーを入力"
+   },
+   "extError1": {
+      "message": "ブラウザが破損しました"
+   },
+   "extError2": {
+      "message": "エラー"
+   },
+   "extExpand": {
+      "message": "展開"
+   },
+   "extExportTH": {
+      "message": "翻訳履歴をエクスポート"
+   },
+   "extFS_large": {
+      "message": "大"
+   },
+   "extFS_small": {
+      "message": "小"
+   },
+   "extFeedback": {
+      "message": "フィードバック"
+   },
+   "extFeedback_ttl": {
+      "message": "フィードバック"
+   },
+   "extFont_Size_ttl": {
+      "message": "フォントサイズ"
+   },
+   "extHKconflict": {
+      "message": "ホットキーがかち合っています"
+   },
+   "extHO": {
+      "message": "元の言語を非表示にする"
+   },
+   "extHelp": {
+      "message": "ヘルプ"
+   },
+   "extHelp_ttl": {
+      "message": "ヘルプ"
+   },
+   "extHistory": {
+      "message": "履歴"
+   },
+   "extHistory_ttl": {
+      "message": "翻訳履歴"
+   },
+   "extHotKeys": {
+      "message": "ホットキー"
+   },
+   "extIBO": {
+      "message": "元の言語の前に挿入"
+   },
+   "extIGetIt": {
+      "message": "わかりました"
+   },
+   "extInTH": {
+      "message": "翻訳履歴を有効にする"
+   },
+   "extInlineLimit": {
+      "message": "一度に最大セグメント数XXXセグメントの制限があります。"
+   },
+   "extInvTr": {
+      "message": "翻訳アプリを起動"
+   },
+   "extLB": {
+      "message": "改行"
+   },
+   "extLPNotSupported": {
+      "message": "XXX-YYY の言語ペアはサポートされていません。"
+   },
+   "extLanguages": {
+      "message": "is:アイスランド語,ga:アイルランド語,az:アゼルバイジャン語,af:アフリカーンス語,ar:アラビア語,sq:アルバニア語,hy:アルメニア語,it:イタリア語,yi:イディッシュ語,ig:イボ語,id:インドネシア語,cy:ウェールズ語,uk:ウクライナ語,uz:ウズベク語,ur:ウルドゥ語,et:エストニア語,eo:エスペラント,nl:オランダ語,kk:カザフ語,ca:カタロニア語,gl:ガリシア語,kn:カンナダ語,el:ギリシャ語,gu:グジャラート語,km:クメール語,ka:グルジア語,hr:クロアチア語,jw:ジャワ語,si:シンハラ語,sv:スウェーデン語,zu:ズールー語,es:スペイン語,sk:スロバキア語,sl:スロベニア語,sw:スワヒリ語,su:スンダ語,ceb:セブアノ語,sr:セルビア語,st:ソト語,so:ソマリ語,th:タイ語,tl:タガログ語,tg:タジク語,ta:タミル,cs:チェコ語,ny:チェワ語,te:テルグ語,da:デンマーク語,de:ドイツ語,tr:トルコ語,ne:ネパール語,no:ノルウェー語,ht:クレオール語,ha:ハウサ語,eu:バスク語,hu:ハンガリー語,pa:パンジャブ語,my:ビルマ語,hi:ヒンディー語,fi:フィンランド語,fr:フランス語,bg:ブルガリア語,vi:ベトナム語,iw:ヘブライ語,be:ベラルーシ語,fa:ペルシア語,bn:ベンガル語,pl:ポーランド語,bs:ボスニア語,pt:ポルトガル語,mi:マオリ語,mk:マケドニア語,mr:マラーティー語,mg:マラガシ語,ml:マラヤーラム語,mt:マルタ語,ms:マレー語,mn:モンゴル語,hmn:モン語,yo:ヨルバ語,lo:ラオ語,la:ラテン,lv:ラトビア語,lt:リトアニア語,ro:ルーマニア語,ru:ロシア語,en:英語,ko:韓国語,zh-CN:中国語(簡体字),zh-TW:中国語(繁体字),ja:日本語"
+   },
+   "extLanguagesNew": {
+      "message": "un:Unknown"
+   },
+   "extListen": {
+      "message": "聴く"
+   },
+   "extListenTo": {
+      "message": "以下を聴く"
+   },
+   "extListen_ttl": {
+      "message": "聴く"
+   },
+   "extLock_in_language": {
+      "message": "言語をロック"
+   },
+   "extMOT": {
+      "message": "マウスオーバー翻訳"
+   },
+   "extName": {
+      "message": "ImTranslator: 翻訳アプリ、辞書、音声"
+   },
+   "extNoTHtoExport": {
+      "message": "翻訳レコードがありません"
+   },
+   "extNo_Text": {
+      "message": "テキストを入力"
+   },
+   "extNo_TextCompare": {
+      "message": "XXX-YYY の言語ペアは、比較することができません。"
+   },
+   "extNo_Voice": {
+      "message": "この音声は利用できません"
+   },
+   "extNotDict": {
+      "message": "ImTranslator Dictionary は、XXX-YYY の言語ペアをサポートしません。"
+   },
+   "extNot_available": {
+      "message": "辞書では利用できません"
+   },
+   "extOk": {
+      "message": "OK"
+   },
+   "extOptions": {
+      "message": "オプション"
+   },
+   "extOptions_ttl": {
+      "message": "オプションを表示"
+   },
+   "extOriginalText": {
+      "message": "元のテキスト"
+   },
+   "extPin_ttl": {
+      "message": "ピン留めポップアップウィンドウ"
+   },
+   "extPowered": {
+      "message": ""
+   },
+   "extPrivacy": {
+      "message": "プライバシー：翻訳履歴はハード・ドライブに保存されています。プライバシーと機密性が保持されます。"
+   },
+   "extResByChrome": {
+      "message": " Chromeにより予約されました"
+   },
+   "extResTrans": {
+      "message": "翻訳"
+   },
+   "extSLBG_op": {
+      "message": "言語オプション"
+   },
+   "extSL_setLS4allTr": {
+      "message": "全ての翻訳アプリケーションに対する同じ言語設定"
+   },
+   "extSTB": {
+      "message": "翻訳アプリのボタンを表示"
+   },
+   "extS_T_L_diff": {
+      "message": "翻訳元言語と翻訳先言語は異なっていなければなりません"
+   },
+   "extSaveButton": {
+      "message": "保存"
+   },
+   "extSaveHK": {
+      "message": "保存"
+   },
+   "extSeSo": {
+      "message": "翻訳元言語"
+   },
+   "extSeTa": {
+      "message": "翻訳先言語"
+   },
+   "extSearch": {
+      "message": "検索"
+   },
+   "extSeeSource": {
+      "message": "翻訳元言語を表示"
+   },
+   "extShowBW": {
+      "message": "折り返し翻訳"
+   },
+   "extSplit": {
+      "message": "文章で分割する"
+   },
+   "extSwitch_languages_ttl": {
+      "message": "言語を変更"
+   },
+   "extTHempty": {
+      "message": "レコードがありません"
+   },
+   "extTITLE": {
+      "message": ""
+   },
+   "extTK": {
+      "message": "トリガーキー"
+   },
+   "extTOMS": {
+      "message": "マウスで選択した箇所を翻訳"
+   },
+   "extTR_op": {
+      "message": "翻訳オプション"
+   },
+   "extTTS_Limit": {
+      "message": "スピーチ機能は最大文字数100文字の制限があります"
+   },
+   "extTrButton": {
+      "message": "翻訳する"
+   },
+   "extTrHist": {
+      "message": "翻訳履歴"
+   },
+   "extTrLimit": {
+      "message": "(最大 XXX 文字)"
+   },
+   "extTranslating": {
+      "message": "翻訳中"
+   },
+   "extUnPin_ttl": {
+      "message": "ピンを削除ポップアップウィンドウ"
+   },
+   "extUndoSplit": {
+      "message": "分割を取り消す"
+   },
+   "extUseHK": {
+      "message": "使用キー：Ctrl、Alt、Shift、AからZ、 0から9のキー"
+   },
+   "extWPTalert1": {
+      "message": "これらの httpsページはセキュリティ上の理由で翻訳できません。"
+   },
+   "extWPTalert2": {
+      "message": "このページは、セキュリティ上の理由で翻訳できません。"
+   },
+   "extWpTH": {
+      "message": "翻訳履歴を有効にする"
+   }
+}

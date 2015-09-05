@@ -1,0 +1,16 @@
+{
+  "name": "Twerk",
+  "description": "ARChon apk packager for Chrome OS",
+  "homepage": "http://www.twitter.com/therocco",
+  "keywords": [
+    "archon",
+    "android runtime",
+    "apk"
+  ],
+  "author": "",
+  "private": true,
+  "dependencies": {
+    "polymer": "Polymer/polymer#master",
+    "paper-elements": "Polymer/paper-elements#master"
+  }
+}

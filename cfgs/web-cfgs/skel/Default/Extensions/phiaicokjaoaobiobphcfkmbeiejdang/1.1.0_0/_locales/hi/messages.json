@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "उद्देश्य प्रत्येक चरण के माध्यम से एक आयताकार ब्लॉक हुई और अंत में वर्ग छेद में इसे जमा करने के लिए है।"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Bloxorz ब्लॉक पहेली"
+   }
+}

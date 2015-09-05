@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+	<Description about="urn:mozilla:install-manifest">
+
+		<em:id>{9AA46F4F-4DC7-4c06-97AF-5035170634FE}</em:id>
+		<em:name>ImTranslator</em:name>
+		<em:version>7.7</em:version>
+		<em:type>2</em:type>
+		<em:description>Run ImTranslator from the Firefox Tools menu, context menu or toolbar button.</em:description>
+		<em:creator>Smart Link Corporation</em:creator>
+		<em:homepageURL>http://www.smartlinkcorp.com</em:homepageURL>
+		<em:iconURL>chrome://imtranslator/skin/imtranslator.png</em:iconURL>
+		<em:aboutURL>chrome://imtranslator/content/xul/about.xul</em:aboutURL>
+                <em:optionsURL>chrome://imtranslator/content/xul/options/options.html</em:optionsURL>
+		<em:targetApplication>
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>1.0</em:minVersion>
+				<em:maxVersion>41.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+	</Description>
+
+</RDF>
+

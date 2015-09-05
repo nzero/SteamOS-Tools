@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "App description.",
+      "message": "Test your Internet connection bandwidth to locations around the world with this interactive broadband speed test from by Ookla."
+   },
+   "appName": {
+      "description": "App name",
+      "message": "Speedtest.net"
+   }
+}

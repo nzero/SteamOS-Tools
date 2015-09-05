@@ -1,0 +1,763 @@
+/*Copyright (c) 2014 Citrix Systems, Inc.
+The materials in this file are protected by copyright and other intellectual property laws.
+Copying and use is permitted only by end users to enable use of Citrix server technology.
+Any other reproduction or use of this file, or any portion of it, is unlicensed.
+In no event may the file be reverse engineered or may copies be made in association with deobfuscation, decompilation or disassembly.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*/
+
+/*
+font file for citrixsans light is taken from https://s3.amazonaws.com/citrix-cdn/can.cdn/marketing/assets/fonts/citrix-sans/citrixsans-light.eot 
+similarly other font file are taken from the link https://s3.amazonaws.com/citrix-cdn/can.cdn/marketing/assets/fonts/citrix-sans/[file-name]
+font-weight is taken from the following link- https://s3.amazonaws.com/citrix-cdn/can.cdn/marketing/assets/fonts/citrix-fonts-linking.css
+*/
+@font-face{
+	font-family:"citrixsans";
+	font-style: normal;
+	font-weight: 400;
+	src:url("/resources/fonts/citrixsans/citrixsans-regular.eot");
+	src:url("/resources/fonts/citrixsans/citrixsans-regular.eot?") format('eot'),
+		url("/resources/fonts/citrixsans/citrixsans-regular.woff") format("woff"),
+		url("/resources/fonts/citrixsans/citrixsans-regular.ttf") format("truetype"),
+		url("/resources/fonts/citrixsans/citrixsans-regular.svg#7816f72f-f47e-4715-8cd7-960e3723846a") format("svg");
+}
+
+@font-face{
+	font-family:"citrixsans";
+	font-style: normal;
+	font-weight: 700;
+	 src:url("/resources/fonts/citrixsans/citrixsans-bold.eot");
+	 src:url("/resources/fonts/citrixsans/citrixsans-bold.eot?") format('eot'),
+		url("/resources/fonts/citrixsans/citrixsans-bold.woff") format("woff"),
+		url("/resources/fonts/citrixsans/citrixsans-bold.ttf") format("truetype"),
+		url("/resources/fonts/citrixsans/citrixsans-bold.svg#7816f72f-f47e-4715-8cd7-960e3723846a") format("svg"); 
+}
+
+@font-face{
+	font-family:"citrixsans";
+	font-style: italic;
+	font-weight: 700;
+	src:url("/resources/fonts/citrixsans/citrixsans-bolditalic.eot");
+	src:url("/resources/fonts/citrixsans/citrixsans-bolditalic.eot?") format('eot'),
+		url("/resources/fonts/citrixsans/citrixsans-bolditalic.woff") format("woff"),
+		url("/resources/fonts/citrixsans/citrixsans-bolditalic.ttf") format("truetype"),
+		url("/resources/fonts/citrixsans/citrixsans-bolditalic.svg#7816f72f-f47e-4715-8cd7-960e3723846a") format("svg");
+}
+
+@font-face{
+	font-family:"citrixsans";
+	font-style: italic;
+	font-weight: 400;
+	src:url("/resources/fonts/citrixsans/citrixsans-italic.eot");
+	src:url("/resources/fonts/citrixsans/citrixsans-italic.eot?") format('eot'),
+		url("/resources/fonts/citrixsans/citrixsans-italic.woff") format("woff"),
+		url("/resources/fonts/citrixsans/citrixsans-italic.ttf") format("truetype"),
+		url("/resources/fonts/citrixsans/citrixsans-italic.svg#7816f72f-f47e-4715-8cd7-960e3723846a") format("svg");
+}
+
+@font-face{
+	font-family:"citrixsans";
+	font-style: normal;
+	font-weight: 200;
+	src:url("/resources/fonts/citrixsans/citrixsans-light.eot");
+	src:url("/resources/fonts/citrixsans/citrixsans-light.eot?") format('eot'),
+		url("/resources/fonts/citrixsans/citrixsans-light.woff") format("woff"),
+		url("/resources/fonts/citrixsans/citrixsans-light.ttf") format("truetype"),
+		url("/resources/fonts/citrixsans/citrixsans-light.svg#7816f72f-f47e-4715-8cd7-960e3723846a") format("svg");
+}
+
+@font-face{
+	font-family:"citrixsans";
+	font-style: italic;
+	font-weight: 200;
+	src:url("/resources/fonts/citrixsans/citrixsans-lightitalic.eot");
+	src:url("/resources/fonts/citrixsans/citrixsans-lightitalic.eot?") format('eot'),
+		url("/resources/fonts/citrixsans/citrixsans-lightitalic.woff") format("woff"),
+		url("/resources/fonts/citrixsans/citrixsans-lightitalic.ttf") format("truetype"),
+		url("/resources/fonts/citrixsans/citrixsans-lightitalic.svg#7816f72f-f47e-4715-8cd7-960e3723846a") format("svg");
+}
+
+@font-face{
+	font-family:"citrixsans";
+	font-style: normal;
+	font-weight: 600;
+	src:url("/resources/fonts/citrixsans/citrixsans-semibold.eot");
+	src:url("/resources/fonts/citrixsans/citrixsans-semibold.eot?") format('eot'),
+		url("/resources/fonts/citrixsans/citrixsans-semibold.woff") format("woff"),
+		url("/resources/fonts/citrixsans/citrixsans-semibold.ttf") format("truetype"),
+		url("/resources/fonts/citrixsans/citrixsans-semibold.svg#7816f72f-f47e-4715-8cd7-960e3723846a") format("svg");
+}
+
+@font-face{
+	font-family:"citrixsans";
+	font-style: italic;
+	font-weight: 600;
+	src:url("/resources/fonts/citrixsans/citrixsans-semibolditalic.eot");
+	src:url("/resources/fonts/citrixsans/citrixsans-semibolditalic.eot?") format('eot'),
+		url("/resources/fonts/citrixsans/citrixsans-semibolditalic.woff") format("woff"),
+		url("/resources/fonts/citrixsans/citrixsans-semibolditalic.ttf") format("truetype"),
+		url("/resources/fonts/citrixsans/citrixsans-semibolditalic.svg#7816f72f-f47e-4715-8cd7-960e3723846a") format("svg");
+}
+
+/* Use the same fonts for all the elements for consistency */
+body ,button{
+	font-family: "citrixsans","Helvetica Neue", "Helvetica", "Arial", "Sans Serif" !important
+}
+
+#overlay {
+	visibility:hidden;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width:100%;
+	height:100%;
+	text-align:center;
+	z-index: 0;
+}
+
+.dialog-box{
+	position:absolute;	
+	display:none;
+	background-color:  #ffffff;
+	box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.35);
+	width: 490px;
+	margin : 0px 40px;
+	min-height: 100px;
+}
+.errorDialogBody{
+	display: table-cell;
+	vertical-align: middle;
+}
+.errorDialogOkButton{
+    text-align: center;
+    margin: 0px 0px 25px 0px;
+}
+.dialog-button {
+    position: relative;
+	text-align:center;
+	background-color:  #02a1c1;
+	min-width: 100px;
+	height: 30px;
+	color:  #ffffff;
+	font-size: 12px; 
+	line-height : 12px;
+	font-weight : bold;
+}
+
+.unsecure_imagebox {
+	display: table-cell;
+	position: absolute;
+	background: url("/resources/images/warningIcon.png") no-repeat;
+	width: 32px;
+	height: 32px;
+	margin: 0px 10px 0px 32px;
+}
+.dialog-message
+{
+	position: relative;
+	color: #000000;
+	height: auto;
+	font-size: 16px;
+	text-align: center;
+	word-wrap: break-word;
+	margin : 40px 25px 20px 25px
+
+}
+.unsecureURLHeaderMsg
+{
+	position:relative;
+	font-size: 22px;
+	text-align:left;
+	word-wrap: break-word ;
+	margin : 25px 40px 0px 70px;
+	color:  #666666;
+}
+.unsecureURLMsg
+{
+	position:relative;	
+    margin: 10px 70px 40px 70px;		
+	word-wrap: break-word ;
+	color:  #666666;
+	font-size: 14px; 
+	line-height: 18px; 
+	text-align: left;
+}
+/* Message.html */
+.message-title-bar
+{
+	-webkit-app-region: drag;
+}
+.message-title-text
+{
+	position:relative;
+	color:#000000;
+	height:auto;
+	font-size: 17px;
+	font-weight: bold;
+	text-align:left;
+	word-wrap: break-word ;
+	margin:20px;
+}
+a.message-close
+{
+	-webkit-app-region: no-drag;
+	position:absolute;
+	text-align:center;
+    text-decoration: none;
+	color:#CCC;
+	font-size: 15px;
+	font-weight: bold;
+	width: 17px;
+	height: 16px;
+	right: 20px;
+	top: 20px;
+	border: none;
+	background-image: url("/resources/images/icon_close.png");
+}
+a.message-close:hover
+{
+	font-size: 17px;
+	font-weight:bold;
+	color:#000;
+    cursor: pointer;
+}
+.message-desc
+{
+	position:relative;
+	color:#000000;
+	height:auto;
+	margin:20px;
+	font-size: 15px;
+	text-align:left;
+	word-wrap: break-word ;
+}
+.message-details{
+	position:relative;
+	color:#000000;
+	height:auto;
+	font-size: 15px;
+	text-align:left;
+	word-wrap: break-word ;
+	margin:20px;
+}
+.message-button {
+	font-size: 14px;
+    text-align:center;
+    height:30px;
+    min-width:80px;
+	color : #FFFFFF;
+}
+.msgButtonsDiv{
+	float : right;
+	margin-right : 20px;
+	margin-bottom : 20px;
+}
+
+#msg-add{
+	margin-left : 20px;
+	background-color : #02a1c1;
+	outline :  2px solid #02a1c1;
+}
+#msg-add:hover{
+	background-color:  rgba(2, 161, 193, 0.6);
+	outline :  2px solid  rgba(2, 161, 193, 0.6);
+} 
+#msg-add:focus{	
+	border : 1px solid #FFFFFF;
+}
+#msg-add:active{
+	background-color:  rgba(2, 161, 193, 0.6);
+	outline :  2px solid  rgba(2, 161, 193, 0.6);
+	color:  rgba(255, 255, 255, 0.6);
+}
+
+#msg-cancel{
+	background-color : #bbbbbb;
+	outline :  2px solid #bbbbbb;
+}
+#msg-cancel:hover{
+	background-color:  rgba(187,187,187, 0.6);
+	outline :  2px solid rgba(187,187,187, 0.6);
+}
+#msg-cancel:active{
+	background-color:  rgba(187,187,187, 0.6);
+	color:  rgba(255, 255, 255, 0.6);
+	outline :  2px solid rgba(187,187,187, 0.6);
+}
+#msg-cancel:focus{
+	border : 1px solid #FFFFFF;
+}
+
+.unsecureWarningHeaderDiv{
+	clear : both;
+}
+.unsecureWarningCheckboxDiv{	
+	margin : 0px 70px 30px 70px;
+}
+.checkboxURL{
+	margin-left: 2px;
+}
+.labelClassURL{
+	color:#666666;
+	font-size: 14px;
+	text-align:left;
+	word-wrap: break-word ;
+}
+.insecureButtonDiv{
+    float: right;
+    margin: 0px 40px 25px 0px;
+}
+button{
+	border : 0;
+	margin : 0;
+	outline : none;
+}
+button:hover:active:focus, button:focus:hover:active, button:focus:active{
+	border : 0;
+	outline : none;
+}
+.dialog-button1 {
+    position: relative;
+	text-align:center;
+	background-color:  #02a1c1;
+	min-width: 150px;
+	height: 30px;
+	color:  #ffffff;
+	font-size: 16px; 
+	margin-right : 10px;
+	outline :  2px solid #02a1c1;
+}
+.dialog-button1:hover{
+	background-color:  rgba(2, 161, 193, 0.6);
+	outline :  2px solid  rgba(2, 161, 193, 0.6);
+} 
+.dialog-button1:focus{	
+	border : 1px solid #FFFFFF;
+}
+.dialog-button1:active{
+	background-color:  rgba(2, 161, 193, 0.6);
+	outline :  2px solid  rgba(2, 161, 193, 0.6);
+	color:  rgba(255, 255, 255, 0.6);
+}
+
+.dialog-button2 {
+	background-color:  #bbbbbb;
+	min-width: 150px;
+	height: 30px;
+	font-family: HelveticaNeue;
+	color:  #ffffff;
+	font-size: 16px;
+	text-align: center;
+	outline :  2px solid #bbbbbb;
+}
+.dialog-button2:hover{
+	background-color:  rgba(187,187,187, 0.6);
+	outline :  2px solid rgba(187,187,187, 0.6);
+}
+.dialog-button2:active{
+	background-color:  rgba(187,187,187, 0.6);
+	color:  rgba(255, 255, 255, 0.6);
+	outline :  2px solid rgba(187,187,187, 0.6);
+}
+.dialog-button2:focus{
+	border : 1px solid #FFFFFF;
+}
+
+/* Preference.html related */
+.ctxsui-authentication-loginBox
+{
+    width:100%;
+    min-width:800px;    
+    position:fixed;
+    margin-top:-145px;
+    top:50%;
+	background-color : rgba(63, 54, 67, 0.8);
+	display : table;	
+	min-height: 240px;
+}
+.ctxsui-authentication-loginBox-innerBox{
+	display: table-cell;
+	width: 486px;
+}
+ .ctxsui-authentication-loginBox-innerBox-logo{
+	height: 52px;
+	min-width: 157px;
+	background-image: url("/ChromeAppUI/resources/images/auth_receiver_logo.png");
+	border: 0;
+	display: table-cell;
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+.ctxsui-authentication-loginBox-innerBox-withoutlogo{
+	min-width: 157px;
+	height: 52px;
+	border: 0;
+	display: table-cell;
+	float : right;
+}
+
+.enterurllabel{
+	position: absolute;
+	width: 100px;
+	left: 20px;
+	top: 60px;
+	color: #FFFFFF;
+	font-size: 17px;
+	line-height: 16px;
+	opacity: 0.4;
+}
+#_inner_box{
+	position: absolute;
+	top: 0px;
+	width: 486px;
+	min-height: 240px;
+}
+#URL{
+	font-size: 16px;
+	background-color: #FFFFFF;
+	border: 0;
+	outline: none;
+	width: 375px;
+	height: 34px;
+	left: 125px;
+	position: relative;
+	padding: 5px 5px;
+	color: #666666;
+	top: 50px;
+}
+.button_connect{
+	border: 0;
+	height: 44px;
+	width: 385px;
+	 position: relative;
+	left: 125px;
+	top: 50px; 
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 16px;
+	text-align: center;
+	background-color: #02a1c1;
+	margin-top: 30px;	
+}
+/* can be combined to put in a common class for blue and gray buttons*/
+.button_connect:hover{
+	background-color:  rgba(2, 161, 193, 0.6);
+}
+.button_connect:active{
+	background-color:  rgba(2, 161, 193, 0.6);
+	color:  rgba(255, 255, 255, 0.6);
+}
+.button_connect:focus{
+	outline : 2px solid #02a1c1;
+	border : 1px solid #FFFFFF;
+}
+#account_settings
+{
+    position:absolute;
+    bottom:24px;
+    right:24px;
+    z-index:0;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	background-color : rgba(0,0,0,0.4);
+	border-radius: 10px;
+	height: 30px;
+	outline: none;
+	text-decoration: none;
+}
+#account_settings_image {
+    height:20px;
+    width:20px;
+	background-image : url("../resources/images/icon_settings.png");
+	display: inline-block;
+	position: relative;
+	margin-right: 15px;
+	top: 5px;
+	left: 10px;
+}
+
+#account_settings_link{
+	 padding-right: 10px;
+}
+
+.prefs-bg { 
+	background: url("/resources/images/auth_bg.png") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+#inlineErrorContainer{
+	width: 370px;
+	position: relative;
+	top: 50px;
+	display: none;
+	left: 120px;
+	text-align: left;
+	padding-left: 24px;
+	padding-top: 0;
+	list-style: none outside none;
+	background-image: url("/ChromeAppUI/resources/images/icon_error.png");
+	background-repeat: no-repeat;
+	background-position: 1px 1px;
+	min-height: 32px;
+	margin-top: 20px;
+}
+
+.inline_error{
+	position: relative;
+	left: 10px;
+	top : 8px;
+	list-style: none outside none;	
+	width: 300px;
+	color: #fee8c0;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 300;
+}
+
+#embeddedErrorDialog {
+	margin-top: -110px;
+	display: none;
+	background-color: rgba(63,54,67,0.8);
+	width: 100%;
+	height: 220px;
+	position: absolute;
+	top: 50%;
+	text-align: center;
+}
+.embeddedError {
+	vertical-align: middle;
+	display: table-cell;
+	color:  #fee8c0;
+	font-size: 14px; 
+	line-height: 18px;
+	text-align: center;
+	font-weight: 400;
+	padding: 0px 160px;
+}
+/*In Kiosk mode,session iframe styling*/
+#sessionwindow{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width : 100%;
+	height : 100%;
+	border : 0px;
+}
+/*preferences iframe styling*/
+#preferences{
+	display : none;
+	position :  absolute;
+	top : 0px;
+	left: 0px;
+	border : 0px;
+	width : 100%;
+	height : 100%;
+}
+#main{
+	display : block;
+}
+.kioskCloseBtn{
+    position: relative;
+	background-image : url("/ChromeAppUI/resources/images/icon_close_pdf.png");
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	margin :0px 25px 0px 10px;
+	float: right;
+}
+#webviewPrint, #thirdPartyLicenses{
+    position: absolute;
+    top: 1px;
+    width: 100%;
+    height: 100%;
+}
+.pspinner {
+	display : inline-block;
+	width:28px;
+	height:28px;
+	background: url("/resources/images/spinner28x28.png") no-repeat;
+	visibility:hidden;
+	position:absolute;
+	left: 50%;
+	top: 50%;
+	margin-left : -14px;
+	margin-top : -14px;
+}
+.spinnerRotate {
+	-webkit-animation: rotate 0.8s steps(4) infinite;
+	-moz-animation: rotate 0.8s steps(4) infinite;
+	animation: rotate 0.8s steps(4) infinite;
+}
+
+@-webkit-keyframes rotate
+{
+	0%   {}
+	100% {-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes rotate
+{
+	0%   {}
+	100% {-moz-transform: rotate(360deg);}
+}
+@keyframes rotate
+{
+	0%   {}
+	100% {transform: rotate(360deg);}
+}
+.close_button{
+	background-image : url("/resources/images/icon_close.png");
+	width : 17px;
+	height : 16px;
+	float : right;
+	margin :  20px 20px 6px 0px;
+}
+.close_button:focus{
+    opacity:0.25;
+}
+.close_button:hover{
+    opacity:0.25;
+}
+.close_button:active{
+    opacity:0.35;
+}
+
+#settings-page-background
+{
+    background-color:rgba(0,0,0,0.25);
+    position:fixed;
+    height:100%;
+    width:100%;
+    left:0px;
+    top:0px;
+}
+.settings-container
+{    
+    width:490px;
+    height:454px;
+    border:1px solid rgba(255,255,255,.28);
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.35);
+   -moz-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.35);
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top : -202px;
+    margin-left:-245px; /*50% of the width*/
+}
+
+#settings-container-background
+{
+	background-color : #FFFFFF;
+}
+
+#settings
+{
+   clear : both;
+   border: 0 none;
+	margin: 0px 40px 0px 40px;
+	width: 410px;
+	height: 374px;
+}
+#settings-title
+{  
+    margin-bottom:22px;
+	color:  #666666;
+	font-size: 22px; 
+	font-weight: 400;
+	text-align: left;
+}
+#storefront-settings
+{
+    border:0 none;
+    margin-bottom:25px;
+}
+
+#storefront-settings-value
+{
+	width: 290px;
+	height: 20px;
+	border: 1px solid #999999;
+	margin-right: 10px;
+	padding: 5px 10px;
+	background-color: #ffffff;
+	color: #666666;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	text-align: left;
+	outline : none;
+}
+.settings-button
+{
+    font-weight:600; /* SemiBold */
+    font-size:14px;
+    text-align:center;
+    color:rgba(255,255,255,0.6);
+    float: right;
+    background-color: rgba(2, 161, 193, 0.5);
+    border:0;
+    padding:0;
+    outline:0;
+    height:32px;
+    width:87px;
+	outline :  1px solid rgba(2, 161, 193, 0.5);
+}
+.settings-button:hover{
+	background-color:  rgba(2, 161, 193, 0.6);
+	color:#FFFFFF;
+	outline :  1px solid rgba(2, 161, 193, 0.6);
+}
+
+.settings-button:focus{
+	border : 1px solid #FFFFFF;
+}
+.settings-button:active{
+	background-color:  rgba(2, 161, 193, 0.6);
+	color:  rgba(255, 255, 255, 0.6);
+	outline :  1px solid rgba(2, 161, 193, 0.6);
+}
+.settings-label
+{
+    margin-bottom:9px;
+	color:  #666666;
+	font-size: 14px; 
+	font-weight: 400;
+	line-height: 18px; 
+	text-align: left;
+}
+.settings-log
+{
+	border: 0;
+	padding: 0;
+	height: 220px;
+	width: 410px;
+}
+#thirdPartyLicensesDiv{
+	height: 40px;
+    background-color: #eeeeee;
+	display: table;
+	width: 100%;
+}
+.thirdPartyLinkSpan{
+	position: relative;
+    left: 40px;
+    vertical-align: middle;
+	display: table-cell;
+}
+#thirdPartyLicensesLink{
+	text-decoration : none;
+	color: #02a1c1;
+	font-size: 14px;
+}
+
+/*Needed for Kiosk mode*/
+#closeLicensesBtn{
+	position : absolute;
+	right: 5px;
+	top: 15px;
+}
+#KioskLicenses{
+	display : none;
+}

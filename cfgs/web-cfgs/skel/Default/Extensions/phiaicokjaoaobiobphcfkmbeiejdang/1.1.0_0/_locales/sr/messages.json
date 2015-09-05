@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Циљ је да се превртати правоугаони блок кроз свакој фази и депоновати га у квадратном рупу на крају."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Блокорз блок Слагалица"
+   }
+}

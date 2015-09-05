@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ImTranslator</title>
+	<link rel="stylesheet" type="text/css" href="../../css/translator.css">
+  </head>
+<body id="SL_body">
+<div align="center">
+ <div id="SL_translate_container">
+  <table width="330">
+   <tr>
+    <td><a id="SL_logo-link" style="text-decoration:none;cursor:pointer;"><span id="SL_h1">ImTranslator</span></a> <span id="SL_h3">7.7</span></td>
+    <td><span id="SL_h2"></span></td>
+   </tr>
+  </table>
+  <br>
+  <div style="height:1px;"></div>
+  <div id="SL_links" style="right:10px;position:absolute;margin-top:-18px;width:100%;">
+    <table width="100%">
+	<tr>
+		<td width="*"></td>
+		<td align="center" width="13%" nowrap><a href="../options/options.html" class="SL_links"><span id="SLoptions"></span></a></td>
+		<td align="center" width="13%" nowrap><a href="../options/history.html" class="SL_links"><span id="SLhistory"></span></a></td>
+		<td align="center" width="13%" nowrap><a href="http://about.imtranslator.net/tutorials/presentations/imtranslator-for-chrome/google-dictionary/" class="SL_links" target="_blank"><span id="SLhelp"></span></a></td>
+		<td align="center" width="13%" nowrap><a href="../options/feedback.html" class="SL_links"><span id="SLfeedback"></span></a></td>
+	</tr>
+    </table>
+  </div>
+  <div align="right" id="SL_donate" style="margin-top:-37px;"><img src="../../img/util/donate.gif" id="SL_PP" style="cursor:pointer;" alt="" title=""></div>
+  <div align="left" style="margin-top:-10px;">
+  <div id="SL_CTRLS">
+   <table width="100%">
+    <tr>
+     <td colspan="3"><table border=0><tr><td width=30 valign=bottom><img class="SL_icn" id="SL_dict_tts" src="../../img/util/tts.png" alt="" title=""></td><td width=350><input id="SL_DICTtext" type='text'></td></tr></table></td>
+     <td><div style="position:absolute;"><img class="SL_icn" id="SL_dst_delete" src="../../img/util/delete.png" alt="" title=""></div></td>
+    </tr>
+    <tr>
+     <td colspan="4" height="15"><div id="SL_DETECTED"></div></td>
+    </tr>
+    <tr>
+     <td>
+      <select name="langSrc" id="SL_langSrc" tabindex="2"></select>
+     </td>
+     <td>
+	<div class="SL_switch" id="SL_switch" width="22" height="22" valign="bottom" alt="" title=""></div>
+     </td>
+     <td>
+      <select name="langDst" id="SL_langDst" tabindex="3"></select>
+     </td>
+     <td><input type="button" id="SL_trans_button" style="width:85px" value=""></td>
+    </tr>
+   </table>
+  </div>
+  <div align="left">
+   <fieldset class="SL_fieldset">
+    <legend class="SL_BG" id="SL_BG"></legend>
+    <div id="SL_indicator1"></div>
+    <div id="SL_DICTsource"></div>
+   </fieldset>
+  </div>
+ </div>
+ <div id='SL_player3'></div>
+ <div id="SL_extra-padding">
+  <div class="SL_footer">
+   &copy;2015 <a id="SL_copyright-link" href="#" class="SL_links">Smart Link Corporation</a> &nbsp; <span id="SL_powered"></span>
+  </div>
+ </div>
+</div>
+<script type="text/javascript" src="../../js/common/FExtension.js"></script>
+<script type="text/javascript" src="../../browser/js/FBrowserPopup.js"></script>
+<script type="text/javascript" src="../../browser/chrome/FBrowserPopupChrome.js"></script>
+<script type="text/javascript" src="../../js/inject/dictionary.js?v=1"></script>
+<script type="text/javascript" src="../../js/common/ga.js?v=1"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://www.slacker.com/"
+      },
+      "urls": [ "http://www.slacker.com/" ]
+   },
+   "description": "Slacker Radio. Crafted by hand to deliver the perfect music for any moment.",
+   "icons": {
+      "128": "slacker-chrome-128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwuSHFDT6hUqb4qRBczwyZBGSyUqwWdIrG5NiiXiHlTj7KygNDCDO4DJiyCfblm2WOlC3uXgd5/U7OU8485+rwo0SyFOQDcK4gh36b91V+RvrNdN8A+efIXPgjuerh+4mEriLgI+Xnuo6hkf3zsdmtgHIV7WVYB1Za3YtQh80rrwIDAQAB",
+   "manifest_version": 2,
+   "name": "Slacker Radio",
+   "permissions": [ "unlimitedStorage", "notifications" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.1.0"
+}

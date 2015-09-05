@@ -1,0 +1,20 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "js/main.js" ]
+   },
+   "description": "Right-click uploading of images and screenshots anonymously or to your imgur account.",
+   "icons": {
+      "128": "img/logo.png",
+      "16": "img/logo_16.png",
+      "48": "img/logo_48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCb5cT5EHNEgagN0FEjklRoJYdBrF+dPtaKEhtaW9AI8ZaSWeFmjKJqwueO0JhbkNnCS1NtdwURx94Qg6G6hQhCibI9GyS5v+WOkjUD5dZu8iXat8dMvlvrlschaQynGO42+hs1P30jZ62KtzjavMZY4gPCyAZM7C/tWVh/CK0ZtwIDAQAB",
+   "manifest_version": 2,
+   "name": "imgur Uploader",
+   "options_page": "options.html",
+   "permissions": [ "contextMenus", "tabs", "notifications", "storage", "clipboardWrite", "alarms", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.10",
+   "web_accessible_resources": [ "img/logo_48.png", "options.html" ]
+}

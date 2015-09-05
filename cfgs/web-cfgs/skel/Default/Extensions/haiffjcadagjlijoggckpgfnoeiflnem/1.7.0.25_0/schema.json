@@ -1,0 +1,70 @@
+{
+    "type": "object",
+    "properties": {
+        "settings": {
+            "type": "object",
+            "properties": {
+                "settings_version": {
+                    "type": "string"
+                },
+				"store_settings": {
+					"type" : "object",
+					"properties" : {
+						"name": {
+							"type": "string"
+						},						
+						"beacons": {
+							"type": "object",
+							"properties": {
+								"external": {
+									"type": "array",
+									"items": {
+										"type": "object",
+										"properties": {
+											"url": {
+												"type": "string"
+											}
+										}
+									}
+								},
+								"internal": {
+									"type": "array",
+									"items": {
+										"type": "object",
+										"properties": {
+											"url": {
+												"type": "string"
+											}
+										}
+									}
+								}
+							}
+						},
+						"gateways": {
+							"type": "array",
+							"items": {
+								"type": "object",
+								"properties": {
+									"url": {
+										"type": "string"
+									},
+									"is_default": {
+										"type": "boolean"
+									}
+								}
+							}
+						},
+						"rf_web": {
+							"type": "object",
+							"properties": {
+								"url": {
+									"type": "string"
+								}
+							}
+						}						
+					}
+				}
+			}
+        }
+    }
+}

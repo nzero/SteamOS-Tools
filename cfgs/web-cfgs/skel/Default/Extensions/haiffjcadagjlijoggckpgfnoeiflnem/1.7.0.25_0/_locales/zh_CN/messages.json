@@ -1,0 +1,397 @@
+{
+   "AppRemoved": {
+      "description": "The resource to launch no longer exists, is no longer enabled or is no longer visible to current user.",
+      "message": "要启动的资源不再存在、不再处于启用状态或不再对当前用户可见。"
+   },
+   "Button_Later": {
+      "description": "Later button for Chrome Receiver Update Available notification",
+      "message": "稍后"
+   },
+   "Button_Now": {
+      "description": "Now button for Chrome Receiver Update Available notification",
+      "message": "立即"
+   },
+   "CRA_restart_message": {
+      "description": "New CRA update Available notification message.",
+      "message": "重新启动 $1 以进行更新。",
+      "placeholders": {
+         "app_name": {
+            "content": "$1",
+            "example": "Citrix Receiver"
+         }
+      }
+   },
+   "CRA_update_notification": {
+      "description": "New Chrome Receiver Update Available notification",
+      "message": "新版本的 $1 可用。",
+      "placeholders": {
+         "app_name": {
+            "content": "$1",
+            "example": "Citrix Receiver"
+         }
+      }
+   },
+   "CR_config_applied": {
+      "description": "CRA configured using default cr file",
+      "message": "$app_name$ 现在是使用 \"$file_name$\" 配置的",
+      "placeholders": {
+         "app_name": {
+            "content": "$1",
+            "example": "Citrix Receiver"
+         },
+         "file_name": {
+            "content": "$2",
+            "example": "default.cr"
+         }
+      }
+   },
+   "CouldNotConnectToWorkstation": {
+      "description": "The server refused a connection. Currently applies to XenDesktop only.",
+      "message": "服务器拒绝连接。当前仅适用于 XenDesktop。"
+   },
+   "GeneralAppLaunchError": {
+      "description": "General error that cannot be further specified.",
+      "message": "无法进一步指定的一般错误。"
+   },
+   "NoMoreActiveSessions": {
+      "description": "The user is not allowed any more active sessions. Currently applies to XenDesktop only.",
+      "message": "不允许用户运行更多活动会话。当前仅适用于 XenDesktop。"
+   },
+   "NotLicensed": {
+      "description": "The server does not have the required license to perform the requested activity.",
+      "message": "服务器没有所需的许可证，无法执行请求的活动。"
+   },
+   "ResourceError": {
+      "description": "General error that cannot be further specified.",
+      "message": "无法进一步指定的一般错误。"
+   },
+   "Unauthorized": {
+      "description": "The user is not logged in or authorized to access the data.",
+      "message": "用户未登录或未授权其访问数据。"
+   },
+   "UnavailableDesktop": {
+      "description": "No workstations are available to service this request. Currently applies to XenDesktop only.",
+      "message": "没有可用于向此请求提供服务的工作站。当前仅适用于 XenDesktop。"
+   },
+   "WorkstationInMaintenance": {
+      "description": "The requested workstation is in maintenance mode and cannot be used. Currently applies to XenDesktop only.",
+      "message": "请求的工作站处于维护模式，无法使用。当前仅适用于 XenDesktop。"
+   },
+   "account_settings": {
+      "description": "Account settings",
+      "message": "帐户设置"
+   },
+   "account_url": {
+      "description": "Account URL label",
+      "message": "帐户 URL"
+   },
+   "add": {
+      "description": "Add",
+      "message": "添加"
+   },
+   "add_store": {
+      "description": "Adding store front url",
+      "message": "是否要添加 $sfUrl$ 提供的 $storeName$?",
+      "placeholders": {
+         "sfUrl": {
+            "content": "$2",
+            "example": "\u003Cip address>"
+         },
+         "storeName": {
+            "content": "$1",
+            "example": "\u003Cstore name>"
+         }
+      }
+   },
+   "apply": {
+      "description": "Apply button display value",
+      "message": "应用"
+   },
+   "beaconUnreachable": {
+      "description": "Network is present but beacons are unreachable.",
+      "message": "无法连接到服务器。请联系技术支持人员以获得帮助，或者检查“帐户设置”中的服务器地址。"
+   },
+   "cancel": {
+      "description": "Cancel",
+      "message": "取消"
+   },
+   "citrix_receiver": {
+      "description": "Citrix Receiver",
+      "message": "Citrix Receiver"
+   },
+   "configure_cra": {
+      "description": "Configure chrome app",
+      "message": "配置 $app_name$",
+      "placeholders": {
+         "app_name": {
+            "content": "Citrix Receiver"
+         }
+      }
+   },
+   "connect_URL_secure_msg": {
+      "description": "Message saying connection to a StoreFront/Web interface/Gateway url over http",
+      "message": "与 $store_url$ 的连接不安全。仅应在信任此服务器时才能继续。",
+      "placeholders": {
+         "store_url": {
+            "content": "$1",
+            "example": "\u003Cip address>"
+         }
+      }
+   },
+   "connect_button": {
+      "description": "Connect button display value",
+      "message": "连接"
+   },
+   "connect_confirm": {
+      "description": "Confirm message before connecting",
+      "message": "是否确实要连接?"
+   },
+   "cra": {
+      "description": "Full form of cra",
+      "message": "适用于 Chrome 应用程序的 $app_name$",
+      "placeholders": {
+         "app_name": {
+            "content": "Citrix Receiver"
+         }
+      }
+   },
+   "enumerate_res_error": {
+      "description": "Couldn't enumerate resources for the user.",
+      "message": "无法枚举此用户的资源。"
+   },
+   "error": {
+      "description": "Error",
+      "message": "错误"
+   },
+   "error_app_open": {
+      "description": "Citrix receiver could not be opened",
+      "message": "$app_name$ 无法打开",
+      "placeholders": {
+         "app_name": {
+            "content": "$1",
+            "example": "Citrix Receiver"
+         }
+      }
+   },
+   "error_config_fail": {
+      "description": "Configuration failed msg",
+      "message": "$app_name$ 配置无法使用 \"$crFile$\"",
+      "placeholders": {
+         "app_name": {
+            "content": "$1",
+            "example": "Citrix Receiver"
+         },
+         "crFile": {
+            "content": "$2",
+            "example": "config.cra"
+         }
+      }
+   },
+   "error_config_fail_withError": {
+      "description": "Configuration failed message",
+      "message": "$app_name$ 配置无法使用 \"$crFile$\"，错误: $errorMsg$",
+      "placeholders": {
+         "app_name": {
+            "content": "$1",
+            "example": "Citrix Receiver"
+         },
+         "crFile": {
+            "content": "$2",
+            "example": "config.cra"
+         },
+         "errorMsg": {
+            "content": "$3"
+         }
+      }
+   },
+   "error_file_extension": {
+      "description": "Citrix receiver not configured to open unknown file extensions",
+      "message": "$app_name$ 未配置，无法打开 $file_type$ 文件类型。",
+      "placeholders": {
+         "app_name": {
+            "content": "$1",
+            "example": "Citrix Receiver"
+         },
+         "file_type": {
+            "content": "$2",
+            "example": ".xyz"
+         }
+      }
+   },
+   "error_file_open_gdrive": {
+      "description": "Error message saying files can only be opened from Google drive",
+      "message": "$app_name$ 只能打开 Google Drive 中的文件。",
+      "placeholders": {
+         "app_name": {
+            "content": "$1",
+            "example": "Citrix Receiver"
+         }
+      }
+   },
+   "error_help_desk": {
+      "description": "",
+      "message": "请与技术支持人员联系并提供以下信息: $1"
+   },
+   "error_incorrect_url": {
+      "description": "",
+      "message": "无法连接到服务器。请确保地址正确无误，并且您已将 http:// 或 https:// 包含在地址中。如果仍无法连接，请联系技术支持以获得帮助。"
+   },
+   "error_invalid_url": {
+      "description": "Enter valid URL.",
+      "message": "请输入有效的 URL。"
+   },
+   "error_launch_generic": {
+      "description": "Citrix Receiver couldn't launch the session due to the error specified using errorMsg",
+      "message": "$app_name$ 无法启动会话。错误: $errorMsg$",
+      "placeholders": {
+         "app_name": {
+            "content": "$1",
+            "example": "Citrix Receiver"
+         },
+         "errorMsg": {
+            "content": "$2",
+            "example": "The server refused a connection. Currently applies to XenDesktop only."
+         }
+      }
+   },
+   "error_network_conn": {
+      "description": "Network connection error",
+      "message": "请检查您的网络连接。无法访问 \"$sfUrl$\"",
+      "placeholders": {
+         "sfUrl": {
+            "content": "$1",
+            "example": "\u003Cip address>"
+         }
+      }
+   },
+   "error_notConfigured": {
+      "description": "",
+      "message": "$app_name$ 未配置。",
+      "placeholders": {
+         "app_name": {
+            "content": "$1",
+            "example": "Citrix Receiver"
+         }
+      }
+   },
+   "gatewayAddress": {
+      "description": "Gateway Address",
+      "message": "网关地址:"
+   },
+   "genericError": {
+      "description": "Generic error",
+      "message": "一般性错误:"
+   },
+   "information": {
+      "description": "Information",
+      "message": "信息"
+   },
+   "internal_error": {
+      "description": "Internal error",
+      "message": "内部错误"
+   },
+   "networkUnreachable": {
+      "description": "Network is unavailable.",
+      "message": "无法连接到服务器。请检查您的网络并重试。"
+   },
+   "network_error": {
+      "description": "Network error",
+      "message": "网络错误"
+   },
+   "null_callback": {
+      "description": "Callback passed is null",
+      "message": "回调 = 空"
+   },
+   "offlinestatus": {
+      "description": ": When offline is detected and when network goes down. ",
+      "message": "无法连接到网络。请在网络可用时重试。"
+   },
+   "ok_button": {
+      "description": "ok button",
+      "message": "确定"
+   },
+   "policy_applied_config_fail": {
+      "description": "CR configuration failure message when admin has configured using google policies",
+      "message": "无法更改此 Receiver 配置。您的管理员使用策略为您配置 Receiver。"
+   },
+   "restart_now": {
+      "description": "Restart Citrix Receiver button text",
+      "message": "立即重新启动"
+   },
+   "secureMsg_preference": {
+      "description": "To hide the secure connection dialog automatically from next launch onwards",
+      "message": "不再显示此消息"
+   },
+   "settings": {
+      "description": "Settings button display value",
+      "message": "设置"
+   },
+   "store": {
+      "description": "StoreFront/Web interface/Gateway",
+      "message": "应用商店"
+   },
+   "storeAddress": {
+      "description": "Store Address",
+      "message": "$store$地址:",
+      "placeholders": {
+         "store": {
+            "content": "$1",
+            "example": "Store"
+         }
+      }
+   },
+   "storeName": {
+      "description": "Store Name",
+      "message": "$store$名称:",
+      "placeholders": {
+         "store": {
+            "content": "$1",
+            "example": "Store"
+         }
+      }
+   },
+   "storeUnreachable": {
+      "description": "When network and beacon are reachable but store urls are unreachable",
+      "message": "无法连接到服务器。请联系技术支持人员以获得帮助，或者检查“帐户设置”中的服务器地址。"
+   },
+   "store_address": {
+      "description": "Store address label",
+      "message": "$store$地址",
+      "placeholders": {
+         "store": {
+            "content": "$1",
+            "example": "Store"
+         }
+      }
+   },
+   "store_address_change": {
+      "description": "When the store address is changed in account settings page",
+      "message": "服务器地址已更改。"
+   },
+   "store_settings_change": {
+      "description": "Changing store url in settings page",
+      "message": "$store$设置将在您关闭所有窗口并重新启动 $app_name$ 后应用。",
+      "placeholders": {
+         "app_name": {
+            "content": "$2",
+            "example": "Citrix Receiver"
+         },
+         "store": {
+            "content": "$1",
+            "example": "Store"
+         }
+      }
+   },
+   "thirdPartyLicenses": {
+      "description": "Chrome 第三方声明链接",
+      "message": "Chrome 第三方声明"
+   },
+   "unauthorized_user_error": {
+      "description": "User is not logged in or authorized to access the data.",
+      "message": "用户未登录或未授权其访问数据。"
+   },
+   "urlPlaceholder": {
+      "description": "Watermark for URL field in Preferences page",
+      "message": "https://URL"
+   }
+}

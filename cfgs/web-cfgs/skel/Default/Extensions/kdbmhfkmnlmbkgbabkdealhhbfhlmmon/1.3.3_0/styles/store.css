@@ -1,0 +1,27 @@
+.steamdb_link {
+	color: #898A8C;
+}
+
+.steamdb_link:hover {
+	text-decoration: underline;
+}
+
+.steamdb_error_link {
+	display: block;
+	margin-top: 12px;
+}
+
+.steamdb_float_left {
+	float: left;
+}
+
+.btn_steamdb .ico16 {
+	background: none;
+}
+
+/**
+ * Fix for very long game names not overflowing correctly
+ */
+.apphub_AppName {
+	word-wrap: break-word;
+}

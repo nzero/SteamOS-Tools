@@ -1,0 +1,30 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "js/background.js" ]
+      }
+   },
+   "description": "Introducing Synapse. The new way to discuss on Steam.",
+   "icons": {
+      "128": "img/128.png",
+      "16": "img/16.png",
+      "48": "img/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArb9HfDAPEC6SjVOfHWlLZ2SoI7UlfNMZ5FFQw2ZeKFOoJxtzioNfnREpVL9R0+GOsOALTKpT/BJLa/7LRTh8//YQgpSwNCHpD3npm4HrDBVYB/m54ipG3yYtYJKMGl3pEJpMYLTnLZAFLl6BYqJItKhbbC3z7IhJ4wZiaR5ctZQDrT7+2b/DoVW9gfKGRDDY7uIpiPUz9tnrXANkP210scXR+heaCkVFSDAGe0W7PSjP6IheYOA1pSUUDRFlYmiE5BJfFd9vDbTzHQKxt0uRzOHJYOnbEnyGYdJ++oqXr9q6+aKmG7l13QdV8ZtqHgfqKKX3oBKalgyGAmOC335LXQIDAQAB",
+   "manifest_version": 2,
+   "name": "Synapse for Steam",
+   "offline_enabled": false,
+   "permissions": [ "storage", "notifications", "webview", "audio", "contextMenus" ],
+   "short_name": "Synapse",
+   "system_indicator": {
+
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.1",
+   "webview": {
+      "partitions": [ {
+         "accessible_resources": [ "*" ],
+         "name": "synapse"
+      } ]
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "โดยมีวัตถุประสงค์เพื่อเกลือกกลิ้งบล็อกสี่เหลี่ยมผ่านแต่ละขั้นตอนและเงินฝากลงไปที่ช่องตารางที่สิ้นสุด"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Bloxorz ปริศนาที่ถูกบล็อก"
+   }
+}

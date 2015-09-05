@@ -1,0 +1,397 @@
+{
+   "AppRemoved": {
+      "description": "The resource to launch no longer exists, is no longer enabled or is no longer visible to current user.",
+      "message": "El recurso de inicio ya no existe, ya no está habilitado o ya no es visible para el usuario actual."
+   },
+   "Button_Later": {
+      "description": "Later button for Chrome Receiver Update Available notification",
+      "message": "Más tarde"
+   },
+   "Button_Now": {
+      "description": "Now button for Chrome Receiver Update Available notification",
+      "message": "Ahora"
+   },
+   "CRA_restart_message": {
+      "description": "New CRA update Available notification message.",
+      "message": "Reinicie $1 para actualizar.",
+      "placeholders": {
+         "app_name": {
+            "content": "$1",
+            "example": "Citrix Receiver"
+         }
+      }
+   },
+   "CRA_update_notification": {
+      "description": "New Chrome Receiver Update Available notification",
+      "message": "Hay una nueva versión de $1 disponible.",
+      "placeholders": {
+         "app_name": {
+            "content": "$1",
+            "example": "Citrix Receiver"
+         }
+      }
+   },
+   "CR_config_applied": {
+      "description": "CRA configured using default cr file",
+      "message": "Ahora $app_name$ se ha configurado con \"$file_name$\"",
+      "placeholders": {
+         "app_name": {
+            "content": "$1",
+            "example": "Citrix Receiver"
+         },
+         "file_name": {
+            "content": "$2",
+            "example": "default.cr"
+         }
+      }
+   },
+   "CouldNotConnectToWorkstation": {
+      "description": "The server refused a connection. Currently applies to XenDesktop only.",
+      "message": "El servidor ha rechazado una conexión. En estos momentos solo se aplica a XenDesktop."
+   },
+   "GeneralAppLaunchError": {
+      "description": "General error that cannot be further specified.",
+      "message": "Error general que no puede especificarse más."
+   },
+   "NoMoreActiveSessions": {
+      "description": "The user is not allowed any more active sessions. Currently applies to XenDesktop only.",
+      "message": "El usuario ha alcanzado el máximo de sesiones activas abiertas. En estos momentos solo se aplica a XenDesktop."
+   },
+   "NotLicensed": {
+      "description": "The server does not have the required license to perform the requested activity.",
+      "message": "El servidor no tiene la licencia necesaria para llevar a cabo la actividad solicitada."
+   },
+   "ResourceError": {
+      "description": "General error that cannot be further specified.",
+      "message": "Error general que no puede especificarse más."
+   },
+   "Unauthorized": {
+      "description": "The user is not logged in or authorized to access the data.",
+      "message": "El usuario no ha iniciado sesión o no está autorizado para acceder a los datos."
+   },
+   "UnavailableDesktop": {
+      "description": "No workstations are available to service this request. Currently applies to XenDesktop only.",
+      "message": "No hay ninguna estación de trabajo disponible para atender esta solicitud. En estos momentos solo se aplica a XenDesktop."
+   },
+   "WorkstationInMaintenance": {
+      "description": "The requested workstation is in maintenance mode and cannot be used. Currently applies to XenDesktop only.",
+      "message": "La estación de trabajo solicitada se encuentra en modo de mantenimiento y no se puede usar. En estos momentos solo se aplica a XenDesktop."
+   },
+   "account_settings": {
+      "description": "Account settings",
+      "message": "Parámetros de cuenta"
+   },
+   "account_url": {
+      "description": "Account URL label",
+      "message": "URL de cuenta"
+   },
+   "add": {
+      "description": "Add",
+      "message": "Agregar"
+   },
+   "add_store": {
+      "description": "Adding store front url",
+      "message": "¿Quiere agregar \"$storeName$\", proporcionado por \"$sfUrl$\"?",
+      "placeholders": {
+         "sfUrl": {
+            "content": "$2",
+            "example": "\u003Cip address>"
+         },
+         "storeName": {
+            "content": "$1",
+            "example": "\u003Cstore name>"
+         }
+      }
+   },
+   "apply": {
+      "description": "Apply button display value",
+      "message": "Aplicar"
+   },
+   "beaconUnreachable": {
+      "description": "Network is present but beacons are unreachable.",
+      "message": "No se puede conectar con el servidor. Póngase en contacto con el servicio de asistencia técnica para obtener ayuda, o verifique la dirección del servidor en los Parámetros de cuenta."
+   },
+   "cancel": {
+      "description": "Cancel",
+      "message": "Cancelar"
+   },
+   "citrix_receiver": {
+      "description": "Citrix Receiver",
+      "message": "Citrix Receiver"
+   },
+   "configure_cra": {
+      "description": "Configure chrome app",
+      "message": "Configurar $app_name$",
+      "placeholders": {
+         "app_name": {
+            "content": "Citrix Receiver"
+         }
+      }
+   },
+   "connect_URL_secure_msg": {
+      "description": "Message saying connection to a StoreFront/Web interface/Gateway url over http",
+      "message": "Esta conexión a \"$store_url$\" no es segura. Proceda únicamente si confía en este servidor. ",
+      "placeholders": {
+         "store_url": {
+            "content": "$1",
+            "example": "\u003Cip address>"
+         }
+      }
+   },
+   "connect_button": {
+      "description": "Connect button display value",
+      "message": "Conectar"
+   },
+   "connect_confirm": {
+      "description": "Confirm message before connecting",
+      "message": "¿Seguro que quiere realizar la conexión?"
+   },
+   "cra": {
+      "description": "Full form of cra",
+      "message": "Aplicación $app_name$ para Chrome",
+      "placeholders": {
+         "app_name": {
+            "content": "Citrix Receiver"
+         }
+      }
+   },
+   "enumerate_res_error": {
+      "description": "Couldn't enumerate resources for the user.",
+      "message": "No se ha podido obtener una lista de los recursos para el usuario."
+   },
+   "error": {
+      "description": "Error",
+      "message": "Error"
+   },
+   "error_app_open": {
+      "description": "Citrix receiver could not be opened",
+      "message": "$app_name$ no pudo abrir ",
+      "placeholders": {
+         "app_name": {
+            "content": "$1",
+            "example": "Citrix Receiver"
+         }
+      }
+   },
+   "error_config_fail": {
+      "description": "Configuration failed msg",
+      "message": "La configuración de $app_name$ falló con \"$crFile$\"",
+      "placeholders": {
+         "app_name": {
+            "content": "$1",
+            "example": "Citrix Receiver"
+         },
+         "crFile": {
+            "content": "$2",
+            "example": "config.cra"
+         }
+      }
+   },
+   "error_config_fail_withError": {
+      "description": "Configuration failed message",
+      "message": "La configuración de $app_name$ falló con \"$crFile$\". Error: $errorMsg$",
+      "placeholders": {
+         "app_name": {
+            "content": "$1",
+            "example": "Citrix Receiver"
+         },
+         "crFile": {
+            "content": "$2",
+            "example": "config.cra"
+         },
+         "errorMsg": {
+            "content": "$3"
+         }
+      }
+   },
+   "error_file_extension": {
+      "description": "Citrix receiver not configured to open unknown file extensions",
+      "message": "$app_name$ no se ha configurado para abrir el tipo de archivo $file_type$.",
+      "placeholders": {
+         "app_name": {
+            "content": "$1",
+            "example": "Citrix Receiver"
+         },
+         "file_type": {
+            "content": "$2",
+            "example": ".xyz"
+         }
+      }
+   },
+   "error_file_open_gdrive": {
+      "description": "Error message saying files can only be opened from Google drive",
+      "message": "$app_name$ solo puede abrir archivos de Google Drive.",
+      "placeholders": {
+         "app_name": {
+            "content": "$1",
+            "example": "Citrix Receiver"
+         }
+      }
+   },
+   "error_help_desk": {
+      "description": "",
+      "message": "Póngase en contacto con el servicio de asistencia con la siguiente información: $1"
+   },
+   "error_incorrect_url": {
+      "description": "",
+      "message": "No se puede conectar al servidor. Asegúrese de que la dirección es correcta y que ha incluido \"http://\" o \"https://\". Si continúa sin poder conectar, póngase en contacto con su servicio de asistencia técnica."
+   },
+   "error_invalid_url": {
+      "description": "Enter valid URL.",
+      "message": "Introduzca una URL válida."
+   },
+   "error_launch_generic": {
+      "description": "Citrix Receiver couldn't launch the session due to the error specified using errorMsg",
+      "message": "$app_name$ no pudo iniciar la sesión. Error: $errorMsg$",
+      "placeholders": {
+         "app_name": {
+            "content": "$1",
+            "example": "Citrix Receiver"
+         },
+         "errorMsg": {
+            "content": "$2",
+            "example": "The server refused a connection. Currently applies to XenDesktop only."
+         }
+      }
+   },
+   "error_network_conn": {
+      "description": "Network connection error",
+      "message": "Compruebe la conectividad de la red. No se puede conectar con \"$sfUrl$\"",
+      "placeholders": {
+         "sfUrl": {
+            "content": "$1",
+            "example": "\u003Cip address>"
+         }
+      }
+   },
+   "error_notConfigured": {
+      "description": "",
+      "message": "$app_name$ no se ha configurado.",
+      "placeholders": {
+         "app_name": {
+            "content": "$1",
+            "example": "Citrix Receiver"
+         }
+      }
+   },
+   "gatewayAddress": {
+      "description": "Gateway Address",
+      "message": "Dirección de la puerta de enlace:"
+   },
+   "genericError": {
+      "description": "Generic error",
+      "message": "Error genérico:"
+   },
+   "information": {
+      "description": "Information",
+      "message": "Información"
+   },
+   "internal_error": {
+      "description": "Internal error",
+      "message": "Error interno"
+   },
+   "networkUnreachable": {
+      "description": "Network is unavailable.",
+      "message": "No se puede conectar con el servidor. Compruebe la red e inténtelo de nuevo."
+   },
+   "network_error": {
+      "description": "Network error",
+      "message": "Error de red"
+   },
+   "null_callback": {
+      "description": "Callback passed is null",
+      "message": "devolución de llamada = null"
+   },
+   "offlinestatus": {
+      "description": ": When offline is detected and when network goes down. ",
+      "message": "No se puede conectar a la red. Inténtelo de nuevo cuando la red esté disponible."
+   },
+   "ok_button": {
+      "description": "ok button",
+      "message": "Aceptar"
+   },
+   "policy_applied_config_fail": {
+      "description": "CR configuration failure message when admin has configured using google policies",
+      "message": "No puede cambiar esta configuración de Receiver. El administrador está utilizando directivas para configurar Receiver para usted."
+   },
+   "restart_now": {
+      "description": "Restart Citrix Receiver button text",
+      "message": "Reiniciar ahora"
+   },
+   "secureMsg_preference": {
+      "description": "To hide the secure connection dialog automatically from next launch onwards",
+      "message": "No volver a mostrar esto"
+   },
+   "settings": {
+      "description": "Settings button display value",
+      "message": "Parámetros"
+   },
+   "store": {
+      "description": "StoreFront/Web interface/Gateway",
+      "message": "Almacén"
+   },
+   "storeAddress": {
+      "description": "Store Address",
+      "message": "Dirección de $store$:",
+      "placeholders": {
+         "store": {
+            "content": "$1",
+            "example": "Store"
+         }
+      }
+   },
+   "storeName": {
+      "description": "Store Name",
+      "message": "Nombre de $store$:",
+      "placeholders": {
+         "store": {
+            "content": "$1",
+            "example": "Store"
+         }
+      }
+   },
+   "storeUnreachable": {
+      "description": "When network and beacon are reachable but store urls are unreachable",
+      "message": "No se puede conectar con el servidor. Póngase en contacto con el servicio de asistencia técnica para obtener ayuda, o verifique la dirección del servidor en los Parámetros de cuenta."
+   },
+   "store_address": {
+      "description": "Store address label",
+      "message": "Dirección de $store$",
+      "placeholders": {
+         "store": {
+            "content": "$1",
+            "example": "Store"
+         }
+      }
+   },
+   "store_address_change": {
+      "description": "When the store address is changed in account settings page",
+      "message": "La dirección del servidor ha cambiado."
+   },
+   "store_settings_change": {
+      "description": "Changing store url in settings page",
+      "message": "Los parámetros de $store$ se aplicarán cuando haya cerrado todas las ventanas y haya reiniciado $app_name$.",
+      "placeholders": {
+         "app_name": {
+            "content": "$2",
+            "example": "Citrix Receiver"
+         },
+         "store": {
+            "content": "$1",
+            "example": "Store"
+         }
+      }
+   },
+   "thirdPartyLicenses": {
+      "description": "Enlace a avisos legales de terceros de Chrome",
+      "message": "Avisos legales de terceros de Chrome"
+   },
+   "unauthorized_user_error": {
+      "description": "User is not logged in or authorized to access the data.",
+      "message": "El usuario no ha iniciado sesión o no está autorizado para acceder a los datos."
+   },
+   "urlPlaceholder": {
+      "description": "Watermark for URL field in Preferences page",
+      "message": "https://URL"
+   }
+}

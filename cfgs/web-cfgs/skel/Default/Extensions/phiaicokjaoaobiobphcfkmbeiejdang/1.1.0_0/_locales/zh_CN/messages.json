@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "该目标是通过每个阶段翻滚的矩形块并沉积入方孔底。"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Bloxorz益智座"
+   }
+}

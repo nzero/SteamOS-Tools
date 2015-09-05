@@ -1,0 +1,20 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://www.onlinetopgame.com/game/bloxorz.html"
+      },
+      "urls": [ "http://www.onlinetopgame.com/game/bloxorz.html" ]
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDtAPlgkZ7MNuhkflYaXKJ2emzn9VPhLRJ7nJSH0tzfjY4JsKgR3a5bymVLVNNxhjTuDBF/ha0J4a7BsfzsOciNM7+xAQvl8R+T586WqeVg8X9ed7mrYh26/HBHpanwjIEI0LdadzDLT4NTfwJ78Ma8wVj8hn14ZpiV4Msn8g0ZwQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "offline_enabled": true,
+   "short_name": "Bloxorz",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.0"
+}

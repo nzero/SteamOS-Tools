@@ -1,0 +1,22 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "background.js" ]
+      }
+   },
+   "description": "Android APK packager for Chrome OS",
+   "icons": {
+      "128": "assets/icon_128.png",
+      "16": "assets/icon_16.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnZicrfE/Uk1QLJMo07ISS4QpD6q54+zVwGrys7O5KJ20dQ4KId9ZAPn9XmZyJpEF6GBOtEitvN37O3aD7ABnQUUjzClzaDHe55TJbqrAYq9S1aqrhp1soOdUK5UgjZbdc/BqdehsDbBwZIp6dq7yXcHfxVXFC+UJk/E5c70zl7eeQXD6Q0PxhWC8pu6JjMYU4XGmKyY47BANo+5uIylcPpXa0pmoO6A73tmnzgxI9A8XXipLcIH7DOM5EaowkdK0PdNelcC/P8G/T256U0rXACcqMjOy3C6QtJW8hl7VtM79qSRMg6QZE/EN+GgI8HaodEpUTqRRKqaMoeIpp5lwtQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "38",
+   "name": "twerk",
+   "offline_enabled": true,
+   "permissions": [ "https://www.google-analytics.com/", "storage", "system.storage", "unlimitedStorage", "clipboardRead", {
+      "fileSystem": [ "write", "directory" ]
+   } ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.7.9"
+}

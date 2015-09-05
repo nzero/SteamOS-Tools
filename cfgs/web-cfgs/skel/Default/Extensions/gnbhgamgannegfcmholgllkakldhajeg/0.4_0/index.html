@@ -1,0 +1,145 @@
+<html>
+<head>
+
+<style>
+  body {
+    background: black;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    -webkit-flex-direction: column;
+  }
+  video {
+    width: 640px;
+    height: 480px;
+    background: rgba(0,0,0,0.25);
+
+
+  }
+
+  
+     .typeselect {
+   color: black;
+   text-decoration: none;
+    display: inline-block;
+    background: -webkit-linear-gradient(#F9F9F9 40%, #E3E3E3 70%);
+    background: linear-gradient(#F9F9F9 40%, #E3E3E3 70%);
+    border: 0px solid #999;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+
+
+    font-size: 13pt;
+	text-align: center;
+	font-family: arial;
+
+  }
+  
+   .button {
+   color: black;
+   text-decoration: none;
+    display: inline-block;
+    background: -webkit-linear-gradient(#F9F9F9 40%, #E3E3E3 70%);
+    background: linear-gradient(#F9F9F9 40%, #E3E3E3 70%);
+    border: 0px solid #999;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+
+
+    font-size: 14pt;
+	text-align: center;
+	font-family: arial;
+
+  }
+  
+  #stopRecording {
+	background: -webkit-linear-gradient(red  10%, #A00000 90%);
+	background: linear-gradient(red 10%, #A00000 90%);
+  }
+  
+  .button:hover,
+  .tdbutton.active {
+    border-color: black;
+  }
+  .button:active,
+  .tdbutton.active {
+    background: -webkit-linear-gradient(#E3E3E3 40%, #F9F9F9 70%);
+    background: linear-gradient(#E3E3E3 40%, #F9F9F9 70%);
+  }
+
+  video {
+    background: black url(webcam.png) center no-repeat;
+    border: 0px solid #e2e2e2;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+	-webkit-border-radius: 3px;
+    border-radius: 3px;
+  }
+</style>
+
+</head>
+<body>
+<table><tr><td>
+  <table width="100%"><tr><td>
+	<a style="display: block;" class="button" id="takepicture"><font color="green"> Start </font></a>
+    <a style="display: none;" class="button" id="newpicture"><font color="red"> New </font></a>
+	<a style="display: none;" class="button" id="stoprecording"><font color="white"> Stop Recording </font></a>
+  </td>
+  <td width="1%">
+	<select class="typeSelect" id="myonoffswitch">
+	  <option selected value="singlePicture">Single Picture</option>
+	  <option value="video">Video (.WebM)</option>
+	  <option value="animatedPicture">Animated Picture (.GIF)</option>
+	</select>
+</td>
+</tr>
+</table>
+
+  </td>
+  </tr><tr><td>
+  <video id="vid" autoplay></video>
+  <video style="display: none;" id="vid1" autoplay controls></video>
+ 
+<canvas id="canvas" width="640" height="480" style="display:none; border:0px solid white; -webkit-border-radius: 3px; border-radius: 3px;"></canvas>
+
+<img  width="640" height="480" style="display:none;" id="theimage"></img></a>
+  
+</td>
+</tr>
+<tr>
+<td>
+		<table width="100%"><tr>
+		<td width="50%">
+			<a style="display: none;" class="button" id="openNewWindow" target="_blank"><font color="black"> Open in web browser </font></a>  
+			<a style="display: block;" class="button" id="openNewWindowdisabled" target="_blank"><font color="lightgray"> Open in web browser </font></a>   
+		</td>
+		<td width="50%">
+			<a style="display: none;" class="button" id="savepicture"><font color="black"> Save </font></a>  
+			<a style="display: block;" class="button" id="savepicturedisabled"><font color="lightgray"> Save </font></a>  
+		</td>
+		</tr>
+		</table>
+	
+   
+</td>
+</tr>
+</table>
+
+<script src="RecordRTC-aangepast.js"></script>
+
+<script src="gif-recorder.js"></script>
+
+<script src="app.js"></script>
+</body>
+</html>

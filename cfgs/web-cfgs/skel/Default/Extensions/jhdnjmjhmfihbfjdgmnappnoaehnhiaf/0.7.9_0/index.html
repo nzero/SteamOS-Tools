@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html ng-app="twerk" ng-csp>
+<head>
+  <title>Twerk</title>
+
+  <!-- polymer -->
+  <script src="bower_components/platform/platform.js"></script>
+
+  <!-- polymer imports -->
+  <link rel="import" href="bower_components/core-icons/core-icons.html">
+  <link rel="import" href="bower_components/core-icons/social-icons.html">
+  <link rel="import" href="bower_components/core-toolbar/core-toolbar.html">
+  <link rel="import" href="bower_components/paper-button/paper-button.html">
+  <link rel="import" href="bower_components/paper-checkbox/paper-checkbox.html">
+  <link rel="import" href="bower_components/paper-dialog/paper-dialog-transition.html">
+  <link rel="import" href="bower_components/paper-dialog/paper-dialog.html">
+  <link rel="import" href="bower_components/paper-fab/paper-fab.html">
+  <link rel="import" href="bower_components/paper-icon-button/paper-icon-button.html">
+  <link rel="import" href="bower_components/paper-input/paper-input.html">
+  <link rel="import" href="bower_components/paper-item/paper-item.html">
+  <link rel="import" href="bower_components/paper-menu-button/paper-menu-button.html">
+  <link rel="import" href="bower_components/paper-tabs/paper-tabs.html">
+  <link rel="import" href="bower_components/paper-toast/paper-toast.html">
+  <link rel="import" href="bower_components/paper-toggle-button/paper-toggle-button.html">
+
+  <!-- stylesheets -->
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body unresolved ng-controller="packageAppController">
+  <!-- toolbar -->
+  <core-toolbar>
+    <div flex>twerk</div>
+
+    <!-- create new apk package -->
+   <paper-menu-button icon="add" ng-hide="!apkFilename" ng-click="clearAll()"></paper-menu-button>
+
+   <!-- import package -->
+   <!--<paper-menu-button icon="apps" ng-hide="apkFilename" ng-click="importPackage()"></paper-menu-button>-->
+
+    <!-- social menu -->
+    <paper-menu-button icon="question-answer" halign="right">
+      <paper-item icon="social:post-facebook" ng-click="social('facebook')">Facebook</paper-item>
+      <paper-item icon="social:post-twitter" ng-click="social('twitter')">Twitter</paper-item>
+      <paper-item icon="mail" ng-click="social('email')">Email</paper-item>
+    </paper-menu-button>
+
+    <!-- utility menu -->
+    <paper-menu-button icon="more-vert" halign="right">
+      <paper-item icon="social:post-facebook" ng-click="social('facebook')">Follow</paper-item>
+      <paper-item icon="settings" ng-click="dialog('analytics')">Settings</paper-item>
+    </paper-menu-button>
+
+  </core-toolbar>
+
+  <section ng-hide="!!apkFilename">
+    <div class="dropzone" file-dropzone="['application/vnd.android.package-archive']" file="apk" file-name="apkFilename" data-max-file-size="50">
+      <paper-fab class="text-center" icon="attachment">Drop APK here</paper-fab>
+    </div>
+  </section>
+
+  <div ng-show="!!apkFilename">
+    <!-- content -->
+    <core-menu layout vertical>
+      <!-- manifest.name / messages.extName.message -->
+      <paper-item style="margin-top:10px; margin-bottom:10px;">
+        <paper-input floatingLabel label="Application Name" ng-model="name"></paper-input>
+        <img ng-src="{{ !!iconBlob ? iconBlob : '/template/icon.png' }}" width="48" height="48" class="apk-icon" ng-click="newIcon()" />
+      </paper-item>
+
+      <!-- manifest.arc_metadata.name && manifest.arc_metadata.packageName -->
+      <paper-item style="margin-bottom:10px;">
+        <paper-input floatingLabel label="Package Name" ng-model="packageName"></paper-input>
+      </paper-item>
+
+      <!-- manifest.version -->
+      <paper-item style="margin-bottom:10px;">
+        <paper-input floatingLabel label="Version" ng-model="packageVersion"></paper-input>
+      </paper-item>
+
+      <!-- manifest.arc_metadata.formFactor -->
+      <paper-item>
+        <div flex ng-click="menuClick('formFactor', formFactor)">{{ formFactor ? 'Tablet' : 'Phone'  }}</div>
+        <paper-toggle-button ng-model="formFactor"></paper-toggle-button>
+      </paper-item>
+
+      <!-- manifest.arc_metadata.orientation -->
+      <paper-item>
+        <div flex ng-click="menuClick('orientation', orientation)">{{ orientation ? 'Landscape' : 'Portrait'  }}</div>
+        <paper-toggle-button ng-model="orientation"></paper-toggle-button>
+      </paper-item>
+
+      <!-- manifest.arc_metadata.resize -->
+      <paper-item>
+        <div flex ng-click="menuClick('resize', resize)">{{ resize ? 'Scale' : 'Fixed Size'  }}</div>
+        <paper-toggle-button ng-model="resize"></paper-toggle-button>
+      </paper-item>
+
+      <!-- manifest.arc_metadata.enableExternalDirectory -->
+      <paper-item>
+        <div flex ng-click="menuClick('enableExternalDirectory', enableExternalDirectory)">
+          {{ enableExternalDirectory ? 'Enabled' : 'Disabled'  }} External Directory</div>
+        <paper-toggle-button ng-model="enableExternalDirectory"></paper-toggle-button>
+      </paper-item>
+
+      <!-- manifest.offline_enabled -->
+      <paper-item>
+        <div flex ng-click="menuClick('offline_enabled', offline_enabled)">
+          Offline {{ offline_enabled ? 'Enabled' : 'Disabled'  }}</div>
+        <paper-toggle-button ng-model="offline_enabled"></paper-toggle-button>
+      </paper-item>
+
+    </core-menu>
+
+    <!-- compile button -->
+    <paper-fab icon="android" ng-click="buildPackage()"></paper-fab>
+  </div>
+
+  <div class="version">v{{ version }}</div>
+
+  <!-- modal / dialog windows -->
+  <paper-dialog heading="{{ modal.heading }}" transition="paper-dialog-transition-center">
+    <div flex ng-bind-html="modal.message | convert">{{modal.message}}</div>
+    <paper-button label="Okay" affirmative autofocus ng-if="!modal.buttons"></paper-button>
+    <paper-button label="No thanks" dismissive autofocus ng-if="!!modal.buttons.decline" ng-click="modal.buttons.decline"></paper-button>
+    <paper-button label="Okay" affirmative autofocus ng-if="!!modal.buttons.accept" ng-click="modal.buttons.accept"></paper-button>
+  </paper-dialog>
+
+  <!-- toast notifications -->
+  <paper-toast id="notifications" text="{{ message }}"></paper-toast>
+
+  <!-- scripts -->
+  <script src="/js/lib/google-analytics-bundle.js"></script>
+  <script src="/js/lib/angular.min.js"></script>
+  <script src="/js/lib/ng-polymer-elements.min.js"></script>
+  <script src="/js/directives/fileDropzone.js"></script>
+  <script src="/js/factories/templateFactory.js"></script>
+  <script src="/js/controllers/packageAppController.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>

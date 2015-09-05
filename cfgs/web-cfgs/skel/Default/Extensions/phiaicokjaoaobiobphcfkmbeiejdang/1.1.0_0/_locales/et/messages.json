@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Eesmärk on trummelkuivatite ristkülikukujuline blokeerida kaudu iga etapi ja hoiustama ruudukujulise avaga lõpus."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Bloxorz Block Puzzle"
+   }
+}

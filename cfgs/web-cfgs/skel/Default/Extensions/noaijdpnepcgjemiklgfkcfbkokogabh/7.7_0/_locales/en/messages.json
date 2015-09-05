@@ -1,0 +1,347 @@
+{
+   "extABW": {
+      "message": "Align by word"
+   },
+   "extAllRecords": {
+      "message": "All records"
+   },
+   "extAppearance": {
+      "message": "Appearance"
+   },
+   "extBackTrans": {
+      "message": "Back translation"
+   },
+   "extBblTH": {
+      "message": "Enable translation history"
+   },
+   "extCMMouseOverTransTo": {
+      "message": "Mouseover translation to"
+   },
+   "extCMTransPageTo": {
+      "message": "Translate this page to"
+   },
+   "extCMTransSel": {
+      "message": "Translate selection to"
+   },
+   "extCMTransTo": {
+      "message": "translation to"
+   },
+   "extCMcl": {
+      "message": "Change language"
+   },
+   "extCMct": {
+      "message": "Clear translation"
+   },
+   "extCMsot": {
+      "message": "Show original text"
+   },
+   "extChFS": {
+      "message": "Choose font size"
+   },
+   "extChTrApp": {
+      "message": "Choose translation application:"
+   },
+   "extClearTH": {
+      "message": "clear all history"
+   },
+   "extClearText": {
+      "message": "Clear text"
+   },
+   "extClearTr": {
+      "message": "Clear translation"
+   },
+   "extClose": {
+      "message": "Close"
+   },
+   "extCollapse": {
+      "message": "Collapse"
+   },
+   "extColor": {
+      "message": "Color"
+   },
+   "extCompare": {
+      "message": "Compare translation"
+   },
+   "extContinue": {
+      "message": "Continue"
+   },
+   "extContribution_ttl": {
+      "message": "Make a small contribution"
+   },
+   "extCopyText": {
+      "message": "Copy text"
+   },
+   "extCopy_ttl": {
+      "message": "Copy translation"
+   },
+   "extDelRecord": {
+      "message": "Delete record"
+   },
+   "extDelete": {
+      "message": "Delete"
+   },
+   "extDescription": {
+      "message": "Translator, Dictionary, Voice"
+   },
+   "extDetSoLaAu": {
+      "message": "Detect source language automatically"
+   },
+   "extDetect_language_from_box": {
+      "message": "Detect language"
+   },
+   "extDetected": {
+      "message": "Detected:"
+   },
+   "extDetectedEn": {
+      "message": "Detected: English"
+   },
+   "extDictionary": {
+      "message": "Dictionary"
+   },
+   "extDisabled": {
+      "message": "This function gets disabled if the source language is set to 'Detect language'"
+   },
+   "extDoYou": {
+      "message": "Do you really want to delete the translation history?"
+   },
+   "extEIB": {
+      "message": "Enclose in brackets"
+   },
+   "extEnTH": {
+      "message": "Enable translation history"
+   },
+   "extEnable": {
+      "message": "Enable"
+   },
+   "extEnable_Dict": {
+      "message": "Enable Dictionary"
+   },
+   "extEnterHK": {
+      "message": "Enter hotkey"
+   },
+   "extError1": {
+      "message": "Your browser broke"
+   },
+   "extError2": {
+      "message": "Error"
+   },
+   "extExpand": {
+      "message": "Expand"
+   },
+   "extExportTH": {
+      "message": "export history"
+   },
+   "extFS_large": {
+      "message": "Large"
+   },
+   "extFS_small": {
+      "message": "Small"
+   },
+   "extFeedback": {
+      "message": "Feedback"
+   },
+   "extFeedback_ttl": {
+      "message": "ImTranslator Feedback"
+   },
+   "extFont_Size_ttl": {
+      "message": "Font size"
+   },
+   "extHKconflict": {
+      "message": "Hotkeys are in conflict"
+   },
+   "extHO": {
+      "message": "Hide original"
+   },
+   "extHelp": {
+      "message": "Help"
+   },
+   "extHelp_ttl": {
+      "message": "ImTranslator Help"
+   },
+   "extHistory": {
+      "message": "History"
+   },
+   "extHistory_ttl": {
+      "message": "Translation history"
+   },
+   "extHotKeys": {
+      "message": "Hotkeys"
+   },
+   "extIBO": {
+      "message": "Insert before original"
+   },
+   "extIGetIt": {
+      "message": "I get It"
+   },
+   "extInTH": {
+      "message": "Enable translation history"
+   },
+   "extInlineLimit": {
+      "message": "Limited to XXX segments at once"
+   },
+   "extInvTr": {
+      "message": "Invoke translator"
+   },
+   "extLB": {
+      "message": "Line break"
+   },
+   "extLPNotSupported": {
+      "message": "XXX-YYY language pair is not supported"
+   },
+   "extLanguages": {
+      "message": "af:Afrikaans,sq:Albanian,ar:Arabic,hy:Armenian,az:Azerbaijani,eu:Basque,be:Belarusian,bn:Bengali,bs:Bosnian,bg:Bulgarian,ca:Catalan,ceb:Cebuano,ny:Chichewa,zh-CN:Chinese (Simplified),zh-TW:Chinese (Traditional),hr:Croatian,cs:Czech,da:Danish,nl:Dutch,en:English,eo:Esperanto,et:Estonian,tl:Filipino,fi:Finnish,fr:French,gl:Galician,ka:Georgian,de:German,el:Greek,gu:Gujarati,ht:Haitian Creole,ha:Hausa,iw:Hebrew,hi:Hindi,hmn:Hmong,hu:Hungarian,is:Icelandic,ig:Igbo,id:Indonesian,ga:Irish,it:Italian,ja:Japanese,jw:Javanese,kn:Kannada,kk:Kazakh,km:Khmer,ko:Korean,lo:Lao,la:Latin,lv:Latvian,lt:Lithuanian,mk:Macedonian,mg:Malagasy,ms:Malay,ml:Malayalam,mt:Maltese,mi:Maori,mr:Marathi,mn:Mongolian,my:Myanmar (Burmese),ne:Nepali,no:Norwegian,fa:Persian,pl:Polish,pt:Portuguese,pa:Punjabi,ro:Romanian,ru:Russian,sr:Serbian,st:Sesotho,si:Sinhala,sk:Slovak,sl:Slovenian,so:Somali,es:Spanish,su:Sundanese,sw:Swahili,sv:Swedish,tg:Tajik,ta:Tamil,te:Telugu,th:Thai,tr:Turkish,uk:Ukrainian,ur:Urdu,uz:Uzbek,vi:Vietnamese,cy:Welsh,yi:Yiddish,yo:Yoruba,zu:Zulu"
+   },
+   "extLanguagesNew": {
+      "message": "un:Unknown"
+   },
+   "extListen": {
+      "message": "Listen"
+   },
+   "extListenTo": {
+      "message": "Listen to"
+   },
+   "extListen_ttl": {
+      "message": "Listen to the translation"
+   },
+   "extLock_in_language": {
+      "message": "Lock-in language"
+   },
+   "extMOT": {
+      "message": "Mouseover Translation"
+   },
+   "extName": {
+      "message": "ImTranslator: Translator, Dictionary, TTS"
+   },
+   "extNoTHtoExport": {
+      "message": "There is no translation history to export and save."
+   },
+   "extNo_Text": {
+      "message": "Please enter text"
+   },
+   "extNo_TextCompare": {
+      "message": "XXX-YYY language pair is not available for comparison"
+   },
+   "extNo_Voice": {
+      "message": "This voice is not yet available"
+   },
+   "extNotDict": {
+      "message": "ImTranslator Dictionary does not support XXX-YYY language pair"
+   },
+   "extNot_available": {
+      "message": "Not available for dictionary"
+   },
+   "extOk": {
+      "message": "OK"
+   },
+   "extOptions": {
+      "message": "Options"
+   },
+   "extOptions_ttl": {
+      "message": "Show options"
+   },
+   "extOriginalText": {
+      "message": "Original text"
+   },
+   "extPin_ttl": {
+      "message": "Pin pop-up bubble"
+   },
+   "extPowered": {
+      "message": ""
+   },
+   "extPrivacy": {
+      "message": "Privacy: Your translation history is stored on your hard drive. It will remain private and confidential."
+   },
+   "extResByChrome": {
+      "message": " reserved by Chrome"
+   },
+   "extResTrans": {
+      "message": "Translation"
+   },
+   "extSLBG_op": {
+      "message": "Language Options"
+   },
+   "extSL_setLS4allTr": {
+      "message": "Set language settings for all translators"
+   },
+   "extSTB": {
+      "message": "Show Translator's button"
+   },
+   "extS_T_L_diff": {
+      "message": "Source language and target language must be different"
+   },
+   "extSaveButton": {
+      "message": "Save options"
+   },
+   "extSaveHK": {
+      "message": "Save hotkeys"
+   },
+   "extSeSo": {
+      "message": "Select source language"
+   },
+   "extSeTa": {
+      "message": "Select target language"
+   },
+   "extSearch": {
+      "message": "Search"
+   },
+   "extSeeSource": {
+      "message": "See source"
+   },
+   "extShowBW": {
+      "message": "Show back translation window"
+   },
+   "extSplit": {
+      "message": "Split by sentence"
+   },
+   "extSwitch_languages_ttl": {
+      "message": "Switch languages"
+   },
+   "extTHempty": {
+      "message": "Translation history is empty"
+   },
+   "extTITLE": {
+      "message": ""
+   },
+   "extTK": {
+      "message": "Trigger Key"
+   },
+   "extTOMS": {
+      "message": "Translate on mouse selection"
+   },
+   "extTR_op": {
+      "message": "Translation Options"
+   },
+   "extTTS_Limit": {
+      "message": "Text-to-speech function is limited to 100 characters"
+   },
+   "extTrButton": {
+      "message": "Translate"
+   },
+   "extTrHist": {
+      "message": "Translation History"
+   },
+   "extTrLimit": {
+      "message": "(up to XXX characters)"
+   },
+   "extTranslating": {
+      "message": "Translating"
+   },
+   "extUnPin_ttl": {
+      "message": "Unpin pop-up bubble"
+   },
+   "extUndoSplit": {
+      "message": "Undo split"
+   },
+   "extUseHK": {
+      "message": "Use: Ctrl, Alt, Shift, A-Z, 0-9 keys"
+   },
+   "extWPTalert1": {
+      "message": "The secure https pages cannot be translated for security reasons.\n Instead, highlight the text on the page and use ImTranslator applications."
+   },
+   "extWPTalert2": {
+      "message": "This page cannot be translated for security reasons.\n Instead, highlight the text on the page and use ImTranslator applications."
+   },
+   "extWpTH": {
+      "message": "Enable translation history"
+   }
+}

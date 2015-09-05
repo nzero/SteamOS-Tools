@@ -1,0 +1,347 @@
+{
+   "extABW": {
+      "message": "Ευθυγράμμιση κατά λέξη"
+   },
+   "extAllRecords": {
+      "message": "Όλα τα αρχεία"
+   },
+   "extAppearance": {
+      "message": "Εμφάνιση"
+   },
+   "extBackTrans": {
+      "message": "Αντίστροφη μετάφραση"
+   },
+   "extBblTH": {
+      "message": "Ενεργοποίηση ιστορικού μετάφρασης"
+   },
+   "extCMMouseOverTransTo": {
+      "message": "Μετάφραση κύλισης ποντικού σε"
+   },
+   "extCMTransPageTo": {
+      "message": "Μετάφραση αυτής της σελίδας σε"
+   },
+   "extCMTransSel": {
+      "message": "Μετάφραση σε"
+   },
+   "extCMTransTo": {
+      "message": "Μετάφραση σε"
+   },
+   "extCMcl": {
+      "message": "Αλλαγή γλώσσας"
+   },
+   "extCMct": {
+      "message": "Καθαρισμός μετάφρασης"
+   },
+   "extCMsot": {
+      "message": "Εμφάνιση αρχικού κειμένου"
+   },
+   "extChFS": {
+      "message": "Γραμματοσειρές"
+   },
+   "extChTrApp": {
+      "message": "Επιλέξτε εφαρμογή μετάφρασης:"
+   },
+   "extClearTH": {
+      "message": "καθαρισμός ιστορικού"
+   },
+   "extClearText": {
+      "message": "Καθαρισμός κειμένου"
+   },
+   "extClearTr": {
+      "message": "Καθαρισμός μετάφρασης"
+   },
+   "extClose": {
+      "message": "Κλείνω"
+   },
+   "extCollapse": {
+      "message": "Σύμπτυξη"
+   },
+   "extColor": {
+      "message": "Χρώμα"
+   },
+   "extCompare": {
+      "message": "Σύγκριση μεταφράσεων"
+   },
+   "extContinue": {
+      "message": "Συνεχίσει"
+   },
+   "extContribution_ttl": {
+      "message": "Κάντε μια μικρή δωρεά"
+   },
+   "extCopyText": {
+      "message": "Αντιγραφή κειμένου"
+   },
+   "extCopy_ttl": {
+      "message": "Αντίγραφο μετάφρασης"
+   },
+   "extDelRecord": {
+      "message": "Διαγραφή αρχείου"
+   },
+   "extDelete": {
+      "message": "Διαγραφή"
+   },
+   "extDescription": {
+      "message": "Μεταφραστής, Λεξικό, Φωνή"
+   },
+   "extDetSoLaAu": {
+      "message": "Αυτόματος εντοπισμός αρχικής γλώσσας"
+   },
+   "extDetect_language_from_box": {
+      "message": "Ανίχνευση γλώσσα"
+   },
+   "extDetected": {
+      "message": "Εντοπίστηκε:"
+   },
+   "extDetectedEn": {
+      "message": "Εντοπίστηκε: Αγγλικά"
+   },
+   "extDictionary": {
+      "message": "Λεξικό"
+   },
+   "extDisabled": {
+      "message": "Αυτή η λειτουργία είναι απενεργοποιημένη, εάν η αρχική γλώσσα έχει οριστεί σε 'Εντοπισμό γλώσσας'"
+   },
+   "extDoYou": {
+      "message": "Θέλετε πραγματικά να διαγράψετε το ιστορικό μετάφρασης;"
+   },
+   "extEIB": {
+      "message": "Εμφάνιση σε παρενθέσεις"
+   },
+   "extEnTH": {
+      "message": "Ενεργοποίηση ιστορικού μετάφρασης"
+   },
+   "extEnable": {
+      "message": "Ενεργοποίηση"
+   },
+   "extEnable_Dict": {
+      "message": "Ενεργοποίηση Λεξικού"
+   },
+   "extEnterHK": {
+      "message": "Εισαγωγή πλήκτρων συντόμευσης"
+   },
+   "extError1": {
+      "message": "Το πρόγραμμα περιήγησης έσπασε"
+   },
+   "extError2": {
+      "message": "Σφάλμα"
+   },
+   "extExpand": {
+      "message": "Επέκταση"
+   },
+   "extExportTH": {
+      "message": "εξαγωγή ιστορικού μετάφρασης"
+   },
+   "extFS_large": {
+      "message": "μεγάλο"
+   },
+   "extFS_small": {
+      "message": "μικρό"
+   },
+   "extFeedback": {
+      "message": "Σχόλια"
+   },
+   "extFeedback_ttl": {
+      "message": "Σχόλια"
+   },
+   "extFont_Size_ttl": {
+      "message": "Γραμματοσειρά"
+   },
+   "extHKconflict": {
+      "message": "Τα πλήκτρα συντόμευσης έρχονται σε αντίθεση"
+   },
+   "extHO": {
+      "message": "Απόκρυψη αρχικού"
+   },
+   "extHelp": {
+      "message": "Βοήθεια"
+   },
+   "extHelp_ttl": {
+      "message": "Βοήθεια"
+   },
+   "extHistory": {
+      "message": "Ιστορία"
+   },
+   "extHistory_ttl": {
+      "message": "Ιστορία μετάφρασης"
+   },
+   "extHotKeys": {
+      "message": "Πλήκτρα συντόμευσης"
+   },
+   "extIBO": {
+      "message": "Εισάγετε πριν από το αρχικό"
+   },
+   "extIGetIt": {
+      "message": "Το κατάλαβα"
+   },
+   "extInTH": {
+      "message": "Ενεργοποίηση ιστορικού μετάφρασης"
+   },
+   "extInlineLimit": {
+      "message": "Περιορισμός σε XXX τμήματα ταυτόχρονα"
+   },
+   "extInvTr": {
+      "message": "Επίκληση μεταφραστή"
+   },
+   "extLB": {
+      "message": "Αλλαγή γραμμής"
+   },
+   "extLPNotSupported": {
+      "message": "Το ζεύγος γλωσσών XXX-YYY δεν υποστηρίζεται"
+   },
+   "extLanguages": {
+      "message": "en:Αγγλικά,az:Αζερμπαϊτζανικά,sq:Αλβανικά,ar:Αραβικά,hy:Αρμενικά,af:Αφρικάανς,eu:Βασκικά,bn:Βεγγαλική,vi:Βιετναμεζικά,my:Βιρμανικά,bs:Βοσνιακά,bg:Βουλγαρικά,gl:Γαλικιακά,fr:Γαλλικά,de:Γερμανικά,ka:Γεωργιανά,yi:Γίντις,yo:Γιορούμπα,gu:Γκουτζαρατικά,da:Δανικά,iw:Εβραϊκά,el:Ελληνικά,et:Εσθονικά,eo:Εσπεράντο,zu:Ζουλού,ja:Ιαπωνικά,ig:Ίγκμπο,id:Ινδονησιακά,ga:Ιρλανδικά,is:Ισλανδικά,es:Ισπανικά,it:Ιταλικά,kk:Καζακστανικά,kn:Κανάντα,ca:Καταλανικά,zh-TW:Κινέζικα&#160;(παραδ),zh-CN:Κινεζική&#160;(απλο),ko:Κορεατικά,ht:Κρεόλ&#160;Αϊτής,hr:Κροατικά,lo:Λάο,la:Λατινικά,lv:Λετονικά,be:Λευκορωσικά,lt:Λιθουανικά,mg:Μαλαγάσι,ml:Μαλαγιάλαμ,ms:Μαλέι,mt:Μαλτεζικά,mi:Μαορί,mr:Μαραθικά,mn:Μογγολικά,ne:Νεπαλικά,no:Νορβηγικά,nl:Ολλανδικά,cy:Ουαλικά,hu:Ουγγρικά,uz:Ουζμπεκικά,uk:Ουκρανικά,ur:Ουρντού,pa:Παντζάμπι,fa:Περσικά,pl:Πολωνικά,pt:Πορτογαλικά,ro:Ρουμανικά,ru:Ρωσικά,ceb:Σεμπουάνο,sr:Σερβικά,st:Σεσότο,si:Σινχάλα,mk:Σλαβομακεδονικά,sk:Σλοβακικά,sl:Σλοβενικά,so:Σομαλικά,sw:Σουαχίλι,sv:Σουηδικά,su:Σούντα,tg:Ταζικιστανικά,th:Ταϊλανδεζικά,ta:Ταμίλ,te:Τελούγκου,jw:Τζαβανεζικά,tr:Τούρκικα,cs:Τσεχικά,ny:Τσιτσέουα,tl:Φιλιπινεζικά,fi:Φινλανδικά,ha:Χάουσα,hi:Χίντι,km:Χμερ,hmn:Χμονγκ"
+   },
+   "extLanguagesNew": {
+      "message": "un:Unknown"
+   },
+   "extListen": {
+      "message": "Ακούστε"
+   },
+   "extListenTo": {
+      "message": "Ακούστε"
+   },
+   "extListen_ttl": {
+      "message": "Ακούστε"
+   },
+   "extLock_in_language": {
+      "message": "Κλείδωμα γλώσσας"
+   },
+   "extMOT": {
+      "message": "Μετάφραση κύλισης ποντικού"
+   },
+   "extName": {
+      "message": "ImTranslator: Μεταφραστής, Λεξικό, Φωνή"
+   },
+   "extNoTHtoExport": {
+      "message": "Δεν υπάρχουν αρχεία μετάφρασης."
+   },
+   "extNo_Text": {
+      "message": "Παρακαλούμε εισάγετε κείμενο"
+   },
+   "extNo_TextCompare": {
+      "message": "Το ζεύγος γλωσσών XXX-YYY δεν είναι διαθέσιμο για σύγκριση"
+   },
+   "extNo_Voice": {
+      "message": "Αυτή η φωνή δεν είναι διαθέσιμη"
+   },
+   "extNotDict": {
+      "message": "Το Λεξικό ImTranslator δεν υποστηρίζει το ζεύγος γλωσσών XXX-YYY"
+   },
+   "extNot_available": {
+      "message": "Δεν είναι διαθέσιμο για λεξικό"
+   },
+   "extOk": {
+      "message": "OK"
+   },
+   "extOptions": {
+      "message": "Επιλογές"
+   },
+   "extOptions_ttl": {
+      "message": "Εμφάνιση επιλογών"
+   },
+   "extOriginalText": {
+      "message": "Αρχικό κείμενο"
+   },
+   "extPin_ttl": {
+      "message": "Καρφιτσώστε το αναδυόμενο παράθυρο"
+   },
+   "extPowered": {
+      "message": ""
+   },
+   "extPrivacy": {
+      "message": "Προστασία προσωπικών δεδομένων: Το ιστορικό μετάφρασής σας είναι αποθηκευμένο στο σκληρό σας δίσκο. Θα παραμείνει απόρρητο και εμπιστευτικά"
+   },
+   "extResByChrome": {
+      "message": " κατοχυρωμένο από το Chrome"
+   },
+   "extResTrans": {
+      "message": "Μετάφραση"
+   },
+   "extSLBG_op": {
+      "message": "Επιλογές Γλώσσας"
+   },
+   "extSL_setLS4allTr": {
+      "message": "Ίδιες ρυθμίσεις για όλες τις μεταφράσεις"
+   },
+   "extSTB": {
+      "message": "Εμφάνιση κουμπιού Μεταφραστή"
+   },
+   "extS_T_L_diff": {
+      "message": "Η αρχική γλώσσα και η τελική γλώσσα πρέπει να είναι διαφορετικές"
+   },
+   "extSaveButton": {
+      "message": "Αποθήκευση"
+   },
+   "extSaveHK": {
+      "message": "Αποθήκευση"
+   },
+   "extSeSo": {
+      "message": "Αρχική γλώσσα"
+   },
+   "extSeTa": {
+      "message": "Τελική γλώσσα"
+   },
+   "extSearch": {
+      "message": "Έρευνα"
+   },
+   "extSeeSource": {
+      "message": "Δείτε αρχική"
+   },
+   "extShowBW": {
+      "message": "Εμφάνιση αντίστροφη μετάφραση"
+   },
+   "extSplit": {
+      "message": "Διαχωρισμός κατά πρόταση"
+   },
+   "extSwitch_languages_ttl": {
+      "message": "Εναλλαγή γλωσσών"
+   },
+   "extTHempty": {
+      "message": "Δεν υπάρχουν αρχεία"
+   },
+   "extTITLE": {
+      "message": ""
+   },
+   "extTK": {
+      "message": "Πλήκτρο Ενεργοποίησης"
+   },
+   "extTOMS": {
+      "message": "Μετάφραση στις επιλογές ποντικιού"
+   },
+   "extTR_op": {
+      "message": "Επιλογές μετάφρασης"
+   },
+   "extTTS_Limit": {
+      "message": "Η λειτουργία ομιλίας περιορίζεται σε 100 χαρακτήρες"
+   },
+   "extTrButton": {
+      "message": "Μετάφραση"
+   },
+   "extTrHist": {
+      "message": "Ιστορία Μετάφρασης"
+   },
+   "extTrLimit": {
+      "message": "(έως XXX χαρακτήρες)"
+   },
+   "extTranslating": {
+      "message": "Μετάφραση σε εξέλιξη"
+   },
+   "extUnPin_ttl": {
+      "message": "Ξε-καρφιτσώστε το αναδυόμενο παράθυρο"
+   },
+   "extUndoSplit": {
+      "message": "Αναίρεση διαχωρισμού"
+   },
+   "extUseHK": {
+      "message": "Χρήση πλήκτρων: Ctrl, Alt, Shift, A-Z, 0-9"
+   },
+   "extWPTalert1": {
+      "message": "Οι σελίδες https δεν μπορούν να μεταφραστούν για λόγους ασφαλείας."
+   },
+   "extWPTalert2": {
+      "message": "Αυτή η σελίδα δεν μπορεί να μεταφραστεί για λόγους ασφαλείας."
+   },
+   "extWpTH": {
+      "message": "Ενεργοποίηση ιστορικού μετάφρασης"
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "目的は、各ステージを矩形ブロックタンブル、最後に四角い穴に堆積することである。"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Bloxorzブロックパズル"
+   }
+}

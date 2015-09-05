@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Celem jest walić prostokątnego bloku na każdym etapie i złożenia go do kwadratowego otworu na końcu."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Bloxorz Zablokuj Puzzle"
+   }
+}

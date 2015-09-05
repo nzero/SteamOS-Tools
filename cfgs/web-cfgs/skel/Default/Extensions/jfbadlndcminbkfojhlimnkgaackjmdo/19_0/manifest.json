@@ -1,0 +1,21 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "main.js" ]
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "128.png",
+      "16": "favicon.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChmhiGHCEd1QJRzmYm1yseK0VuKttQZGX60HA8NwulEpEiDO0YtetFLiZDnUojHMje6Jr4DSjTPtgA9qDxUkgl+DSweZEv7r8Mbo6z2ilu9zEcXhvQIKLdfPWfqKJLJ6hGj9p04kWMR3MRnAPEZ/WH/UEhBZBMU0NYlDeaWq/EoQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "23",
+   "name": "__MSG_appName__",
+   "offline_enabled": true,
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "19"
+}

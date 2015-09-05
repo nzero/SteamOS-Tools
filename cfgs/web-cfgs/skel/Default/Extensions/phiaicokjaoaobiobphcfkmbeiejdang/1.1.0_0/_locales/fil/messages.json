@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Ang layunin ay upang bumali-baligtad ng isang hugis-parihaba bloke sa bawat hakbang at magdeposito ito sa parisukat na butas sa dulo"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Bloxorz Block Puzzle"
+   }
+}

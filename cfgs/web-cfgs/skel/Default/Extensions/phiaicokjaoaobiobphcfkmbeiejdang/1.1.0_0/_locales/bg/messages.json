@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Целта е да падам правоъгълен блок през всеки етап и да го депозира в квадратна дупка в края."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Bloxorz блок пъзел"
+   }
+}

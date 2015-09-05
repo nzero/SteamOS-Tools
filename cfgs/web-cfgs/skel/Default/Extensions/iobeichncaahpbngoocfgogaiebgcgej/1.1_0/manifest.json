@@ -1,0 +1,18 @@
+{
+   "content_scripts": [ {
+      "exclude_globs": [  ],
+      "include_globs": [ "http://www.reddit.com/r/*" ],
+      "js": [ "jquery.min.js", "jquery.mousewheel.js", "threaddit.greasemonkey.user.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "converted_from_user_script": true,
+   "description": "Slide past whole (unwanted) threads, mass upvote good ones, automated \"load more\" comments, and more (smallmeans.com/threaddit)",
+   "icons": {
+      "16": "reddit-16.png",
+      "48": "reddit-482.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDeOh/b3vD2k8C3kq0ONLHcRErfxfPnLcRqZ1B+2lpl4nlnTzsX8JJYiyGhPn2+MidjHqu7SyLGnaukqtx//CwExt+jsyhyWU3RDePPwqbFbGuGyaGkMR04JDH90qInP6d+viNDva/4QINvPO12k6QqvIrpkHio0FHC+/tuZfjeOwIDAQAB",
+   "name": "Threaddit (thread tool for reddit.com)",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}

@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Mērķis ir, lai veļas taisnstūra bloku ar katru posmu un noguldīt uz kvadrātveida caurums beigās."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Bloxorz Block Puzzle"
+   }
+}

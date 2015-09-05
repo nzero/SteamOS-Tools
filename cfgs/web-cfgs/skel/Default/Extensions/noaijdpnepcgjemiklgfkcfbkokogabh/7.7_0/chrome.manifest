@@ -1,0 +1,9 @@
+content   imtranslator   	       content/     contentaccessible=yes
+skin      imtranslator   classic/1.0   skin/        
+sys   	  imtranslator 		       sys/
+
+overlay   chrome://browser/content/browser.xul    chrome://imtranslator/content/imtranslatorOverlay.xul
+style chrome://global/content/customizeToolbar.xul chrome://imtranslator/skin/imtranslator.css
+
+style chrome://browser/content/browser.xul chrome://imtranslator/skin/imtranslator.css
+style chrome://messenger/content/mailWindowOverlay.xul chrome://imtranslator/skin/imtranslator.css

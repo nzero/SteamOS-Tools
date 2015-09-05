@@ -1,0 +1,27 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "jquery-1.8.0.min.js", "selectAll.js" ],
+      "matches": [ "http://www.facebook.com/*", "https://www.facebook.com/*" ]
+   } ],
+   "content_security_policy": "script-src 'self' https://apis.google.com; object-src 'self'",
+   "description": "The easiest way to invite all your Facebook friends to an event or to like your Facebook page! Adds the missing invite all button.",
+   "icons": {
+      "128": "icon-128.png",
+      "16": "icon-16.png",
+      "48": "icon-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDTwB9b+EMbGnrrWvkU8FVuptp7lmWs3HBzxvP5pEZfz+/5766rd0iyFfMPdal1PN9FzDR2mYHBuMtCRs+qluSbkNDf6YyDIhZVWcgf+PCN1lLi9x87IkNsCyecRttyyrUhPDTdbfh1vVkgIg9Nv/DC+Dpul7slONfBcGBHMaAE/wIDAQAB",
+   "manifest_version": 2,
+   "name": "Invite All (for Facebook)",
+   "page_action": {
+      "default_icon": "icon-128.png",
+      "default_popup": "message.html",
+      "default_title": "Invite all friends"
+   },
+   "permissions": [ "tabs", "http://www.facebook.com/*", "https://www.facebook.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.30"
+}

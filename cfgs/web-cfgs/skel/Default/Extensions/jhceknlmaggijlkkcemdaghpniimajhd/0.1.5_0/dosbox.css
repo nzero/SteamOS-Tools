@@ -1,0 +1,49 @@
+/* Copyright (C) 2013 Che-Liang Chiou. */
+
+body {
+  margin: 0;
+  background-color: #000000;
+  min-width: 660px;
+  min-height: 430px;
+}
+
+#nacl-module-container {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  min-width: 640px;
+  min-height: 400px;
+}
+
+#nacl-module {
+  min-width: 640px;
+  min-height: 400px;
+}
+
+#log {
+  position: absolute;
+  left: 10px;
+  bottom: 0px;
+  font-size: 16px;
+  color: #ffd700;
+}
+
+#config {
+  position: absolute;
+  right: 10px;
+  bottom: 2px;
+}
+
+.config-style {
+  font-size: 14px;
+  color: #ffd700;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.button:hover {
+  background-color: #0000ff;
+}

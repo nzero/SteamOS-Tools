@@ -1,0 +1,19 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "main.js" ]
+      }
+   },
+   "icons": {
+      "128": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhSyABXQ8uIPMQKwlHOVXWL3VPxucpr3GTfsanZKkU9jc4kS6HC42HpkuSmhFOTiuvnXBFz3KCxnHA3bFS3yT4L48zLD4SOizceoyt4g3X+2kOa+LOYRr0p8ae9fmV6/tnoKKexgwR26f3x06qlAZ12NrEKi1KfsRCbypTcA/5uzdkokeQ3Y4MzXeefLnXbLJd/fNmwFN4pARZBfZ2TJnEocHfuVzkY4Zp7cCLfDBE4dwbHPOVlqazRv36/NMmpXrqxEqj3Wf8xtuUBRE+7UY7kun/JDpbDRpRuxrS8H2nARE0AxaFNzZ6GSmwhaKZjZFvtLEFxqmnSZP3tZR8v3+hwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "28",
+   "name": "Facebook-App",
+   "permissions": [ "webview", "management", "tabs", "http://*/*", "https://*/*", {
+      "fileSystem": [ "write", "retainEntries" ]
+   }, "storage", "cookies", "fileBrowserHandler", "downloads", "fileBrowserHandler", "contentSettings", "sessions", "system.display", "fullscreen" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.5"
+}

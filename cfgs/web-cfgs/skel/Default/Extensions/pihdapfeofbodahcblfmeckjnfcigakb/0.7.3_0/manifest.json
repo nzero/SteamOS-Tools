@@ -1,0 +1,23 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "chrome-app.js" ]
+      }
+   },
+   "description": "A read-only, web-enabled version of KeePass",
+   "icons": {
+      "128": "icon-128.png",
+      "16": "icon-16.png",
+      "48": "icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjXoXcF8ytmK4D91vNCcjVCMfxwkELiMaDDAerhIfXHQQycWlyVDypY8sBy/6xilJ6kc/rZBYOYLiV2yxYIQnCG77DQteppvtwGVodmwcNFfN/i7OOnuHCuejhotRIyoFyKzKvypq2Mpy79qcNaX0IbVPgRetTcD+9H6tTOS+XyMlHENtQvtY/dqVNg2QlvA4HxHI0Us4VilCMa/qB/duw4d2zbkPC0twmlW03wlbmT4g6cyhNzwxxDLGg9SzNmaIhuFkQ9YHLzZuyeRu340P9PbesFs9R5Nl1yzoAbjpBWgwE5rMRb76b3bEYB73gYIBI4j7TwS+K7930JENXYg4lQIDAQAB",
+   "manifest_version": 2,
+   "name": "BrowsePass",
+   "oauth2": {
+      "client_id": "595395511986-papjag05ej3ailoqqoj01lfhvfvsf5pe.apps.googleusercontent.com",
+      "scopes": [ "https://www.googleapis.com/auth/drive.readonly" ]
+   },
+   "permissions": [ "identity", "http://*/", "https://*/", "ftp://*/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.7.3"
+}

@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "L&#39;objectif est de secouer un bloc rectangulaire à chaque étape et le déposer dans le trou carré à la fin."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Bloxorz Block Puzzle"
+   }
+}

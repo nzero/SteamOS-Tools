@@ -1,0 +1,347 @@
+{
+   "extABW": {
+      "message": "शब्द के हिसाब से संरेखित करें"
+   },
+   "extAllRecords": {
+      "message": "सभी रिकॉर्ड"
+   },
+   "extAppearance": {
+      "message": "दिखावट"
+   },
+   "extBackTrans": {
+      "message": "वापस अनुवाद"
+   },
+   "extBblTH": {
+      "message": "अनुवाद इतिहास सक्षम करें"
+   },
+   "extCMMouseOverTransTo": {
+      "message": "माउसओवर इसमें अनुवाद करें"
+   },
+   "extCMTransPageTo": {
+      "message": "इस पृष्ठ को इसमें अनुवाद करें"
+   },
+   "extCMTransSel": {
+      "message": "इसमें अनुवाद करें"
+   },
+   "extCMTransTo": {
+      "message": "इसमें अनुवाद"
+   },
+   "extCMcl": {
+      "message": "भाषा बदलें"
+   },
+   "extCMct": {
+      "message": "अनुवाद हटाएं"
+   },
+   "extCMsot": {
+      "message": "मूल पाठ को दिखाएं"
+   },
+   "extChFS": {
+      "message": "फ़ॉन्ट आकार"
+   },
+   "extChTrApp": {
+      "message": "अनुवाद एप्लीकेशन चुनें:"
+   },
+   "extClearTH": {
+      "message": "इतिहास हटाएं"
+   },
+   "extClearText": {
+      "message": "पाठ हटाएं"
+   },
+   "extClearTr": {
+      "message": "अनुवाद हटाएं"
+   },
+   "extClose": {
+      "message": "बंद करें"
+   },
+   "extCollapse": {
+      "message": "संकुचित करें"
+   },
+   "extColor": {
+      "message": "रंग"
+   },
+   "extCompare": {
+      "message": "अनुवाद की तुलना करें"
+   },
+   "extContinue": {
+      "message": "जारी रखें"
+   },
+   "extContribution_ttl": {
+      "message": "एक छोटा सा योगदान करें"
+   },
+   "extCopyText": {
+      "message": "पाठ कॉपी करें"
+   },
+   "extCopy_ttl": {
+      "message": "अनुवाद की कॉपी करें"
+   },
+   "extDelRecord": {
+      "message": "रिकॉर्ड हटाएं"
+   },
+   "extDelete": {
+      "message": "हटाएं"
+   },
+   "extDescription": {
+      "message": "अनुवादक, शब्दकोश, वॉयस"
+   },
+   "extDetSoLaAu": {
+      "message": "स्वचालित स्रोत भाषा पहचानना"
+   },
+   "extDetect_language_from_box": {
+      "message": "भाषा पहचानें"
+   },
+   "extDetected": {
+      "message": "पहचानी गई:"
+   },
+   "extDetectedEn": {
+      "message": "पहचानी गई: अंग्रेजी"
+   },
+   "extDictionary": {
+      "message": "शब्दकोश"
+   },
+   "extDisabled": {
+      "message": "स्रोत भाषा को यदि 'भाषा पहचानें' के लिए सेट किया गया है, तो यह फंक्शन कार्य नहीं करेगा"
+   },
+   "extDoYou": {
+      "message": "क्या आप वाकई अनुवाद इतिहास हटाना चाहते हैं?"
+   },
+   "extEIB": {
+      "message": "कोष्ठक में दिखाएं"
+   },
+   "extEnTH": {
+      "message": "अनुवाद इतिहास सक्षम करें"
+   },
+   "extEnable": {
+      "message": "सक्षम करें"
+   },
+   "extEnable_Dict": {
+      "message": "शब्दकोश सक्षम करें"
+   },
+   "extEnterHK": {
+      "message": "हॉटकी दर्ज करें"
+   },
+   "extError1": {
+      "message": "ब्राउज़र खराब हो गया"
+   },
+   "extError2": {
+      "message": "त्रुटि"
+   },
+   "extExpand": {
+      "message": "विस्तार करें"
+   },
+   "extExportTH": {
+      "message": "निर्यात अनुवाद"
+   },
+   "extFS_large": {
+      "message": "बड़ा"
+   },
+   "extFS_small": {
+      "message": "छोटा"
+   },
+   "extFeedback": {
+      "message": "प्रतिक्रिया"
+   },
+   "extFeedback_ttl": {
+      "message": "प्रतिक्रिया"
+   },
+   "extFont_Size_ttl": {
+      "message": "फ़ॉन्ट आकार"
+   },
+   "extHKconflict": {
+      "message": "हॉटकीज़ में आपस में संघर्ष है"
+   },
+   "extHO": {
+      "message": "मूल छिपाएं"
+   },
+   "extHelp": {
+      "message": "सहायता"
+   },
+   "extHelp_ttl": {
+      "message": "सहायता"
+   },
+   "extHistory": {
+      "message": "इतिहास"
+   },
+   "extHistory_ttl": {
+      "message": "अनुवाद इतिहास"
+   },
+   "extHotKeys": {
+      "message": "हॉटकीज़"
+   },
+   "extIBO": {
+      "message": "मूल से पहले डालें"
+   },
+   "extIGetIt": {
+      "message": "मैं समझ गया"
+   },
+   "extInTH": {
+      "message": "अनुवाद इतिहास सक्षम करें"
+   },
+   "extInlineLimit": {
+      "message": "एक बार में XXX खंडों तक सीमित"
+   },
+   "extInvTr": {
+      "message": "अनुवादक आमंत्रित करें"
+   },
+   "extLB": {
+      "message": "लाइन ब्रेक"
+   },
+   "extLPNotSupported": {
+      "message": "XXX-YYY भाषा जोड़ी समर्थित नहीं है"
+   },
+   "extLanguages": {
+      "message": "en:अंग्रेजी,az:अज़रबैजानी,af:अफ्रीकांस,ar:अरबी,hy:अर्मीनियाई,sq:अल्बेनियन,is:आइसलैण्डी,ga:आयरिश,ig:इग्बो,it:इतालवी,id:इंडोनेशियन,uz:उज़्बेक,ur:उर्दू,et:ऍस्टोनी,eo:एस्पेरांतो,kk:कज़ाख़,kn:कन्नड़,ca:कैटालैन,ko:कोरियाई,hr:क्रोशियाई,km:खमेर,gu:गुजराती,gl:गैलिशियन,ny:चिचेवा,zh-CN:चीनी(पारंपरिक),zh-TW:चीनी(सरल),cs:चैक,de:जर्मन,ja:जापानी,jw:जावाई,zu:ज़ुलु,ka:जॉर्जियाई,tl:टॅगलॉग,nl:डच,da:डैनिश,ta:तमिल,tg:ताजिक,tr:तुर्की,te:तेलुगु,th:थाई,no:नॉर्वेजियन,ne:नेपाली,pa:पंजाबी,pt:पुर्तगाली,pl:पोलिश,fa:पर्शियन्,fi:फिनिश,fr:फ्रांसीसी,my:बर्मी,bg:बुल्गेरियन,bn:बंगाली,eu:बास्क,be:बेलारूसी,bs:बोस्नियाई,mk:मकदूनियाई,mn:मङ्गोलियाई,mr:मराठी,ms:मलय,ml:मलयालम,mi:माऔरी,mt:माल्टीज,mg:मेलागासी,yi:यिडिश,uk:यूक्रेनियन,el:यूनानी,yo:योरुबा,ru:रूसी,ro:रोमानियन,lo:लाओ,lt:लिथुआनियन,lv:लैटवियन,la:लैटिन,vi:वियतनामी,cy:वेल्श,si:सिंहला,su:सुंडानी,ceb:सेबुआनो,st:सेसोथो,so:सोमाली,es:स्पेनी,sr:सर्बियन,sl:स्लोवेनियन,sk:स्लोवैक,sw:स्वाहिली,sv:स्वीडिश,hu:हंगरियन,hmn:हमॉन्ग,ht:हाईटियन क्रियोल,hi:हिंदी,iw:हेब्रियू,ha:होउसा"
+   },
+   "extLanguagesNew": {
+      "message": "un:Unknown"
+   },
+   "extListen": {
+      "message": "सुनें"
+   },
+   "extListenTo": {
+      "message": "इसे सुनें"
+   },
+   "extListen_ttl": {
+      "message": "सुनें"
+   },
+   "extLock_in_language": {
+      "message": "भाषा लॉक करें"
+   },
+   "extMOT": {
+      "message": "माउस अनुवाद पर ले जाएं"
+   },
+   "extName": {
+      "message": "ImTranslator: अनुवादक, शब्दकोश, वॉयस"
+   },
+   "extNoTHtoExport": {
+      "message": "अनुवाद का कोई रिकॉर्ड नहीं"
+   },
+   "extNo_Text": {
+      "message": "पाठ दर्ज करें"
+   },
+   "extNo_TextCompare": {
+      "message": "XXX-YYY भाषा जोड़ी तुलना के लिए उपलब्ध नहीं है"
+   },
+   "extNo_Voice": {
+      "message": "यह ध्वनि उपलब्ध नहीं है"
+   },
+   "extNotDict": {
+      "message": "ImTranslator शब्दकोश XXX-YYY भाषा जोड़ी का समर्थन नहीं करता है"
+   },
+   "extNot_available": {
+      "message": "शब्दकोश के लिए उपलब्ध नहीं है"
+   },
+   "extOk": {
+      "message": "OK"
+   },
+   "extOptions": {
+      "message": "विकल्प"
+   },
+   "extOptions_ttl": {
+      "message": "विकल्प दिखाएं"
+   },
+   "extOriginalText": {
+      "message": "मूल पाठ"
+   },
+   "extPin_ttl": {
+      "message": "पॉप-अप विंडो पिन करें"
+   },
+   "extPowered": {
+      "message": ""
+   },
+   "extPrivacy": {
+      "message": "गोपनीयता: आपका अनुवाद इतिहास आपकी हार्ड ड्राइव पर संग्रहीत किया जाता है। यह निजी और गोपनीय रहेगा"
+   },
+   "extResByChrome": {
+      "message": " क्रोम द्वारा आरक्षित"
+   },
+   "extResTrans": {
+      "message": "अनुवाद"
+   },
+   "extSLBG_op": {
+      "message": "भाषा विकल्प"
+   },
+   "extSL_setLS4allTr": {
+      "message": "सभी अनुवादकों के लिए एक ही भाषा सेटिंग"
+   },
+   "extSTB": {
+      "message": "अनुवादक बटन दिखाएं"
+   },
+   "extS_T_L_diff": {
+      "message": "स्रोत भाषा और लक्ष्य भाषा भिन्न होनी चाहिए"
+   },
+   "extSaveButton": {
+      "message": "सहेजें"
+   },
+   "extSaveHK": {
+      "message": "सहेजें"
+   },
+   "extSeSo": {
+      "message": "स्रोत भाषा"
+   },
+   "extSeTa": {
+      "message": "लक्ष्य भाषा"
+   },
+   "extSearch": {
+      "message": "खोजें"
+   },
+   "extSeeSource": {
+      "message": "स्रोत देखें"
+   },
+   "extShowBW": {
+      "message": "वापस अनुवाद की विंडो दिखाएं"
+   },
+   "extSplit": {
+      "message": "वाक्य द्वारा विभाजित करें"
+   },
+   "extSwitch_languages_ttl": {
+      "message": "भाषा बदलें"
+   },
+   "extTHempty": {
+      "message": "कोई रिकॉर्ड नहीं"
+   },
+   "extTITLE": {
+      "message": ""
+   },
+   "extTK": {
+      "message": "ट्रिगर की (कुंजी)"
+   },
+   "extTOMS": {
+      "message": "माउस चयन पर अनुवाद करें"
+   },
+   "extTR_op": {
+      "message": "अनुवाद विकल्प"
+   },
+   "extTTS_Limit": {
+      "message": "स्पीच फंक्शन (ध्वनि कार्यात्मकता) 100 वर्णों तक सीमित है"
+   },
+   "extTrButton": {
+      "message": "अनुवाद करें"
+   },
+   "extTrHist": {
+      "message": "अनुवाद इतिहास"
+   },
+   "extTrLimit": {
+      "message": "(XXX वर्ण तक)"
+   },
+   "extTranslating": {
+      "message": "अनुवाद कर रहा है"
+   },
+   "extUnPin_ttl": {
+      "message": "पॉप-अप विंडो अनपिन करें"
+   },
+   "extUndoSplit": {
+      "message": "विभाजन पूर्ववत करें"
+   },
+   "extUseHK": {
+      "message": "इसका प्रयोग करें: कंट्रोल, ऑल्ट, शिफ्ट, ए-ज़ेड, 0-9 कीज़"
+   },
+   "extWPTalert1": {
+      "message": "https पृष्ठों का सुरक्षा कारणों से अनुवाद नहीं किया जा सकता है।"
+   },
+   "extWPTalert2": {
+      "message": "इस पृष्ठ का सुरक्षा कारणों से अनुवाद नहीं किया जा सकता है।"
+   },
+   "extWpTH": {
+      "message": "अनुवाद इतिहास सक्षम करें"
+   }
+}

@@ -1,0 +1,19 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://megadrive-emulator.com/platform-game/sonic-the-hedgehog"
+      },
+      "urls": [ "http://megadrive-emulator.com/platform-game/sonic-the-hedgehog" ]
+   },
+   "default_locale": "en",
+   "description": "Play online the original emulated abandonware of 'Sonic the Hedgehog' for the SEGA MegaDrive / Genesis.",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiXuAqEx4KszzckOT9A23p/OaD1+3JRhyZIHZWkadnDzimNP4zXV/15wyRCvGWCMhXAApw3KOeLXV8bWvDbGtXhEwZR10Pb0nTasZn1Leqev6XExI2aQD1b73sWwJorrxZxF8zJv3aLwjxqkT0ApENV3xHWIAfgZbeDju28CcD+KTMWhl2JfcShFXjoHf9fHUhJFjugtg0zeY7uX+jkCt3e74Hpra4CgtUl4fe7GU1w6XM7Q41sSj+uiB8bTjAjXj2KRmYVqvcY2oBnzydS7hSj4kBbhB53zPO78sWVmAJm9l9E1Czib/Jgqozl0ZUJBrlcBIS+b/HerFEWRc+nRJKwIDAQAB",
+   "manifest_version": 2,
+   "name": "Sonic the Hedgehog - online emulator",
+   "permissions": [ "unlimitedStorage", "notifications" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3"
+}

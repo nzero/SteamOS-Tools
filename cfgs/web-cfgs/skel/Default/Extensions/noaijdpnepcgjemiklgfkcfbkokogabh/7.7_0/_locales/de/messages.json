@@ -1,0 +1,347 @@
+{
+   "extABW": {
+      "message": "für Wort ausrichten"
+   },
+   "extAllRecords": {
+      "message": "alle Datensätze"
+   },
+   "extAppearance": {
+      "message": "Erscheinungsbild"
+   },
+   "extBackTrans": {
+      "message": "Rückseiteübersetzung"
+   },
+   "extBblTH": {
+      "message": "Übersetzungsverlauf aktivieren"
+   },
+   "extCMMouseOverTransTo": {
+      "message": "Mouseover-Übersetzung in"
+   },
+   "extCMTransPageTo": {
+      "message": "diese Seite übersetzen in"
+   },
+   "extCMTransSel": {
+      "message": "Übersetzen in"
+   },
+   "extCMTransTo": {
+      "message": "Übersetzung in"
+   },
+   "extCMcl": {
+      "message": "Sprache ändern"
+   },
+   "extCMct": {
+      "message": "Übersetzung löschen"
+   },
+   "extCMsot": {
+      "message": "Original anzeigen"
+   },
+   "extChFS": {
+      "message": "Schriftgröße"
+   },
+   "extChTrApp": {
+      "message": "Wählen Sie der Übersetzer:"
+   },
+   "extClearTH": {
+      "message": "löschen"
+   },
+   "extClearText": {
+      "message": "Text entfernen"
+   },
+   "extClearTr": {
+      "message": "Übersetzung entfernen"
+   },
+   "extClose": {
+      "message": "Schließen"
+   },
+   "extCollapse": {
+      "message": "Verringern"
+   },
+   "extColor": {
+      "message": "Farbe"
+   },
+   "extCompare": {
+      "message": "Übersetzungen vergleichen"
+   },
+   "extContinue": {
+      "message": "Fortsetzen"
+   },
+   "extContribution_ttl": {
+      "message": "Beitrag leisten"
+   },
+   "extCopyText": {
+      "message": "Text kopieren"
+   },
+   "extCopy_ttl": {
+      "message": "Kopieren"
+   },
+   "extDelRecord": {
+      "message": "Datensatz löschen"
+   },
+   "extDelete": {
+      "message": "Löschen"
+   },
+   "extDescription": {
+      "message": "Übersetzer, Wörterbuch, Sprach"
+   },
+   "extDetSoLaAu": {
+      "message": "Ausgangssprache automatisch erkennen"
+   },
+   "extDetect_language_from_box": {
+      "message": "Sprache erkennen"
+   },
+   "extDetected": {
+      "message": "Erkannt:"
+   },
+   "extDetectedEn": {
+      "message": "Erkannt: Englisch"
+   },
+   "extDictionary": {
+      "message": "Wörterbuch"
+   },
+   "extDisabled": {
+      "message": "Wenn die Ausgangssprache auf 'Sprache erkennen' ist, diese Funktion ist nicht verfügbar."
+   },
+   "extDoYou": {
+      "message": "Wollen Sie die Übersetzung-Verlauf löschen?"
+   },
+   "extEIB": {
+      "message": "in Klammern angeben"
+   },
+   "extEnTH": {
+      "message": "Übersetzungsverlauf aktivieren"
+   },
+   "extEnable": {
+      "message": "Aktivieren"
+   },
+   "extEnable_Dict": {
+      "message": "Wörterbuch aktivieren"
+   },
+   "extEnterHK": {
+      "message": "Setzen Sie die Taste ein"
+   },
+   "extError1": {
+      "message": "fehlerhafte Browser"
+   },
+   "extError2": {
+      "message": "Fehler"
+   },
+   "extExpand": {
+      "message": "Erweitern"
+   },
+   "extExportTH": {
+      "message": "Export-Geschichte"
+   },
+   "extFS_large": {
+      "message": "Groß"
+   },
+   "extFS_small": {
+      "message": "Klein"
+   },
+   "extFeedback": {
+      "message": "Rückkopplung"
+   },
+   "extFeedback_ttl": {
+      "message": "Rückkoppelung"
+   },
+   "extFont_Size_ttl": {
+      "message": "Schriftgröße"
+   },
+   "extHKconflict": {
+      "message": "Tastenkombinationen im Konflikt"
+   },
+   "extHO": {
+      "message": "Original ausblenden"
+   },
+   "extHelp": {
+      "message": "Hilfe"
+   },
+   "extHelp_ttl": {
+      "message": "ImTranslator Hilfe"
+   },
+   "extHistory": {
+      "message": "Geschichte"
+   },
+   "extHistory_ttl": {
+      "message": "Übersetzungsverlauf"
+   },
+   "extHotKeys": {
+      "message": "Kurztaste"
+   },
+   "extIBO": {
+      "message": "Legen vor dem Originaltext"
+   },
+   "extIGetIt": {
+      "message": "Verstehe"
+   },
+   "extInTH": {
+      "message": "Übersetzungsverlauf aktivieren"
+   },
+   "extInlineLimit": {
+      "message": "Limitiert auf XXX Segmente"
+   },
+   "extInvTr": {
+      "message": "Übersetzer rufen"
+   },
+   "extLB": {
+      "message": "Zeilenumbruch"
+   },
+   "extLPNotSupported": {
+      "message": "Die Sprachpaar XXX-YYY wird nicht unterstützt."
+   },
+   "extLanguages": {
+      "message": "af:Afrikaans,sq:Albanisch,ar:Arabisch,hy:Armenisch,az:Aserbaidschanisch,eu:Baskisch,bn:Bengalisch,bs:Bosnisch,bg:Bulgarisch,my:Burmesisch,ceb:Cebuano,ny:Chichewa,zh-CN:Chinesisch (trad),zh-TW:Chinesisch (ver),da:Dänisch,de:Deutsch,en:Englisch,eo:Esperanto,et:Estnisch,fi:Finnisch,fr:Französisch,gl:Galizisch,ka:Georgisch,el:Griechisch,gu:Gujarati,ht:Haitianisch,ha:Hausa,iw:Hebräisch,hi:Hindi,hmn:Hmong,ig:Igbo,id:Indonesisch,ga:Irisch,is:Isländisch,it:Italienisch,ja:Japanisch,jw:Javanesisch,yi:Jiddisch,kn:Kannada,kk:Kasachisch,ca:Katalanisch,km:Khmer,ko:Koreanisch,hr:Kroatisch,lo:Lao,la:Lateinish,lv:Lettisch,lt:Litauisch,ml:Malabarisch,mg:Malagasy,ms:Malaysisch,mt:Maltesisch,mi:Maori,mr:Marathisch,mk:Mazedonisch,mn:Mongolisch,ne:Nepalesisch,nl:Niederländisch,no:Norwegisch,fa:Persisch,pl:Polnisch,pt:Portugiesisch,pa:Punjabi,ro:Rumänisch,ru:Russisch,sv:Schwedisch,sr:Serbisch,st:Sesotho,si:Singhalesisch,sk:Slowakisch,sl:Slowenisch,so:Somali,es:Spanisch,sw:Suaheli,su:Sundanesisch,tg:Tadschikisch,tl:Tagalog,ta:Tamil,te:Telugu,th:Thailändisch,cs:Tschechisch,tr:Türkisch,uk:Ukrainisch,hu:Ungarisch,ur:Urdu,uz:Uzbekisch,vi:Vietnamesisch,cy:Walisisch,be:Weißrussisch,yo:Yoruba,zu:Zulu"
+   },
+   "extLanguagesNew": {
+      "message": "un:Unknown"
+   },
+   "extListen": {
+      "message": "Zuhören"
+   },
+   "extListenTo": {
+      "message": "Zuhören"
+   },
+   "extListen_ttl": {
+      "message": "Zuhören"
+   },
+   "extLock_in_language": {
+      "message": "Sprache sichern"
+   },
+   "extMOT": {
+      "message": "Mauszeiger über Übersetzung "
+   },
+   "extName": {
+      "message": "ImTranslator: Übersetzer, Wörterbuch, Sprach"
+   },
+   "extNoTHtoExport": {
+      "message": "keine Übersetzungsgeschichte"
+   },
+   "extNo_Text": {
+      "message": "Geben Sie Text ein"
+   },
+   "extNo_TextCompare": {
+      "message": "Die Übersetzung XXX-YYY kann nicht verglichen werden."
+   },
+   "extNo_Voice": {
+      "message": "Diese Stimme ist nicht verfügbar"
+   },
+   "extNotDict": {
+      "message": "Wörterbuch unterstützt keine XXX-YYY Sprachenpaar."
+   },
+   "extNot_available": {
+      "message": "Nicht verfügbar für Wörterbuch"
+   },
+   "extOk": {
+      "message": "OK"
+   },
+   "extOptions": {
+      "message": "Optionen"
+   },
+   "extOptions_ttl": {
+      "message": "Optionen anzeigen"
+   },
+   "extOriginalText": {
+      "message": "Originaltext"
+   },
+   "extPin_ttl": {
+      "message": "Pop-up-Übersetzer nageln"
+   },
+   "extPowered": {
+      "message": ""
+   },
+   "extPrivacy": {
+      "message": "Datenschutz: Ihre Übersetzung Geschichte wird auf Ihrer Festplatte gespeichert. Es wird privat und vertraulich bleiben."
+   },
+   "extResByChrome": {
+      "message": " Chrome vorbehalten"
+   },
+   "extResTrans": {
+      "message": "Übersetzung"
+   },
+   "extSLBG_op": {
+      "message": "Sprachoptionen"
+   },
+   "extSL_setLS4allTr": {
+      "message": "Gleichen Optionen für alle Übersetzer"
+   },
+   "extSTB": {
+      "message": "Schaltfläche ImTranslator anzeigen"
+   },
+   "extS_T_L_diff": {
+      "message": "Ausgangssprache und Zielsprache müssen verschieden sein"
+   },
+   "extSaveButton": {
+      "message": "Speichern"
+   },
+   "extSaveHK": {
+      "message": "Speichern"
+   },
+   "extSeSo": {
+      "message": "Ausgangssprache"
+   },
+   "extSeTa": {
+      "message": "Zielsprache"
+   },
+   "extSearch": {
+      "message": "Suchen"
+   },
+   "extSeeSource": {
+      "message": "Internetseite"
+   },
+   "extShowBW": {
+      "message": "Rückübersetzung anzeigen"
+   },
+   "extSplit": {
+      "message": "Aufschlüsselung nach Vorschlägen"
+   },
+   "extSwitch_languages_ttl": {
+      "message": "Sprachen umschalten"
+   },
+   "extTHempty": {
+      "message": "Übersetzungsverlauf ist leer"
+   },
+   "extTITLE": {
+      "message": ""
+   },
+   "extTK": {
+      "message": "Auslöserschlüssel"
+   },
+   "extTOMS": {
+      "message": "Übersetzung der ausgewählten Texte"
+   },
+   "extTR_op": {
+      "message": "Übersetzungsoptionen"
+   },
+   "extTTS_Limit": {
+      "message": "Die Sound-Funktion ist auf 100 Zeichen begrenzt"
+   },
+   "extTrButton": {
+      "message": "Übersetzen"
+   },
+   "extTrHist": {
+      "message": "Übersetzungsverlauf"
+   },
+   "extTrLimit": {
+      "message": "(bis zu XXX Zeichen)"
+   },
+   "extTranslating": {
+      "message": "Übersetzung im Gange"
+   },
+   "extUnPin_ttl": {
+      "message": "Pop-up-Übersetzer entriegeln"
+   },
+   "extUndoSplit": {
+      "message": "Aufschlüsselung annulieren "
+   },
+   "extUseHK": {
+      "message": "Tasten zu verwenden: Ctrl, Alt, Shift, A-Z, 0-9"
+   },
+   "extWPTalert1": {
+      "message": "Die Übersetzung der HTTPS-Seiten wird nicht unterstützt."
+   },
+   "extWPTalert2": {
+      "message": "Diese Seite kann aus Sicherheitsgründen nicht übersetzt werden."
+   },
+   "extWpTH": {
+      "message": "Übersetzungsverlauf aktivieren"
+   }
+}

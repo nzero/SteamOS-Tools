@@ -1,0 +1,9 @@
+﻿/*
+ * This file is protected by automatic plagiarism detection services and duplication checkers.
+ * Content theft and plagiarism is a crime. Any content theft and plagiarism, without exception, 
+ * will be prosecuted to the full extent of applicable laws.
+ *
+ * Copyright 2011-2014 TreeCardGames http://www.treecardgames.com
+ * All rights reserved.
+*/
+!function(){"use strict";var e="treecardgames.solitaire.",r=function(e,r,i){var o=uniStore.get(e);uniStore.remove(e),e&&uniStore.set(r,i?i(o):o)},i=function(e,r){var i=uniStore.get(e+".lastGame");i&&(uniStore.remove(e+".lastGame"),uniStore.remove(e+".bH"),uniStore.remove(e+".aY"),uniStore.remove(e+".dK"),uniStore.set(r+".lastGame",JSON.stringify({isReset:!0})))},o={cU:"soundOn",fa:"cardEffect",dI:"showMoves",ci:"showScore",dA:"showTime",bj:"autoplayMode",swingCard1:"swingCard1",useCSS3:"useCSS3"};for(var a in o)r(e+a,e+o[a]);var s={Klondike:"Klondike.3",Klondike1:"Klondike.1","Klondike.easthaven":"Klondike.easthaven","Klondike.fortythieves":"Klondike.fortythieves","Klondike.twodecks":"Klondike.twodecks","freecell.bakersgame":"freecell.bakersgame","freecell.eightoff":"freecell.eightoff","freecell.freecell":"freecell.freecell","freecell.twodecks":"freecell.twodecks","golf.golfeasy":"golf.golfeasy",golf:"golf","pyramid.0":"pyramid.0","pyramid.pyramidnormal":"pyramid.pyramidnormal",spider1:"spider.1",spider2:"spider.2",spider4:"spider.4",spiderscorpion:"spider.scorpion",spidersimplesimon:"spider.simplesimon"},t={aB:"gameWinCount",aa:"gamePlayCount",firstTime:"firstTime",hK:"del",hg:"currentStreak",ia:"longestLosingStreak",jB:"longestWinningStreak",jh:"currentStreakIsWinning","lastGame.dj":"del","lastGame.time":"lastGame.time","lastGame.cG":"del",an:"movesCount",state:"del"};for(var n in s){for(var l in t)"del"===t[l]?uniStore.remove(e+n+"."+l):r(e+n+"."+l,e+s[n]+"."+t[l]);i(e+n,e+s[n])}}();

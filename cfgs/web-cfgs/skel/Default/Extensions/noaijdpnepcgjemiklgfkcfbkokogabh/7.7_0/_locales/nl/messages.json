@@ -1,0 +1,347 @@
+{
+   "extABW": {
+      "message": "Op woord uitlijnen"
+   },
+   "extAllRecords": {
+      "message": "Alle gegevens"
+   },
+   "extAppearance": {
+      "message": "Uiterlijk"
+   },
+   "extBackTrans": {
+      "message": "Terugvertaal"
+   },
+   "extBblTH": {
+      "message": "Vertaalgeschiedenis aanzetten"
+   },
+   "extCMMouseOverTransTo": {
+      "message": "Vertaal via muisbeweging naar het"
+   },
+   "extCMTransPageTo": {
+      "message": "Vertaal deze pagina naar het"
+   },
+   "extCMTransSel": {
+      "message": "Vertaal naar het"
+   },
+   "extCMTransTo": {
+      "message": "vertaling naar het"
+   },
+   "extCMcl": {
+      "message": "Taal wijzigen"
+   },
+   "extCMct": {
+      "message": "Vertaling wissen"
+   },
+   "extCMsot": {
+      "message": "Originele tekst tonen"
+   },
+   "extChFS": {
+      "message": "Lettergrootte"
+   },
+   "extChTrApp": {
+      "message": "Kies vertalingstoepassing:"
+   },
+   "extClearTH": {
+      "message": "geschiedenis wissen"
+   },
+   "extClearText": {
+      "message": "Tekst wissen"
+   },
+   "extClearTr": {
+      "message": "Vertaling wissen"
+   },
+   "extClose": {
+      "message": "Sluiten"
+   },
+   "extCollapse": {
+      "message": "Samenvouwen"
+   },
+   "extColor": {
+      "message": "Kleur"
+   },
+   "extCompare": {
+      "message": "Vertaling vergelijken"
+   },
+   "extContinue": {
+      "message": "Voortzetten"
+   },
+   "extContribution_ttl": {
+      "message": "Draag wat bij"
+   },
+   "extCopyText": {
+      "message": "Tekst kopiëren"
+   },
+   "extCopy_ttl": {
+      "message": "Vertaling kopiëren"
+   },
+   "extDelRecord": {
+      "message": "Dossier verwijderen"
+   },
+   "extDelete": {
+      "message": "Verwijderen"
+   },
+   "extDescription": {
+      "message": "Vertaler, Woordenboek, Spraak"
+   },
+   "extDetSoLaAu": {
+      "message": "Automatische brontaalherkenning"
+   },
+   "extDetect_language_from_box": {
+      "message": "Taal herkennen"
+   },
+   "extDetected": {
+      "message": "Gedetecteerd:"
+   },
+   "extDetectedEn": {
+      "message": "Gedetecteerd: Engels"
+   },
+   "extDictionary": {
+      "message": "Woordenboek"
+   },
+   "extDisabled": {
+      "message": "Deze functie staat uitsgeschakeld als de brontaal ingesteld staat als 'Taal herkennen'"
+   },
+   "extDoYou": {
+      "message": "Weet u zeker dat u de vertaalgeschiedenis wilt verwijderen?"
+   },
+   "extEIB": {
+      "message": "Tussen haakjes tonen"
+   },
+   "extEnTH": {
+      "message": "Vertaalgeschiedenis aanzetten"
+   },
+   "extEnable": {
+      "message": "Inschakelen"
+   },
+   "extEnable_Dict": {
+      "message": "Woordenboek inschakelen"
+   },
+   "extEnterHK": {
+      "message": "Sneltoets invoeren"
+   },
+   "extError1": {
+      "message": "Browser stuk"
+   },
+   "extError2": {
+      "message": "Fout"
+   },
+   "extExpand": {
+      "message": "Uitbreiden"
+   },
+   "extExportTH": {
+      "message": "geschiedenis exporteren"
+   },
+   "extFS_large": {
+      "message": "Groot"
+   },
+   "extFS_small": {
+      "message": "Klein"
+   },
+   "extFeedback": {
+      "message": "Feedback"
+   },
+   "extFeedback_ttl": {
+      "message": "Feedback"
+   },
+   "extFont_Size_ttl": {
+      "message": "Lettergrootte"
+   },
+   "extHKconflict": {
+      "message": "Sneltoetsen zijn strijdig"
+   },
+   "extHO": {
+      "message": "Orgineel verbergen"
+   },
+   "extHelp": {
+      "message": "Help"
+   },
+   "extHelp_ttl": {
+      "message": "Help"
+   },
+   "extHistory": {
+      "message": "Geschiedenis"
+   },
+   "extHistory_ttl": {
+      "message": "Vertaalgeschiedenis"
+   },
+   "extHotKeys": {
+      "message": "Sneltoetsen"
+   },
+   "extIBO": {
+      "message": "Vóór origineel invoegen"
+   },
+   "extIGetIt": {
+      "message": "Ik snap het"
+   },
+   "extInTH": {
+      "message": "Vertaalgeschiedenis aanzetten"
+   },
+   "extInlineLimit": {
+      "message": "Beperkt tot XXX segmenten per keer"
+   },
+   "extInvTr": {
+      "message": "Beroep doen op vertaler"
+   },
+   "extLB": {
+      "message": "Regeleinde"
+   },
+   "extLPNotSupported": {
+      "message": "De talencombinatie XXX-YYY wordt niet ondersteund"
+   },
+   "extLanguages": {
+      "message": "af:Afrikaans,sq:Albanees,ar:Arabisch,hy:Armeens,az:Azerbeidzjaans,eu:Baskisch,bn:Bengaals,my:Birmaans,bs:Bosnisch,bg:Bulgaars,ca:Catalaans,ceb:Cebuano,ny:Chichewa,zh-CN:Chinees (trad),zh-TW:Chinees (ver),da:Deens,de:Duits,en:Engels,eo:Esperanto,et:Ests,fi:Fins,fr:Frans,gl:Gallicisch,ka:Georgisch,el:Grieks,gu:Gujarati,ht:Haïtiaans Creools,ha:Hausa,iw:Hebreeuws,hi:Hindoestaans,hmn:Hmong,hu:Hongaars,ga:Iers,ig:Igbo,is:IJslands,id:Indonesisch,it:Italiaans,ja:Japans,jw:Javaans,yi:Jiddisch,kn:Kannada,kk:Kazachs,km:Khmer,ko:Koreaans,hr:Kroatisch,lo:Lao,la:Latijn,lv:Lets,lt:Litouws,mk:Macedonisch,mg:Malagasi,ml:Malayalam,ms:Maleis,mt:Maltees,mi:Maori,mr:Marathi,mn:Mongools,nl:Nederlands,ne:Nepalees,no:Noors,uk:Oekraïens,uz:Oezbeeks,fa:Perzisch,pl:Pools,pt:Portugees,pa:Punjabi,ro:Roemeens,ru:Russisch,sr:Servisch,st:Sesotho,si:Sinhala,sk:Slovaaks,sl:Sloveens,su:Soedanees,so:Somalisch,es:Spaans,sw:Swahili,tg:Tadzjieks,tl:Tagalog,ta:Tamil,te:Telugu,th:Thai,cs:Tsjechisch,tr:Turks,ur:Urdu,vi:Vietnamees,cy:Wels,be:Wit-Russisch,yo:Yoruba,zu:Zoeloe,sv:Zweeds"
+   },
+   "extLanguagesNew": {
+      "message": "un:Unknown"
+   },
+   "extListen": {
+      "message": "Luisteren"
+   },
+   "extListenTo": {
+      "message": "Luisteren"
+   },
+   "extListen_ttl": {
+      "message": "Luisteren"
+   },
+   "extLock_in_language": {
+      "message": "Taal vergrendelen"
+   },
+   "extMOT": {
+      "message": "Vertaling via muisbeweging"
+   },
+   "extName": {
+      "message": "ImTranslator: Vertaler, Woordenboek, Spraak"
+   },
+   "extNoTHtoExport": {
+      "message": "Geen vertaaldossiers."
+   },
+   "extNo_Text": {
+      "message": "Tekst invoeren"
+   },
+   "extNo_TextCompare": {
+      "message": "De talencombinatie XXX-YYY is niet beschikbaar voor vergelijking"
+   },
+   "extNo_Voice": {
+      "message": "Deze stem is niet beschikbaar"
+   },
+   "extNotDict": {
+      "message": "ImTranslator Woordenboek ondersteunt de talencombinatie XXX-YYY niet"
+   },
+   "extNot_available": {
+      "message": "Niet beschikbaar voor woordenboek"
+   },
+   "extOk": {
+      "message": "OK"
+   },
+   "extOptions": {
+      "message": "Opties"
+   },
+   "extOptions_ttl": {
+      "message": "Opties tonen"
+   },
+   "extOriginalText": {
+      "message": "Originele tekst"
+   },
+   "extPin_ttl": {
+      "message": "Pop-upvenster vastpinnen"
+   },
+   "extPowered": {
+      "message": ""
+   },
+   "extPrivacy": {
+      "message": "Privacy: Uw vertaalgeschiedenis is op uw harde schijf opgeslagen. Deze blijft privé en vertrouweljk."
+   },
+   "extResByChrome": {
+      "message": " gereserveerd door Chrome"
+   },
+   "extResTrans": {
+      "message": "Vertaling"
+   },
+   "extSLBG_op": {
+      "message": "Taalopties"
+   },
+   "extSL_setLS4allTr": {
+      "message": "Dezelfde taalinstellingen voor alle vertalers"
+   },
+   "extSTB": {
+      "message": "Vertalersknop tonen"
+   },
+   "extS_T_L_diff": {
+      "message": "Brontaal en doeltaal moeten verschillend zijn"
+   },
+   "extSaveButton": {
+      "message": "Opslaan"
+   },
+   "extSaveHK": {
+      "message": "Opslaan"
+   },
+   "extSeSo": {
+      "message": "Brontaal"
+   },
+   "extSeTa": {
+      "message": "Doeltaal"
+   },
+   "extSearch": {
+      "message": "Zoeken"
+   },
+   "extSeeSource": {
+      "message": "Zie bron"
+   },
+   "extShowBW": {
+      "message": "Terugvertaalvenster tonen"
+   },
+   "extSplit": {
+      "message": "Per zin uitsplitsen"
+   },
+   "extSwitch_languages_ttl": {
+      "message": "Van taal wisselen"
+   },
+   "extTHempty": {
+      "message": "Geen gegevens"
+   },
+   "extTITLE": {
+      "message": ""
+   },
+   "extTK": {
+      "message": "Activeringstoets"
+   },
+   "extTOMS": {
+      "message": "Via muisselectie vertalen"
+   },
+   "extTR_op": {
+      "message": "Vertaalopties"
+   },
+   "extTTS_Limit": {
+      "message": "Spraakfunctielimiet is 100 tekens"
+   },
+   "extTrButton": {
+      "message": "Vertaal"
+   },
+   "extTrHist": {
+      "message": "Vertaalgeschiedenis"
+   },
+   "extTrLimit": {
+      "message": "(tot aan XXX tekens)"
+   },
+   "extTranslating": {
+      "message": "Vertaling in uitvoering"
+   },
+   "extUnPin_ttl": {
+      "message": "Pop-upvenster weer losmaken"
+   },
+   "extUndoSplit": {
+      "message": "Uitsplitsen ongedaan maken"
+   },
+   "extUseHK": {
+      "message": "Gebruik: Ctrl, Alt, Shift, A-Z, 0-9 toetsen"
+   },
+   "extWPTalert1": {
+      "message": "De https-pagina's kunnen om veiligheidsredenen niet worden vertaald."
+   },
+   "extWPTalert2": {
+      "message": "Deze pagina kan om veiligheidsredenen niet worden vertaald."
+   },
+   "extWpTH": {
+      "message": "Vertaalgeschiedenis aanzetten"
+   }
+}

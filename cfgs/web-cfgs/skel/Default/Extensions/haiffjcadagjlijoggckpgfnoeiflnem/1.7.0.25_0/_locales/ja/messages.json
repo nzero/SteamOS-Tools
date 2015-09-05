@@ -1,0 +1,397 @@
+{
+   "AppRemoved": {
+      "description": "The resource to launch no longer exists, is no longer enabled or is no longer visible to current user.",
+      "message": "起動するリソースが存在しないか、有効でないか、または現在のユーザーには表示されません。"
+   },
+   "Button_Later": {
+      "description": "Later button for Chrome Receiver Update Available notification",
+      "message": "後で"
+   },
+   "Button_Now": {
+      "description": "Now button for Chrome Receiver Update Available notification",
+      "message": "すぐに"
+   },
+   "CRA_restart_message": {
+      "description": "New CRA update Available notification message.",
+      "message": "$1 を再起動して更新します。",
+      "placeholders": {
+         "app_name": {
+            "content": "$1",
+            "example": "Citrix Receiver"
+         }
+      }
+   },
+   "CRA_update_notification": {
+      "description": "New Chrome Receiver Update Available notification",
+      "message": "$1 の新しいバージョンを利用できます。",
+      "placeholders": {
+         "app_name": {
+            "content": "$1",
+            "example": "Citrix Receiver"
+         }
+      }
+   },
+   "CR_config_applied": {
+      "description": "CRA configured using default cr file",
+      "message": "$app_name$ は現在、\"$file_name$\" を使って構成されています",
+      "placeholders": {
+         "app_name": {
+            "content": "$1",
+            "example": "Citrix Receiver"
+         },
+         "file_name": {
+            "content": "$2",
+            "example": "default.cr"
+         }
+      }
+   },
+   "CouldNotConnectToWorkstation": {
+      "description": "The server refused a connection. Currently applies to XenDesktop only.",
+      "message": "サーバーが接続を拒否しました。現在、XenDesktop にのみ適用されます。"
+   },
+   "GeneralAppLaunchError": {
+      "description": "General error that cannot be further specified.",
+      "message": "特定できない一般的なエラーです。"
+   },
+   "NoMoreActiveSessions": {
+      "description": "The user is not allowed any more active sessions. Currently applies to XenDesktop only.",
+      "message": "ユーザーはこれ以上アクティブなセッションを許可されません。現在、XenDesktop にのみ適用されます。"
+   },
+   "NotLicensed": {
+      "description": "The server does not have the required license to perform the requested activity.",
+      "message": "要求されたアクティビティを実行するために必要なライセンスがサーバーにありません。"
+   },
+   "ResourceError": {
+      "description": "General error that cannot be further specified.",
+      "message": "特定できない一般的なエラーです。"
+   },
+   "Unauthorized": {
+      "description": "The user is not logged in or authorized to access the data.",
+      "message": "ユーザーがログインしていない、またはデータへのアクセスを認証されていません。"
+   },
+   "UnavailableDesktop": {
+      "description": "No workstations are available to service this request. Currently applies to XenDesktop only.",
+      "message": "この要求を処理できるワークステーションがありません。現在、XenDesktop にのみ適用されます。"
+   },
+   "WorkstationInMaintenance": {
+      "description": "The requested workstation is in maintenance mode and cannot be used. Currently applies to XenDesktop only.",
+      "message": "要求されたワークステーションはメンテナンス モードで、使用できません。現在、XenDesktop にのみ適用されます。"
+   },
+   "account_settings": {
+      "description": "Account settings",
+      "message": "アカウント設定"
+   },
+   "account_url": {
+      "description": "Account URL label",
+      "message": "アカウント URL"
+   },
+   "add": {
+      "description": "Add",
+      "message": "追加"
+   },
+   "add_store": {
+      "description": "Adding store front url",
+      "message": "\"$sfUrl$\" により提供された\"$storeName$\"を追加しますか?",
+      "placeholders": {
+         "sfUrl": {
+            "content": "$2",
+            "example": "\u003Cip address>"
+         },
+         "storeName": {
+            "content": "$1",
+            "example": "\u003Cstore name>"
+         }
+      }
+   },
+   "apply": {
+      "description": "Apply button display value",
+      "message": "適用(Y)"
+   },
+   "beaconUnreachable": {
+      "description": "Network is present but beacons are unreachable.",
+      "message": "サーバーに接続できません。ヘルプデスクに支援を要請するか、[アカウント設定] でサーバー アドレスをチェックしてください。"
+   },
+   "cancel": {
+      "description": "Cancel",
+      "message": "キャンセル"
+   },
+   "citrix_receiver": {
+      "description": "Citrix Receiver",
+      "message": "Citrix Receiver"
+   },
+   "configure_cra": {
+      "description": "Configure chrome app",
+      "message": "$app_name$ の構成",
+      "placeholders": {
+         "app_name": {
+            "content": "Citrix Receiver"
+         }
+      }
+   },
+   "connect_URL_secure_msg": {
+      "description": "Message saying connection to a StoreFront/Web interface/Gateway url over http",
+      "message": "\"$store_url$\" に対するこの接続は保護されていません。処理は、このサーバーを信頼している場合にのみ実行する必要があります。",
+      "placeholders": {
+         "store_url": {
+            "content": "$1",
+            "example": "\u003Cip address>"
+         }
+      }
+   },
+   "connect_button": {
+      "description": "Connect button display value",
+      "message": "接続"
+   },
+   "connect_confirm": {
+      "description": "Confirm message before connecting",
+      "message": "接続してもよろしいですか?"
+   },
+   "cra": {
+      "description": "Full form of cra",
+      "message": "$app_name$ for Chrome App",
+      "placeholders": {
+         "app_name": {
+            "content": "Citrix Receiver"
+         }
+      }
+   },
+   "enumerate_res_error": {
+      "description": "Couldn't enumerate resources for the user.",
+      "message": "ユーザーのリソースを列挙できませんでした。"
+   },
+   "error": {
+      "description": "Error",
+      "message": "エラー"
+   },
+   "error_app_open": {
+      "description": "Citrix receiver could not be opened",
+      "message": "$app_name$ を開けませんでした",
+      "placeholders": {
+         "app_name": {
+            "content": "$1",
+            "example": "Citrix Receiver"
+         }
+      }
+   },
+   "error_config_fail": {
+      "description": "Configuration failed msg",
+      "message": "$app_name$ 構成は \"$crFile$\" を使用できません",
+      "placeholders": {
+         "app_name": {
+            "content": "$1",
+            "example": "Citrix Receiver"
+         },
+         "crFile": {
+            "content": "$2",
+            "example": "config.cra"
+         }
+      }
+   },
+   "error_config_fail_withError": {
+      "description": "Configuration failed message",
+      "message": "$app_name$ 構成は \"$crFile$\" を使用できません、エラー $errorMsg$",
+      "placeholders": {
+         "app_name": {
+            "content": "$1",
+            "example": "Citrix Receiver"
+         },
+         "crFile": {
+            "content": "$2",
+            "example": "config.cra"
+         },
+         "errorMsg": {
+            "content": "$3"
+         }
+      }
+   },
+   "error_file_extension": {
+      "description": "Citrix receiver not configured to open unknown file extensions",
+      "message": "$app_name$ は e$file_type$ ファイル タイプを開くように構成されていません。",
+      "placeholders": {
+         "app_name": {
+            "content": "$1",
+            "example": "Citrix Receiver"
+         },
+         "file_type": {
+            "content": "$2",
+            "example": ".xyz"
+         }
+      }
+   },
+   "error_file_open_gdrive": {
+      "description": "Error message saying files can only be opened from Google drive",
+      "message": "$app_name$ は Google Drive からのファイルのみを開くことができます。",
+      "placeholders": {
+         "app_name": {
+            "content": "$1",
+            "example": "Citrix Receiver"
+         }
+      }
+   },
+   "error_help_desk": {
+      "description": "",
+      "message": "次の情報をヘルプ デスクまでお知らせください: $1"
+   },
+   "error_incorrect_url": {
+      "description": "",
+      "message": "サーバーに接続できません。アドレスが正しく、また \"http://\" または \"https://\" が含まれているか確認してください。接続を実行できない場合は、ヘルプ デスクに支援を要請してください。"
+   },
+   "error_invalid_url": {
+      "description": "Enter valid URL.",
+      "message": "有効な URL を入力してください。"
+   },
+   "error_launch_generic": {
+      "description": "Citrix Receiver couldn't launch the session due to the error specified using errorMsg",
+      "message": "$app_name$はセッションを起動できませんでした。エラー: $errorMsg$",
+      "placeholders": {
+         "app_name": {
+            "content": "$1",
+            "example": "Citrix Receiver"
+         },
+         "errorMsg": {
+            "content": "$2",
+            "example": "The server refused a connection. Currently applies to XenDesktop only."
+         }
+      }
+   },
+   "error_network_conn": {
+      "description": "Network connection error",
+      "message": "ネットワーク接続を確認してください。\"$sfUrl$\" に到達できません",
+      "placeholders": {
+         "sfUrl": {
+            "content": "$1",
+            "example": "\u003Cip address>"
+         }
+      }
+   },
+   "error_notConfigured": {
+      "description": "",
+      "message": "$app_name$ は構成されていません。",
+      "placeholders": {
+         "app_name": {
+            "content": "$1",
+            "example": "Citrix Receiver"
+         }
+      }
+   },
+   "gatewayAddress": {
+      "description": "Gateway Address",
+      "message": "ゲートウェイ アドレス: "
+   },
+   "genericError": {
+      "description": "Generic error",
+      "message": "一般的なエラー: "
+   },
+   "information": {
+      "description": "Information",
+      "message": "情報"
+   },
+   "internal_error": {
+      "description": "Internal error",
+      "message": "内部エラー"
+   },
+   "networkUnreachable": {
+      "description": "Network is unavailable.",
+      "message": "サーバーに接続できません。ネットワークを確認して再試行してください。"
+   },
+   "network_error": {
+      "description": "Network error",
+      "message": "ネットワーク エラー"
+   },
+   "null_callback": {
+      "description": "Callback passed is null",
+      "message": "callback = null"
+   },
+   "offlinestatus": {
+      "description": ": When offline is detected and when network goes down. ",
+      "message": "ネットワークに接続できません。ネットワークが使用できるようになったらもう一度試してください。"
+   },
+   "ok_button": {
+      "description": "ok button",
+      "message": "OK"
+   },
+   "policy_applied_config_fail": {
+      "description": "CR configuration failure message when admin has configured using google policies",
+      "message": "この Receiver 構成を変更できません。管理者がReceiver を構成するポリシーを使用中です。"
+   },
+   "restart_now": {
+      "description": "Restart Citrix Receiver button text",
+      "message": "すぐに再起動"
+   },
+   "secureMsg_preference": {
+      "description": "To hide the secure connection dialog automatically from next launch onwards",
+      "message": "今後これを表示しない"
+   },
+   "settings": {
+      "description": "Settings button display value",
+      "message": "設定"
+   },
+   "store": {
+      "description": "StoreFront/Web interface/Gateway",
+      "message": "ストア"
+   },
+   "storeAddress": {
+      "description": "Store Address",
+      "message": "$store$ アドレス:",
+      "placeholders": {
+         "store": {
+            "content": "$1",
+            "example": "Store"
+         }
+      }
+   },
+   "storeName": {
+      "description": "Store Name",
+      "message": "$store$名:",
+      "placeholders": {
+         "store": {
+            "content": "$1",
+            "example": "Store"
+         }
+      }
+   },
+   "storeUnreachable": {
+      "description": "When network and beacon are reachable but store urls are unreachable",
+      "message": "サーバーに接続できません。ヘルプデスクに支援を要請するか、[アカウント設定] でサーバー アドレスをチェックしてください。"
+   },
+   "store_address": {
+      "description": "Store address label",
+      "message": "$store$ アドレス",
+      "placeholders": {
+         "store": {
+            "content": "$1",
+            "example": "Store"
+         }
+      }
+   },
+   "store_address_change": {
+      "description": "When the store address is changed in account settings page",
+      "message": "サーバー アドレスが変更されました。"
+   },
+   "store_settings_change": {
+      "description": "Changing store url in settings page",
+      "message": "すべてのウィンドウを閉じて $app_name$ を再起動した後に$store$設定が適用されます。",
+      "placeholders": {
+         "app_name": {
+            "content": "$2",
+            "example": "Citrix Receiver"
+         },
+         "store": {
+            "content": "$1",
+            "example": "Store"
+         }
+      }
+   },
+   "thirdPartyLicenses": {
+      "description": "Chrome サードパーティ製品についての通知リンク",
+      "message": "Chrome サードパーティ製品についての通知"
+   },
+   "unauthorized_user_error": {
+      "description": "User is not logged in or authorized to access the data.",
+      "message": "ユーザーがログインしていない、またはデータへのアクセスを認証されていません。"
+   },
+   "urlPlaceholder": {
+      "description": "Watermark for URL field in Preferences page",
+      "message": "https://URL"
+   }
+}

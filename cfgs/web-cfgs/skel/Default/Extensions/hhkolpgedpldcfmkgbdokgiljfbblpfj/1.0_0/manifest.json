@@ -1,0 +1,19 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://phicorb.me.uk/tunein/"
+      },
+      "urls": [ "http://phicorb.me.uk/" ]
+   },
+   "description": "Link to the TuneIn service.",
+   "icons": {
+      "128": "128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjiJXCrOgWqUsCpSK7E05e1wdKg89kj41d+7OQbZpE29jHj4tOH/zPoXxPww431hygGcn1DJgy+2BhjKRjIMNyDTtvi9yPh7AbRS0AGmHYhT2CZIYinPCe4UwDwZOLGUEYTgqq8XNJggHUZoVDbmscSEfvB5rOKGZqRm24WRW9+u6RdXR/GDbUle+rJNZv0jYSpllI8AYeUdh0P2NZhHMTXIE/EEW40WE4WNh5O+qrXfO0RExmiZU6hfKzJ0Ig8yapYv735jvVT//yvPe9RjCCMJZzEMdtxIxku0djca8YowVgX7ZIV7epjl9BOQ7GS9REk3wu82Az4jeKAS8H5HY6wIDAQAB",
+   "manifest_version": 2,
+   "name": "TuneIn Radio",
+   "permissions": [ "unlimitedStorage", "notifications" ],
+   "short_name": "TuneIn",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}

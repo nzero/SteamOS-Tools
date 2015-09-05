@@ -1,0 +1,347 @@
+{
+   "extABW": {
+      "message": "Ihanay ayon sa salita"
+   },
+   "extAllRecords": {
+      "message": "Lahat ng mga rekord"
+   },
+   "extAppearance": {
+      "message": "Anyo"
+   },
+   "extBackTrans": {
+      "message": "Ibinalik sa dating lengguwahe"
+   },
+   "extBblTH": {
+      "message": "Paganahin para magamit ang Kasaysayan"
+   },
+   "extCMMouseOverTransTo": {
+      "message": "I-mouseover ang pagkakasalin sa"
+   },
+   "extCMTransPageTo": {
+      "message": "Isalin ang pahinang ito sa"
+   },
+   "extCMTransSel": {
+      "message": "Isalin sa"
+   },
+   "extCMTransTo": {
+      "message": "pagkakasalin sa"
+   },
+   "extCMcl": {
+      "message": "Palitan ang lengguwahe"
+   },
+   "extCMct": {
+      "message": "Burahin ang pagkakasalin"
+   },
+   "extCMsot": {
+      "message": "Ipakita ang orihinal na text"
+   },
+   "extChFS": {
+      "message": "Laki ng font"
+   },
+   "extChTrApp": {
+      "message": "Pumili ng application sa pagsasalin:"
+   },
+   "extClearTH": {
+      "message": "burahin pagsasalin"
+   },
+   "extClearText": {
+      "message": "Burahin ang text"
+   },
+   "extClearTr": {
+      "message": "Burahin ang isinalin"
+   },
+   "extClose": {
+      "message": "Isara"
+   },
+   "extCollapse": {
+      "message": "Paliitin"
+   },
+   "extColor": {
+      "message": "Kulay"
+   },
+   "extCompare": {
+      "message": "Ikumpara ang mga isinalin"
+   },
+   "extContinue": {
+      "message": "Magpatuloy"
+   },
+   "extContribution_ttl": {
+      "message": "Gumawa ng maliit na kontribusyon"
+   },
+   "extCopyText": {
+      "message": "Kopyahin ang text"
+   },
+   "extCopy_ttl": {
+      "message": "Kopyahin ang pagkakasalin"
+   },
+   "extDelRecord": {
+      "message": "Burahina ang rekord"
+   },
+   "extDelete": {
+      "message": "Alisin"
+   },
+   "extDescription": {
+      "message": "Tagasalin, Diksiyonaryo, Boses"
+   },
+   "extDetSoLaAu": {
+      "message": "Awtomatikong pagtukoy ng pinanggalingang lengguwahe"
+   },
+   "extDetect_language_from_box": {
+      "message": "Nakilalang wika"
+   },
+   "extDetected": {
+      "message": "Nakita:"
+   },
+   "extDetectedEn": {
+      "message": "Nakita: Ingles"
+   },
+   "extDictionary": {
+      "message": "Diksiyonaryo"
+   },
+   "extDisabled": {
+      "message": "Hindi mo maaaring pagpalitin ang mga lengguwahe kung ang painanggalingang lengguwahe ay nakatakda sa 'Nakilalang wika'"
+   },
+   "extDoYou": {
+      "message": "Gusto mo ba talagang burahin ang mga nakaraang pagsasalin?"
+   },
+   "extEIB": {
+      "message": "Ipakita nang naka-panaklong"
+   },
+   "extEnTH": {
+      "message": "Paganahin para magamit ang Kasaysayan"
+   },
+   "extEnable": {
+      "message": "Paganahin"
+   },
+   "extEnable_Dict": {
+      "message": "Paganahin ang Disyunaryo"
+   },
+   "extEnterHK": {
+      "message": "Ilagay ang hotkey"
+   },
+   "extError1": {
+      "message": "Nasira ang browser"
+   },
+   "extError2": {
+      "message": "Pagkakamali"
+   },
+   "extExpand": {
+      "message": "Palakihin"
+   },
+   "extExportTH": {
+      "message": "i-export pagsasalin"
+   },
+   "extFS_large": {
+      "message": "Malaki"
+   },
+   "extFS_small": {
+      "message": "Maliit"
+   },
+   "extFeedback": {
+      "message": "Katugunan"
+   },
+   "extFeedback_ttl": {
+      "message": "Katugunan"
+   },
+   "extFont_Size_ttl": {
+      "message": "Laki ng font"
+   },
+   "extHKconflict": {
+      "message": "Magkasalungat ang mga Hotkey"
+   },
+   "extHO": {
+      "message": "Itago ang orihinal"
+   },
+   "extHelp": {
+      "message": "Tulong"
+   },
+   "extHelp_ttl": {
+      "message": "Tulong"
+   },
+   "extHistory": {
+      "message": "Kasaysayan"
+   },
+   "extHistory_ttl": {
+      "message": "Mga nakaraang pagsasalin"
+   },
+   "extHotKeys": {
+      "message": "Hotkeys"
+   },
+   "extIBO": {
+      "message": "Ipasok bago ang orihinal"
+   },
+   "extIGetIt": {
+      "message": "Naiintidihan ko"
+   },
+   "extInTH": {
+      "message": "Paganahin para magamit ang Kasaysayan"
+   },
+   "extInlineLimit": {
+      "message": "Limitado sa XXX bahagi agad"
+   },
+   "extInvTr": {
+      "message": "Tawagin ang translator"
+   },
+   "extLB": {
+      "message": "Katapusan ng linya"
+   },
+   "extLPNotSupported": {
+      "message": "Hindi suportado ang parehas ng lengguwahe na XXX-YYY"
+   },
+   "extLanguages": {
+      "message": "af:Afrikaans,sq:Albanian,ar:Arabiko,hy:Armenian,az:Azerbaijani,eu:Basque,be:Belarusian,bn:Bengali,bs:Bosnian,bg:Bulgarian,my:Burmese,ca:Catalan,ceb:Cebuano,ny:Chichewa,hr:Croatian,cs:Czech,da:Danish,nl:Dutch,es:Espanyol,eo:Esperanto,et:Estonian,tl:Filipino,fi:Finnish,fr:French,gl:Galician,ka:Georgian,de:German,el:Griyego,gu:Gujarati,ht:Haitian&#160;Creole,ha:Hausa,iw:Hebreo,hi:Hindi,hmn:Hmong,hu:Hungarian,is:Icelandic,ig:Igbo,id:Indonesian,en:Ingles,ga:Irish,it:Italyano,ja:Japanese,jw:Javanese,kn:Kannada,kk:Kazakh,km:Khmer,ko:Korean,lo:Lao,la:Latin,lv:Latvian,lt:Lithuanian,mk:Macedonian,mg:Malagasy,ms:Malay,ml:Malayalam,mt:Maltese,mi:Maori,mr:Marathi,mn:Mongolian,ne:Nepali,no:Norwegian,fa:Persian,pl:Polish,pt:Portuges,pa:Punjabi,ro:Romanian,ru:Ruso,sr:Serbian,st:Sesotho,si:Sinhala,sk:Slovak,sl:Slovenian,so:Somali,su:Sundanese,sw:Swahili,sv:Swedish,tg:Tajik,ta:Tamil,te:Telugu,th:Thai,zh-CN:Tsino&#160;(Simp),zh-TW:Tsino&#160;(Trad),tr:Turkish,uk:Ukranian,ur:Urdu,uz:Uzbek,vi:Vietnamese,cy:Welsh,yi:Yiddish,yo:Yoruba,zu:Zulu"
+   },
+   "extLanguagesNew": {
+      "message": "un:Unknown"
+   },
+   "extListen": {
+      "message": "Makinig"
+   },
+   "extListenTo": {
+      "message": "Makinig"
+   },
+   "extListen_ttl": {
+      "message": "Makinig"
+   },
+   "extLock_in_language": {
+      "message": "I-lock ang lengguwahe"
+   },
+   "extMOT": {
+      "message": "I-mouseover ang isinalin"
+   },
+   "extName": {
+      "message": "ImTranslator: Tagasalin, Diksiyonaryo, Boses"
+   },
+   "extNoTHtoExport": {
+      "message": "Walang mga rekord ng pagsasalin"
+   },
+   "extNo_Text": {
+      "message": "Mangyaring ilagay ang text"
+   },
+   "extNo_TextCompare": {
+      "message": "Hindi mapagkukumpara ang parehas ng lengguwahe na XXX-YYY"
+   },
+   "extNo_Voice": {
+      "message": "Hindi magagamit ang boses na ito"
+   },
+   "extNotDict": {
+      "message": "Hindi suportado ng Disyunaryong ImTranslator ang parehas ng lengguwahe na XXX-YYY"
+   },
+   "extNot_available": {
+      "message": "Wala sa diksyunaryo"
+   },
+   "extOk": {
+      "message": "OK"
+   },
+   "extOptions": {
+      "message": "Mga opsyon"
+   },
+   "extOptions_ttl": {
+      "message": "Ipakita ang mga opsyon"
+   },
+   "extOriginalText": {
+      "message": "Orihinal na teksto"
+   },
+   "extPin_ttl": {
+      "message": "I-pin ang pop-up window"
+   },
+   "extPowered": {
+      "message": ""
+   },
+   "extPrivacy": {
+      "message": "Pribasiya: Ang mga nakaraang pagsasalin na ginawa mo ay nakatabi sa iyong hard drive. Mananatili itong pribado at kompidensyal"
+   },
+   "extResByChrome": {
+      "message": " inireserba ng Chrome"
+   },
+   "extResTrans": {
+      "message": "Pagsasalin"
+   },
+   "extSLBG_op": {
+      "message": "Mga Opsyon sa Lengguwahe"
+   },
+   "extSL_setLS4allTr": {
+      "message": "Pare-parehong mga pagtatakda para sa lahat ng mga translator"
+   },
+   "extSTB": {
+      "message": "Ipakita ang buton ng Translator"
+   },
+   "extS_T_L_diff": {
+      "message": "Kailangang magkaiba ang pinanggalingang lengguwahe at ang pagsasalinang lengguwage"
+   },
+   "extSaveButton": {
+      "message": "I-save"
+   },
+   "extSaveHK": {
+      "message": "I-save"
+   },
+   "extSeSo": {
+      "message": "Pinanggalingang lengguwahe"
+   },
+   "extSeTa": {
+      "message": "Pagsasalinang lengguwahe"
+   },
+   "extSearch": {
+      "message": "Paghahanap"
+   },
+   "extSeeSource": {
+      "message": "Tingnan ang pinanggalingan"
+   },
+   "extShowBW": {
+      "message": "Ibinalik sa dating lengguwahe"
+   },
+   "extSplit": {
+      "message": "Paghiwalayin ayon sa pangungusap"
+   },
+   "extSwitch_languages_ttl": {
+      "message": "Pagpalitin ang mga lengguwahe"
+   },
+   "extTHempty": {
+      "message": "Walang mga rekord"
+   },
+   "extTITLE": {
+      "message": ""
+   },
+   "extTK": {
+      "message": "Trigger Key"
+   },
+   "extTOMS": {
+      "message": "Isalin ang ituturo ng mouse"
+   },
+   "extTR_op": {
+      "message": "Mga Opsyon sa Pagsasalin"
+   },
+   "extTTS_Limit": {
+      "message": "Ang speech function ay limitado hanggang 100 letra"
+   },
+   "extTrButton": {
+      "message": "Isalin"
+   },
+   "extTrHist": {
+      "message": "Mga nakaraang pagsasalin"
+   },
+   "extTrLimit": {
+      "message": "(hanggang XXX letra)"
+   },
+   "extTranslating": {
+      "message": "Isinasagawa ang pagsasalin"
+   },
+   "extUnPin_ttl": {
+      "message": "I-unpin ang pop-up window"
+   },
+   "extUndoSplit": {
+      "message": "I-undo ang pagkakahati"
+   },
+   "extUseHK": {
+      "message": "Gamitin: Ctrl, Alt, Shift, A-Z, 0-9 mga key"
+   },
+   "extWPTalert1": {
+      "message": "Ang mga pahinang naka-https ay hindi maaaring isalin dahil sa mga kadahilanang pang-seguridad."
+   },
+   "extWPTalert2": {
+      "message": "Ang pahinang ito ay hindi maaaring isalin dahil sa mga kadahilanang pang-seguridad."
+   },
+   "extWpTH": {
+      "message": "Paganahin para magamit ang Kasaysayan"
+   }
+}

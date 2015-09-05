@@ -1,0 +1,21 @@
+{
+   "app": {
+      "launch": {
+         "container": "panel",
+         "height": 600,
+         "web_url": "https://www.rollapp.com/launch/keepassx?ref=chrome-app",
+         "width": 900
+      },
+      "urls": [ "*://www.rollapp.com/launch/keepassx", "*://www.rollapp.com/app/keepassx" ]
+   },
+   "description": "Keep your user names, passwords, urls, attachments and comments in a secured database with KeePassX password manager.",
+   "icons": {
+      "128": "keepassx-128.png",
+      "16": "keepassx-16.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgC3RwOTMLEShKYguyWuyypb3eLwdl27phf1E9LhevlaFMxhM88VoqsU6IX2kNbB2nbuZKosj5MbMSqv34lvz0zyqeYgxWHrNVWHm0xDCDbKMQu5IjMuikNs1jFsWdwH9jCSAVCzdcOvQARLQ/43vD7TpIKu1PDo/71ON5cybGjP3nF4gFcdKJDChS2TVTvIoQmelt3mAn7lmlCSDTxv9MyWvyma+2aAl18bFsHRh6MupIiDAiPw+GYPbPJJyUclwz1XDWsl2lmgJ9YHBYwh/l+IpN0bMpK2aYlvvCDF9cmQGsLL7G/XxvSw0f+nhZ+sNdno9zSaOrMENnlChJi+hFQIDAQAB",
+   "manifest_version": 2,
+   "name": "KeePassX on rollApp",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0"
+}

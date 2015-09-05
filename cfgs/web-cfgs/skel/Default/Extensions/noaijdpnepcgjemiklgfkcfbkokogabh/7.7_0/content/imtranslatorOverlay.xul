@@ -1,0 +1,450 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://imtranslator/skin/imtranslator.css" type="text/css"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://imtranslator/locale/imtranslator.dtd">
+
+<overlay id="imtranslatorOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+// This imports our javascript.
+	<script type="application/x-javascript" src="chrome://imtranslator/content/js/common/FExtension.js"></script>
+	<script type="application/x-javascript" src="chrome://imtranslator/content/browser/js/FBrowser.js"></script>
+	<script type="application/x-javascript" src="chrome://imtranslator/content/browser/js/FBrowserInject.js"></script>
+	<script type="application/x-javascript" src="chrome://imtranslator/content/browser/js/FBrowserPopup.js"></script>
+	<script type="application/x-javascript" src="chrome://imtranslator/content/browser/firefox/FBrowserInjectFirefox.js"></script>	
+	<script type="application/x-javascript" src="chrome://imtranslator/content/browser/firefox/FBrowserFirefox.js"></script>
+	<script type="application/x-javascript" src="chrome://imtranslator/content/js/common/FStorage.js"></script>
+	
+	<script type="application/x-javascript" src="chrome://imtranslator/content/browser/firefox/FBrowserPopupFirefox.js"></script>
+
+	<script type="application/x-javascript" src="chrome://imtranslator/content/js/bg/bg_inliner.js"></script>
+	<script type="application/x-javascript" src="chrome://imtranslator/content/js/bg/background.js"></script>
+	
+
+	<script type="application/x-javascript" src="chrome://imtranslator/content/js/inject/translator.js"></script>
+	<script type="application/x-javascript" src="chrome://imtranslator/content/js/inject/data.js"></script>
+	<script type="application/x-javascript" src="chrome://imtranslator/content/js/inliner/inliner_core.js"></script>
+	<script type="application/x-javascript" src="chrome://imtranslator/content/js/inliner/inliner_request.js"></script>
+	<script type="application/x-javascript" src="chrome://imtranslator/content/js/inliner/inject.js"></script>
+
+	<script type="application/x-javascript" src="chrome://imtranslator/content/imtranslatorOverlay.js" />
+
+        <script>
+	    window.addEventListener("load",  ImTranslatorBG.loadtest, false);
+//	    window.addEventListener("unload", function(e) { ImTranslatorBG.imtranslator_shutdown(); }, false);
+        </script>
+
+
+
+
+// This is for the right click menu.
+
+
+<popup id="contentAreaContextMenu">
+
+  <menuseparator id="ImTranslator-horizontal-line" />
+
+  <menuitem 
+	id="imtranslator" 
+	label="ImTranslator" 
+	insertbefore="context-stop"   
+	oncommand="ImTranslatorBG.NORUN=0;FExtension_chromeListener.launchTranslator();"
+	class="menuitem-iconic" 
+	image="chrome://imtranslator/skin/imtranslator-small.png" />
+
+   <menuitem id="imtranslator2"
+        label="ImTranslator: Translator"
+	insertbefore="context-stop"   	       
+        class="menuitem-iconic" 
+        image="chrome://imtranslator/skin/g-imtranslator-small.png"  
+        oncommand="ImTranslatorBG.NORUN=0;ImTranslatorBG.ContMenuClick();" />
+
+   <menuitem
+	id="Inline-menu"	
+	label="Inline translation to " 
+	insertbefore="context-stop"   
+	class="menuitem-iconic" 
+	image="chrome://imtranslator/skin/imtranslator-inliner.png"
+        oncommand="ImTranslator_inliner.inlinerContextOnClick();" />
+
+   <menuitem
+	id="Bubble-menu"
+	label="Pop-Up Bubble translation to " 
+	insertbefore="context-stop"   
+	class="menuitem-iconic" 
+	image="chrome://imtranslator/skin/imtranslator-bubble.png"
+        oncommand="TranslatorIM.SL_ShowBalloon();" />
+
+
+   <menu id="imtranslator3"
+        label="ImTranslator: Web Page Translation"
+	insertbefore="context-stop"   	       
+        class="menu-iconic" 
+        image="chrome://imtranslator/skin/www-imtranslator.png" >
+
+	<menupopup id="ImTranslator-WebPage">
+
+		<menuitem
+		id="imtranslator3-1"
+		label="Translate this page to English"
+		oncommand="ImTranslatorBG.SL_WEB_PAGE_TRANSLATION_MO();" 
+                image="chrome://imtranslator/skin/imtranslator-www1.png" 
+		class="menuitem-iconic" />
+
+		<menuitem
+		id="imtranslator3-2"
+		label="Mouseover translation to English"
+		oncommand="ImTranslatorBG.SL_WEB_PAGE_TRANSLATION();" 
+                image="chrome://imtranslator/skin/imtranslator-www2.png" 
+		class="menuitem-iconic" />
+
+	        <menuseparator id="ImTranslator-horizontal-line" />
+
+		<menu
+		id="imtranslator3-3"
+		label="Change language"
+		oncommand="" 
+                image="chrome://imtranslator/skin/imtranslator-www3.png" 
+		class="menu-iconic" >
+
+		<menupopup id="ImTranslator-WebPage-Languages">
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'af');" label='Afrikaans'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'sq');" label='Albanian'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'ar');" label='Arabic'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'hy');" label='Armenian'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'az');" label='Azerbaijani'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'eu');" label='Basque'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'be');" label='Belarusian'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'bn');" label='Bengali'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'bg');" label='Bulgarian'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'ca');" label='Catalan'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'zh-CN');" label='Chinese Simp'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'zh-TW');" label='Chinese Trad'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'hr');" label='Croatian'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'cs');" label='Czech'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'da');" label='Danish'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'nl');" label='Dutch'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'en');" label='English'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'eo');" label='Esperanto'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'et');" label='Estonian'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'tl');" label='Filipino'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'fi');" label='Finnish'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'fr');" label='French'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'gl');" label='Galician'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'ka');" label='Georgian'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'de');" label='German'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'el');" label='Greek'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'gu');" label='Gujarati'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'ht');" label='Haitian Creole'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'iw');" label='Hebrew'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'hi');" label='Hindi'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'hu');" label='Hungarian'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'is');" label='Icelandic'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'id');" label='Indonesian'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'ga');" label='Irish'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'it');" label='Italian'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'ja');" label='Japanese'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'kn');" label='Kannada'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'ko');" label='Korean'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'lo');" label='Lao'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'la');" label='Latin'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'lv');" label='Latvian'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'lt');" label='Lithuanian'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'mk');" label='Macedonian'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'ms');" label='Malay'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'mt');" label='Maltese'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'no');" label='Norwegian'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'fa');" label='Persian'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'pl');" label='Polish'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'pt');" label='Portuguese'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'ro');" label='Romanian'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'ru');" label='Russian'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'sr');" label='Serbian'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'sk');" label='Slovak'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'sl');" label='Slovenian'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'es');" label='Spanish'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'sw');" label='Swahili'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'sv');" label='Swedish'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'ta');" label='Tamil'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'te');" label='Telugu'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'th');" label='Thai'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'tr');" label='Turkish'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'uk');" label='Ukrainian'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'ur');" label='Urdu'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'vi');" label='Vietnamese'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'cy');" label='Welsh'  class="menuitem-iconic" />
+                                   <menuitem oncommand="ImTranslatorBG.open_trans_www(0,'yi');" label='Yiddish'  class="menuitem-iconic" />
+	        </menupopup>
+	        </menu>
+
+       </menupopup>
+   </menu>
+
+
+   <menu id="ImTranslator-menu"	
+	label="ImTranslator Tools" 
+	insertbefore="context-stop"   
+	class="menu-iconic" 
+	image="chrome://imtranslator/skin/imtranslator-tools.png" >
+
+	<menupopup id="ImTranslator-tools">
+
+		<menuitem
+		id="imtranslatorWidget"
+		label="ImTranslator Widget"
+		oncommand="FExtension_chromeListener.ToolsTranslator();" 
+		class="menuitem-iconic" 
+	        image="chrome://imtranslator/skin/translator-widget.png" />	
+
+		<menuitem
+		id="imtranslatorTTS"
+		label="ImTranslator TTS"
+		oncommand="FExtension_chromeListener.ToolsTTS();" 
+		class="menuitem-iconic" 
+	        image="chrome://imtranslator/skin/tts-icn.png" />	
+
+       		<menuitem  
+		id="imtranslator_keyboard"
+		label="ImTranslator Keyboard"
+		oncommand="FExtension_chromeListener.ToolsVirk();" 
+		class="menuitem-iconic" 
+	        image="chrome://imtranslator/skin/keyboard.png" />	
+                                            
+       		<menuitem
+		id="imtranslatorDictionary"
+		oncommand="FExtension_chromeListener.ToolsDictionary();" 
+		label="ImTranslator Dictionary"
+        	class="menuitem-iconic" 
+       		image="chrome://imtranslator/skin/dictionary.png" />	
+
+	        <menuseparator id="ImTranslator-horizontal-line" />
+
+        	<menuitem
+		id="imtranslatorChorCutToOptions"
+		label="ImTranslator Options"
+		oncommand="ImTranslatorBG.ChortCutToOptions();" 
+        	class="menuitem-iconic" 
+	        image="chrome://imtranslator/skin/imtranslator-options-small.png" />	
+
+	        <menuseparator id="ImTranslator-horizontal-line" />
+
+        	<menuitem
+		id="imtranslatorWebmaster"
+		label="For Webmaster"
+		oncommand="ImTranslatorBG.NewTAB('http://imtranslator.net/partners.asp?v=v77');" 
+        	class="menuitem-iconic" 
+	        image="chrome://imtranslator/skin/webmaster.png" />	
+
+	        <menuseparator id="ImTranslator-horizontal-line" />
+
+        	<menuitem
+		id="imtranslatorAbout"
+		label="ImTranslator 7.7 Home Page"
+		oncommand="ImTranslatorBG.NewTAB('http://imtranslator.net/Translator-For-Firefox-ImTranslator_v_7_7.asp?v=v77');" 
+        	class="menuitem-iconic" 
+	        image="chrome://imtranslator/skin/about.png" />	
+
+        	<menuitem
+		id="imtranslatorHelp"
+		label="ImTranslator Help"
+		oncommand="ImTranslatorBG.NewTAB('http://www.imtranslator.net/Translator-help.asp?v=v77');" 
+        	class="menuitem-iconic" 
+	        image="chrome://imtranslator/skin/help.png" />	
+
+
+        	<menuitem
+		id="imtranslatorDonate"
+		label="Donate"
+		oncommand="FExtension_chromeListener.Donate();" 
+        	class="menuitem-iconic" 
+	        image="chrome://imtranslator/skin/donate.png" />	
+
+
+       </menupopup>
+    </menu>
+
+</popup>
+
+
+
+// This is for the Tools menu.
+ <popup id="menu_ToolsPopup">
+
+   <menu id="ImTranslator-menu"	
+	label="ImTranslator" 
+	insertafter="devToolsSeparator" 
+	class="menu-iconic" 
+	image="chrome://imtranslator/skin/imtranslator-small.png" >
+
+	<menupopup id="ImTranslator-tools">
+
+	        <menuitem  
+		id="imtranslator_lunch"
+		label="ImTranslator"
+		oncommand="ImTranslatorBG.NORUN=0;FExtension_chromeListener.launchTranslator();" 
+        	class="menuitem-iconic" 
+	        image="chrome://imtranslator/skin/imtranslator-small.png" />	
+
+ 	        <menuitem id="imtrans_lunch2"
+                label="ImTranslator: Translator"
+	        class="menuitem-iconic" 
+	        image="chrome://imtranslator/skin/g-imtranslator-small.png"  
+                oncommand="ImTranslatorBG.NORUN=0;ImTranslatorBG.ContMenuClick();" />
+
+ 	        <menuitem id="imtrans_lunch3"
+                label="ImTranslator: Web Page Translation"
+	        class="menuitem-iconic" 
+	        image="chrome://imtranslator/skin/www-imtranslator.png"  
+                oncommand="ImTranslatorBG.open_trans_www(0,ImTranslatorBG.WPTLNG);" />
+
+	        <menuseparator id="ImTranslator-horizontal-line" />                                            
+
+        	<menuitem
+		id="imtranslatorChorCutToOptions"
+		label="ImTranslator Options"
+		oncommand="ImTranslatorBG.ChortCutToOptions();" 
+        	class="menuitem-iconic" 
+	        image="chrome://imtranslator/skin/imtranslator-options-small.png" />	
+
+
+
+	        <menuseparator id="ImTranslator-horizontal-line" />
+        			<menuitem
+				id="imtranslatorWidget"
+				label="ImTranslator Widget"
+				oncommand="FExtension_chromeListener.ToolsTranslator();" 
+        			class="menuitem-iconic" 
+			        image="chrome://imtranslator/skin/translator-widget.png" />	
+
+        			<menuitem
+				id="imtranslatorTTS"
+				label="ImTranslator TTS"
+				oncommand="FExtension_chromeListener.ToolsTTS();" 
+        			class="menuitem-iconic" 
+			        image="chrome://imtranslator/skin/tts.png" />	
+
+	        		<menuitem  
+				id="imtranslator_keyboard"
+				label="ImTranslator Keyboard"
+				oncommand="FExtension_chromeListener.ToolsVirk();" 
+        			class="menuitem-iconic" 
+			        image="chrome://imtranslator/skin/keyboard.png" />	
+                                            
+    	        		<menuitem
+				id="imtranslatorDictionary"
+				oncommand="FExtension_chromeListener.ToolsDictionary();" 
+				label="ImTranslator Dictionary"
+		        	class="menuitem-iconic" 
+	        		image="chrome://imtranslator/skin/dictionary.png" />	
+
+	        <menuseparator id="ImTranslator-horizontal-line" />
+
+        	<menuitem
+		id="imtranslatorWebmaster"
+		label="For Webmaster"
+		oncommand="ImTranslatorBG.NewTAB('http://imtranslator.net/partners.asp?v=v77');" 
+        	class="menuitem-iconic" 
+	        image="chrome://imtranslator/skin/webmaster.png" />	
+
+	        <menuseparator id="ImTranslator-horizontal-line" />
+
+        	<menuitem
+		id="imtranslatorAbout"
+		label="ImTranslator 7.7 Home Page"
+		oncommand="ImTranslatorBG.NewTAB('http://imtranslator.net/Translator-For-Firefox-ImTranslator_v_7_7.asp?v=v77');"
+        	class="menuitem-iconic" 
+	        image="chrome://imtranslator/skin/about.png" />	
+
+        	<menuitem
+		id="imtranslatorHelp"
+		label="ImTranslator Help"
+		oncommand="ImTranslatorBG.NewTAB('http://www.imtranslator.net/Translator-help.asp?v=v77');" 
+        	class="menuitem-iconic" 
+	        image="chrome://imtranslator/skin/help.png" />	
+
+        	<menuitem
+		id="imtranslatorDonate"
+		label="Donate"
+		oncommand="FExtension_chromeListener.Donate();" 
+        	class="menuitem-iconic" 
+	        image="chrome://imtranslator/skin/donate.png" />	
+
+
+       </menupopup>
+
+   </menu>
+ </popup>
+
+<!--
+ <statusbar id="status-bar">
+      <statusbarpanel id="ImStatusBar" context="ImStatusContextMenu" role="button" 
+                   aria-labelledby="ImStatusText" aria-describedby="ImStatusIcon"
+                   onmouseup="ImTranslatorBG.NORUN=0;FExtension_chromeListener.launchTranslator();">
+	        <menuitem
+		id="imtranslatorChorCutToOptions"
+	        class="menuitem-iconic" 
+        	image="chrome://imtranslator/skin/imtranslator-small.png" />
+      </statusbarpanel>
+ </statusbar>
+-->
+
+
+
+  <!-- Tool Bar buttons on browser palette-->
+  <toolbarpalette id="BrowserToolbarPalette">
+    <toolbarbutton id="ImTranslator-translator-toolbar-button" 
+      label="ImTranslator" 
+      tooltiptext="Start ImTranslator" 
+      onclick="ImTranslatorBG.NORUN=0;"
+      oncommand="FExtension_chromeListener.launchPrefTranslator();"
+      class="toolbarbutton-1 chromeclass-toolbar-additional custombutton" 
+      type="menu-button"
+      image="chrome://imtranslator/skin/imtranslator-small.png">  
+
+	  <menupopup id="ImTranslator-icon-menu" onpopupshowing="">
+	    <menuitem id="ImTranslator-icon-menu1"
+              label="ImTranslator"	       
+	      class="menuitem-iconic" 
+	      image="chrome://imtranslator/skin/imtranslator-small.png"  
+              oncommand="FExtension_chromeListener.launchTranslator();ImTranslatorBG.NORUN=1;" />
+	    <menuitem id="ImTranslator-icon-menu5"
+              label="ImTranslator: Translator"	       
+	      class="menuitem-iconic" 
+	      image="chrome://imtranslator/skin/g-imtranslator-small.png"  
+              oncommand="ImTranslatorBG.ContMenuClick();ImTranslatorBG.NORUN=1;" />
+	    <menuitem id="ImTranslator-icon-menu6"
+              label="ImTranslator: Web Page Translation"
+	      class="menuitem-iconic" 
+	      image="chrome://imtranslator/skin/www-imtranslator.png"  
+              oncommand="ImTranslatorBG.open_trans_www(0,ImTranslatorBG.WPTLNG);ImTranslatorBG.NORUN=1;" />
+	    <menuseparator/>
+
+	    <menuitem id="ImTranslator-icon-menu0"
+		label="ImTranslator button"
+		oncommand="FExtension_chromeListener.button_toolbar_hide();ImTranslatorBG.NORUN=1;" 
+        	class="menuitem-iconic" 
+	        image="chrome://imtranslator/skin/imtranslator-hide-btn.png" />	
+	    <menuseparator/>
+	    <menuitem id="ImTranslator-icon-menu2"
+		label="ImTranslator Options"
+		oncommand="ImTranslatorBG.ChortCutToOptions();ImTranslatorBG.NORUN=1;" 
+        	class="menuitem-iconic" 
+	        image="chrome://imtranslator/skin/imtranslator-options-small.png" />	
+	    <menuseparator/>
+	    <menuitem id="ImTranslator-icon-menu3"
+              label="ImTranslator Help"	       
+	      class="menuitem-iconic" 
+	      image="chrome://imtranslator/skin/help.png"  
+              oncommand="ImTranslatorBG.NewTAB('http://www.imtranslator.net/Translator-help.asp?v=v77');ImTranslatorBG.NORUN=1;" />
+	    <menuitem id="ImTranslator-icon-menu4"
+              label="ImTranslator 7.7 Home Page"	       
+	      class="menuitem-iconic" 
+	      image="chrome://imtranslator/skin/about.png"  
+              oncommand="ImTranslatorBG.NewTAB('http://imtranslator.net/Translator-For-Firefox-ImTranslator_v_7_7.asp?v=v77');ImTranslatorBG.NORUN=1;" />
+
+	  </menupopup>
+    </toolbarbutton>  
+  </toolbarpalette>  
+</overlay>
+
+
+

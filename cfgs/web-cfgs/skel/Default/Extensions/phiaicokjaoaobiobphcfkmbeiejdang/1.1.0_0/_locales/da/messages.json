@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Målet er at tumble en rektangulær blok gennem hvert trin og deponere det i det firkantede hul i slutningen."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Bloxorz blok puslespil"
+   }
+}

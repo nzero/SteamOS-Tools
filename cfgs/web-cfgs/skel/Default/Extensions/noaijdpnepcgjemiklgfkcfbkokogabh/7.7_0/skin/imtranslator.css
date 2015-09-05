@@ -1,0 +1,10 @@
+#ImTranslator-translator-toolbar-button {
+  list-style-image: url("chrome://imtranslator/skin/imtranslator-small.png");
+}
+
+toolbar[iconsize="small"] #ImTranslator-translator-toolbar-button > .toolbarbutton-icon {
+  list-style-image: url("chrome://imtranslator/skin/imtranslator-small.png");
+}
+
+#Translator-HK, #ImTranslator-optionstabbox, #expl, #locParent, #dirParentTo, #dirParentFrom {font-family:Helvetica;font-size:12px;}
+#Translator-HK_ {font-family:Helvetica;font-size:12px;color:green;}

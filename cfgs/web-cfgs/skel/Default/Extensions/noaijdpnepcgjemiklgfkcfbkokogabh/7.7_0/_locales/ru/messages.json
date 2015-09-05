@@ -1,0 +1,347 @@
+{
+   "extABW": {
+      "message": "Выравнивание слова"
+   },
+   "extAllRecords": {
+      "message": "Все записи"
+   },
+   "extAppearance": {
+      "message": "Внешний вид"
+   },
+   "extBackTrans": {
+      "message": "Обратный перевод"
+   },
+   "extBblTH": {
+      "message": "Включить историю переводов"
+   },
+   "extCMMouseOverTransTo": {
+      "message": "Перевести по наведению мыши на"
+   },
+   "extCMTransPageTo": {
+      "message": "Перевести страницу на"
+   },
+   "extCMTransSel": {
+      "message": "Перевести на"
+   },
+   "extCMTransTo": {
+      "message": "перевод на"
+   },
+   "extCMcl": {
+      "message": "Поменять язык"
+   },
+   "extCMct": {
+      "message": "Убрать перевод"
+   },
+   "extCMsot": {
+      "message": "Показать исходный текст"
+   },
+   "extChFS": {
+      "message": "Размер шрифта"
+   },
+   "extChTrApp": {
+      "message": "Выберите переводчик:"
+   },
+   "extClearTH": {
+      "message": "удалить"
+   },
+   "extClearText": {
+      "message": "Удалить текст"
+   },
+   "extClearTr": {
+      "message": "Убрать перевод"
+   },
+   "extClose": {
+      "message": "Закрыть"
+   },
+   "extCollapse": {
+      "message": "Свернуть"
+   },
+   "extColor": {
+      "message": "Цвет"
+   },
+   "extCompare": {
+      "message": "Сравнить переводы"
+   },
+   "extContinue": {
+      "message": "Продолжить"
+   },
+   "extContribution_ttl": {
+      "message": "Сделать пожертвование"
+   },
+   "extCopyText": {
+      "message": "Скопировать текст"
+   },
+   "extCopy_ttl": {
+      "message": "Скопировать"
+   },
+   "extDelRecord": {
+      "message": "Удалить запись"
+   },
+   "extDelete": {
+      "message": "Удалить"
+   },
+   "extDescription": {
+      "message": "Переводчик, Словарь, Голос"
+   },
+   "extDetSoLaAu": {
+      "message": "Автоматическое определение исходного языка"
+   },
+   "extDetect_language_from_box": {
+      "message": "Определить язык"
+   },
+   "extDetected": {
+      "message": "Определен:"
+   },
+   "extDetectedEn": {
+      "message": "Определен: Английский"
+   },
+   "extDictionary": {
+      "message": "Словарь"
+   },
+   "extDisabled": {
+      "message": "Если исходный язык установлен на 'Определить язык', функция переворачивания языков не работает."
+   },
+   "extDoYou": {
+      "message": "Вы хотите удалить историю переводов?"
+   },
+   "extEIB": {
+      "message": "Показать в скобках"
+   },
+   "extEnTH": {
+      "message": "Включить историю переводов"
+   },
+   "extEnable": {
+      "message": "Включить"
+   },
+   "extEnable_Dict": {
+      "message": "Включить словарь"
+   },
+   "extEnterHK": {
+      "message": "Введите клавишу"
+   },
+   "extError1": {
+      "message": "Браузер неисправен"
+   },
+   "extError2": {
+      "message": "Ошибка"
+   },
+   "extExpand": {
+      "message": "Раскрыть"
+   },
+   "extExportTH": {
+      "message": "экспортирование"
+   },
+   "extFS_large": {
+      "message": "Крупный"
+   },
+   "extFS_small": {
+      "message": "Мелкий"
+   },
+   "extFeedback": {
+      "message": "Обратная связь"
+   },
+   "extFeedback_ttl": {
+      "message": "Обратная связь"
+   },
+   "extFont_Size_ttl": {
+      "message": "Размер шрифта"
+   },
+   "extHKconflict": {
+      "message": "Конфликт горячих клавиш"
+   },
+   "extHO": {
+      "message": "Скрыть оригинал"
+   },
+   "extHelp": {
+      "message": "Справка"
+   },
+   "extHelp_ttl": {
+      "message": "Справка ImTranslator"
+   },
+   "extHistory": {
+      "message": "История"
+   },
+   "extHistory_ttl": {
+      "message": "История переводов"
+   },
+   "extHotKeys": {
+      "message": "Горячие клавиши"
+   },
+   "extIBO": {
+      "message": "Вставить перед оригиналом"
+   },
+   "extIGetIt": {
+      "message": "Понятно"
+   },
+   "extInTH": {
+      "message": "Включить историю переводов"
+   },
+   "extInlineLimit": {
+      "message": "Ограничение XXX сегментов"
+   },
+   "extInvTr": {
+      "message": "Вызов переводчика"
+   },
+   "extLB": {
+      "message": "Разрыв строки"
+   },
+   "extLPNotSupported": {
+      "message": "XXX-YYY перевод не поддерживается"
+   },
+   "extLanguages": {
+      "message": "az:Азербайджанский,sq:Албанский,en:Английский,ar:Арабский,hy:Армянский,af:Африкаанс,eu:Баскский,be:Белорусский,bn:Бенгальский,my:Бирманский,bg:Болгарский,bs:Боснийский,cy:Валлийский,hu:Венгерский,vi:Вьетнамский,gl:Галисийский,el:Греческий,ka:Грузинский,gu:Гуджарати,da:Датский,zu:Зулу,iw:Иврит,ig:Игбо,yi:Идиш,id:Индонезийский,ga:Ирландский,is:Исландский,es:Испанский,it:Итальянский,yo:Йоруба,kk:Казахский,kn:Каннада,ca:Каталанский,zh-CN:Китайский (Трад),zh-TW:Китайский (Упр),ko:Корейский,ht:Креольский (Гаити),km:Кхмерский,lo:Лаосский,la:Латинский,lv:Латышский,lt:Литовский,mk:Македонский,mg:Малагасийский,ms:Малайский,ml:Малайялам,mt:Мальтийский,mi:Маори,mr:Маратхи,mn:Монгольский,de:Немецкий,ne:Непали,nl:Нидерландский,no:Норвежский,pa:Панджаби,fa:Персидский,pl:Польский,pt:Португальский,ro:Румынский,ru:Русский,ceb:Себуанский,sr:Сербский,st:Сесото,si:Сингальский,sk:Словацкий,sl:Словенский,so:Сомали,sw:Суахили,su:Суданский,tl:Тагальский,tg:Таджикский,th:Тайский,ta:Тамильский,te:Телугу,tr:Турецкий,uz:Узбекский,uk:Украинский,ur:Урду,fi:Финский,fr:Французский,ha:Хауса,hi:Хинди,hmn:Хмонг,hr:Хорватский,ny:Чева,cs:Чешский,sv:Шведский,eo:Эсперанто,et:Эстонский,jw:Яванский,ja:Японский"
+   },
+   "extLanguagesNew": {
+      "message": "un:Unknown"
+   },
+   "extListen": {
+      "message": "Прослушать"
+   },
+   "extListenTo": {
+      "message": "Прослушать"
+   },
+   "extListen_ttl": {
+      "message": "Прослушать"
+   },
+   "extLock_in_language": {
+      "message": "Зафиксировать язык"
+   },
+   "extMOT": {
+      "message": "Перевод по наведению мыши"
+   },
+   "extName": {
+      "message": "ImTranslator: Переводчик, Словарь, Голос"
+   },
+   "extNoTHtoExport": {
+      "message": "Записи переводов отсутствуют"
+   },
+   "extNo_Text": {
+      "message": "Введите текст"
+   },
+   "extNo_TextCompare": {
+      "message": "XXX-YYY перевод сравнению не подлежит"
+   },
+   "extNo_Voice": {
+      "message": "Этот звук пока не поддерживается"
+   },
+   "extNotDict": {
+      "message": "Словарь не поддерживает XXX-YYY языки"
+   },
+   "extNot_available": {
+      "message": "В словаре не поддерживается"
+   },
+   "extOk": {
+      "message": "OK"
+   },
+   "extOptions": {
+      "message": "Настройки"
+   },
+   "extOptions_ttl": {
+      "message": "Показать настройки"
+   },
+   "extOriginalText": {
+      "message": "Исходный текст"
+   },
+   "extPin_ttl": {
+      "message": "Закрепить всплывающее окно"
+   },
+   "extPowered": {
+      "message": ""
+   },
+   "extPrivacy": {
+      "message": "Конфиденциальность: Все переводы хранятся на Вашем жестком диске и остаются конфиденциальными."
+   },
+   "extResByChrome": {
+      "message": " используется в Chrome"
+   },
+   "extResTrans": {
+      "message": "Перевод"
+   },
+   "extSLBG_op": {
+      "message": "Языковые настройки"
+   },
+   "extSL_setLS4allTr": {
+      "message": "Одинаковые настройки для всех переводчиков"
+   },
+   "extSTB": {
+      "message": "Показывать кнопку ImTranslator Bubble"
+   },
+   "extS_T_L_diff": {
+      "message": "Исходный язык и язык перевода должны быть разными"
+   },
+   "extSaveButton": {
+      "message": "Сохранить"
+   },
+   "extSaveHK": {
+      "message": "Сохранить"
+   },
+   "extSeSo": {
+      "message": "Выбрать исходный язык"
+   },
+   "extSeTa": {
+      "message": "Выбрать язык перевода"
+   },
+   "extSearch": {
+      "message": "Найти"
+   },
+   "extSeeSource": {
+      "message": "Веб-ссылка"
+   },
+   "extShowBW": {
+      "message": "Показать обратный перевод"
+   },
+   "extSplit": {
+      "message": "Разбивка по предложениям"
+   },
+   "extSwitch_languages_ttl": {
+      "message": "Перевернуть языки"
+   },
+   "extTHempty": {
+      "message": "Переводов нет"
+   },
+   "extTITLE": {
+      "message": ""
+   },
+   "extTK": {
+      "message": "Клавиша-триггер"
+   },
+   "extTOMS": {
+      "message": "Перевод выделенного текста"
+   },
+   "extTR_op": {
+      "message": "Настройки перевода"
+   },
+   "extTTS_Limit": {
+      "message": "Звуковая функция ограничена 100 символами"
+   },
+   "extTrButton": {
+      "message": "Перевести"
+   },
+   "extTrHist": {
+      "message": "История переводов"
+   },
+   "extTrLimit": {
+      "message": "(не более XXX символов)"
+   },
+   "extTranslating": {
+      "message": "Переводим"
+   },
+   "extUnPin_ttl": {
+      "message": "Открепить всплывающее окно"
+   },
+   "extUndoSplit": {
+      "message": "Отменить разбивку по предложениям"
+   },
+   "extUseHK": {
+      "message": "Разрешенные клавиши: Ctrl, Alt, Shift, A-Z, 0-9"
+   },
+   "extWPTalert1": {
+      "message": "Перевод страниц протокола HTTPS не поддерживается."
+   },
+   "extWPTalert2": {
+      "message": "Эта страница не переводится из соображений безопасности."
+   },
+   "extWpTH": {
+      "message": "Включить историю переводов"
+   }
+}

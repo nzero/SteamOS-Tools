@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Ο στόχος είναι να βγαίνει ένα ορθογώνιο μπλοκ σε κάθε στάδιο και να καταθέσουν αυτή στο τετράγωνο τρύπα στο τέλος."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Bloxorz παζλ μπλοκ"
+   }
+}

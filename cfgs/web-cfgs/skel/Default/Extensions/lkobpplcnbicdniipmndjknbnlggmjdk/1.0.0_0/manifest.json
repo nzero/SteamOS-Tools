@@ -1,0 +1,19 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://translate-for-all.herokuapp.com/"
+      },
+      "urls": [ "http://translate-for-all.herokuapp.com/" ]
+   },
+   "description": "Easy to use Translation app for English, Spanish, Korean, German, Hindi, and much much more!",
+   "icons": {
+      "128": "translate128.png",
+      "24": "translate24.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDUUdgZOeJK0+5AQHPWKLehC7EyYfp72GKyU4Msqlb7l3326dX8WnpGQF7fj/MRyVwMenkelVOWkKZflHRdjw2k5f1IpGax6v42aI1ynWx2M4kW7STOwZP1rRoh6O3YaSNJ+G9tn4EWZby8JicSn/YRF5Fqci4r6gT3LWza4cwnGQIDAQAB",
+   "manifest_version": 2,
+   "name": "Translate For All",
+   "permissions": [  ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.0"
+}
