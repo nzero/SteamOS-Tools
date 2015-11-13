@@ -4,7 +4,7 @@
 
 Version 2.6.5
 
-Tools and scripts for SteamOS. Be sure to check out the [Upcoming features](https://github.com/ProfessorKaos64/SteamOS-Tools/wiki/Development-and-Features#upcoming-planned-features) subsection on the wiki for the latest developments! For those of you that wish to contribute, suggest, or otherwise correct code, please first read the [Development and Feautres](https://github.com/ProfessorKaos64/SteamOS-Tools/wiki/Development-and-Features) wiki page. Code corrections, additions, and all other suggestions can be made to the [issus](https://github.com/ProfessorKaos64/SteamOS-Tools/issues) tracker.
+Tools and scripts for SteamOS. Be sure to check out the [Upcoming features](https://github.com/ProfessorKaos64/SteamOS-Tools/wiki/Development-and-Features#upcoming-planned-features) subsection on the wiki for the latest developments! For those of you that wish to contribute, suggest, or otherwise correct code, please first read the [Development and Features](https://github.com/ProfessorKaos64/SteamOS-Tools/wiki/Development-and-Features) wiki page. Code corrections, additions, and all other suggestions can be made to the [issues](https://github.com/ProfessorKaos64/SteamOS-Tools/issues) tracker.
 
 All operations are tested against official Valve releases only.
 
@@ -28,7 +28,7 @@ There is now a Debian personal repository hosted at packages.libregeek.org. Be s
 
 # Usage / Installation
 
-Please make sue you have enabled desktop mode (Settings > Interface > Enable access to the Linux desktop), and aset your password for the dekstop user with `passwd`.
+Please make sure you have enabled desktop mode (Settings > Interface > Enable access to the Linux desktop), and set your password for the dekstop user with `passwd`.
 
 To clone this repository to your local computer, you will need the `git` software package to clone the repository. The command is included below in the first line below if you do not know it.
 ```
@@ -54,7 +54,7 @@ Normal script execution, sans arguments, goes a little bit like:
 ## Contents
 * artwork - Banners and various images/artwork for SteamOS.
 * cfgs/ - various configuration files, including package lists for Debian software installations.
-* docs/ - Various documentation. Previously hosted script documentation that is now on teh wiki.
+* docs/ - Various documentation. Previously hosted script documentation that is now on the wiki.
 * ext-game-installers/ - Game installers for games outside Steam (e.g. GZDoom).
 * extra/ - Various extra scripts
 * game-fixes - A location to store some small deployable fixes for games.
@@ -70,7 +70,7 @@ Normal script execution, sans arguments, goes a little bit like:
 * disclaimer.md - safety warnings for this repository.
 
 # Wiki
-- In time I hope to maintain a colletion of useful articles or links to Steamcommunity Guides that still work, currate them and other such things*.
+- In time I hope to maintain a colletion of useful articles or links to Steamcommunity Guides that still work, curate them and other such things*.
 
 # Video demonstrations / tutorials
 
